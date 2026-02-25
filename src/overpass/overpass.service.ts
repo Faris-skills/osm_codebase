@@ -51,17 +51,17 @@ export class OverpassService {
     const separator = '='.repeat(50);
 
     const logBlock = `
-        ${separator}
-        Timestamp: ${timestamp}
-        Status: ${data.status}
-        Duration: ${data.durationMs}ms
-        CacheKey: ${data.cacheKey ?? 'none'}
-        ${data.error ? `Error: ${data.error}` : ''}
+${separator}
+Timestamp: ${timestamp}
+Status: ${data.status}
+Duration: ${data.durationMs}ms
+CacheKey: ${data.cacheKey ?? 'none'}
+${data.error ? `Error: ${data.error}` : ''}
 
-        Quoted Query: ${JSON.stringify(data.query) + '\n'}
-        Raw Query:
-            ${data.query.trim()}
-        ${separator}
+Quoted Query: ${JSON.stringify(data.query) + '\n'}
+Raw Query:
+    ${data.query.trim()}
+${separator}
     `;
 
     await fs.promises.appendFile(logFile, logBlock);
@@ -149,7 +149,7 @@ export class OverpassService {
         cacheKey,
         status: 'error',
         durationMs: Date.now() - start,
-        error: err.response?.data ?? err.message
+        error: err.response?.data ?? err.message,
       });
 
       if (err.response) {
@@ -201,50 +201,80 @@ export class OverpassService {
     areaName: string,
     options?: {
       adminLevel?: number;
-      countryCode?: string;
       timeout?: number;
     },
   ) {
     const timeout = options?.timeout ?? 180;
     const safeName = escaper(areaName);
-    const tagFilters = buildTagFilters(tags);
 
-    const countryFilter = options?.countryCode
-      ? `["ISO3166-1"="${options.countryCode.toUpperCase()}"]`
-      : '';
-
+    // ----------------- AREA QUERY -----------------
     let areaQuery = '';
 
     if (options?.adminLevel) {
       areaQuery = `
         area["name"="${safeName}"]["boundary"="administrative"]
-        ["admin_level"="${options.adminLevel}"]${countryFilter}->.a;
+        ["admin_level"="${options.adminLevel}"]->.a;
         `;
     } else {
       areaQuery = `
         (
-            area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="8"]${countryFilter};
-            area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="6"]${countryFilter};
-            area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="4"]${countryFilter};
+            area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="8"];
+            area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="6"];
+            area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="4"];
         )->.a;
         `;
+    }
+
+    // ----------------- ELEMENT QUERY -----------------
+    let elementQueries = '';
+    const tagEntries = Object.entries(tags);
+
+    if (tagEntries.length === 1 && tagEntries[0][0] === 'name') {
+      const safeValue = escaper(tagEntries[0][1]);
+      const normalized = safeValue.replace(/['’]/g, '');
+
+      elementQueries = `
+        node["name"~"${safeValue}", i](area.a);
+        node["brand"~"${safeValue}", i](area.a);
+        node["brand"~"${normalized}", i](area.a);
+
+        way["name"~"${safeValue}", i](area.a);
+        way["brand"~"${safeValue}", i](area.a);
+        way["brand"~"${normalized}", i](area.a);
+
+        relation["name"~"${safeValue}", i](area.a);
+        relation["brand"~"${safeValue}", i](area.a);
+        relation["brand"~"${normalized}", i](area.a);
+      `;
+    } else {
+      const tagFilterBlock = tagEntries
+        .map(([key, value]) => `["${key}"="${escaper(value)}"]`)
+        .join('');
+      elementQueries = `
+        node${tagFilterBlock}(area.a);
+        way${tagFilterBlock}(area.a);
+        relation${tagFilterBlock}(area.a);
+      `;
     }
 
     const query = `
         [out:json][timeout:${timeout}];
         ${areaQuery}
-        node${tagFilters}(area.a);
-        out;
+        (
+        ${elementQueries}
+        );
+        out center;
     `;
 
     const normalizedTags = Object.keys(tags)
       .sort()
       .map((k) => `${k}:${tags[k]}`)
       .join('|');
-    const cacheKey = `area:${safeName}:${normalizedTags}:${options?.adminLevel ?? 'auto'}:${options?.countryCode ?? 'any'}`;
+
+    const cacheKey = `area:${safeName}:${normalizedTags}:${options?.adminLevel ?? 'auto'}`;
 
     const hint =
-      'Use POST /overpass/area with body { "tags": { "key": "value" }, "areaName": "<name>", "adminLevel": <number>, "countryCode": "<ISO2>", "timeout": <number> } (adminLevel, countryCode and timeout optional)';
+      'Use POST /overpass/area with body { "tags": { "key": "value" }, "areaName": "<name>", "adminLevel": <number>, "timeout": <number> }';
 
     return this.runQuery(query, hint, cacheKey);
   }
@@ -254,29 +284,24 @@ export class OverpassService {
     options?: {
       adminLevel?: number;
       timeout?: number;
-      countryCode?: string;
     },
   ) {
     const timeout = options?.timeout ?? 300;
     const safeName = escaper(name);
-
-    const countryFilter = options?.countryCode
-      ? `["ISO3166-1"="${options.countryCode.toUpperCase()}"]`
-      : '';
 
     let areaQuery: string;
 
     if (options?.adminLevel) {
       areaQuery = `
       area["name"="${safeName}"]["boundary"="administrative"]
-      ["admin_level"="${options.adminLevel}"]${countryFilter}->.a;
+      ["admin_level"="${options.adminLevel}"]->.a;
     `;
     } else {
       areaQuery = `
       (
-        area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="8"]${countryFilter};
-        area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="6"]${countryFilter};
-        area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="4"]${countryFilter};
+        area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="8"];
+        area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="6"];
+        area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="4"];
       )->.a;
     `;
     }
@@ -288,10 +313,10 @@ export class OverpassService {
         out center tags;
     `;
 
-    const cacheKey = `postcodes:${safeName}:${options?.adminLevel ?? 'auto'}:${options?.countryCode ?? 'any'}`;
+    const cacheKey = `postcodes:${safeName}:${options?.adminLevel ?? 'auto'}`;
 
     const hint =
-      'Use POST /overpass/postcodes with body { "name": "<city>", "adminLevel": <number>, "countryCode": "<ISO2>", "timeout": <number> } (adminLevel, countryCode and timeout optional)';
+      'Use POST /overpass/postcodes with body { "name": "<city>", "adminLevel": <number>, "timeout": <number> } (adminLevel and timeout optional)';
 
     return this.runQuery(query, hint, cacheKey, 3600);
   }
