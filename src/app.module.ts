@@ -7,7 +7,6 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Placex } from './nominatim/entities/placex.entity';
 import { AdminLevelMapService } from './nominatim/admin-level-map.service/admin-level-map.service';
-import { CacheModule } from '@nestjs/cache-manager';
 
 @Module({
   imports: [
@@ -24,10 +23,6 @@ import { CacheModule } from '@nestjs/cache-manager';
         database: config.get<string>('DB_NAME'),
         entities: [Placex],
       }),
-    }),
-    CacheModule.register({
-      ttl: 3600, // 1 hour
-      max: 1000,
     }),
     NominatimModule,
     OverpassModule,

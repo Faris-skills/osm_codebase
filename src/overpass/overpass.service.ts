@@ -1,12 +1,30 @@
-import { Injectable } from '@nestjs/common';
+import {
+  BadRequestException,
+  HttpException,
+  Inject,
+  Injectable,
+  InternalServerErrorException,
+} from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import axios from 'axios';
+import { CACHE_MANAGER } from '@nestjs/cache-manager';
+import type { Cache } from 'cache-manager';
+import {
+  buildTagFilters,
+  escaper,
+  validateBBox,
+} from 'src/shared/overpass-formatter';
+import * as fs from 'fs';
+import * as path from 'path';
 
 @Injectable()
 export class OverpassService {
   private baseUrl: string;
 
-  constructor(private configService: ConfigService) {
+  constructor(
+    private configService: ConfigService,
+    @Inject(CACHE_MANAGER) private cacheManager: Cache,
+  ) {
     const envVariable = this.configService.get<string>('OVERPASS_URL');
     if (!envVariable) {
       throw new Error('Undefined env: OVERPASS_URL');
@@ -14,48 +32,221 @@ export class OverpassService {
     this.baseUrl = envVariable;
   }
 
-  private async runQuery(query: string, hint: string) {
+  private async logOverpassRequest(data: {
+    query: string;
+    cacheKey?: string;
+    status: 'success' | 'error' | 'cache-hit';
+    durationMs: number;
+    error?: string;
+  }) {
+    const now = new Date();
+    const date = now.toISOString().split('T')[0];
+    const timestamp = now.toISOString();
+
+    const logDir = path.join(process.cwd(), 'logs', 'overpass');
+    await fs.promises.mkdir(logDir, { recursive: true });
+
+    const logFile = path.join(logDir, `${date}.log`);
+
+    const separator = '='.repeat(50);
+
+    const logBlock = `
+        ${separator}
+        Timestamp: ${timestamp}
+        Status: ${data.status}
+        Duration: ${data.durationMs}ms
+        CacheKey: ${data.cacheKey ?? 'none'}
+        ${data.error ? `Error: ${data.error}` : ''}
+
+        Quoted Query: ${JSON.stringify(data.query) + '\n'}
+        Raw Query:
+            ${data.query.trim()}
+        ${separator}
+    `;
+
+    await fs.promises.appendFile(logFile, logBlock);
+  }
+
+  private async runQuery(
+    query: string,
+    hint: string,
+    cacheKey?: string,
+    ttl = 3600,
+  ) {
+    const start = Date.now();
+
     try {
+      if (cacheKey) {
+        const cached = await this.cacheManager.get(cacheKey);
+        if (cached) {
+          await this.logOverpassRequest({
+            query,
+            cacheKey,
+            status: 'cache-hit',
+            durationMs: Date.now() - start,
+          });
+          return cached;
+        }
+      }
+
       const response = await axios.post(this.baseUrl, query, {
         headers: { 'Content-Type': 'text/plain' },
       });
-      return response.data;
+
+      const data = response.data;
+
+      // Detect Overpass internal runtime errors
+      if (data?.remark) {
+        const remark = data.remark as string;
+
+        let improvedHint = hint;
+
+        if (remark.includes('out of memory')) {
+          improvedHint =
+            'Query exceeded Overpass memory limits. Try reducing area size, adding more tag filters, or lowering timeout.';
+        } else if (remark.includes('timeout')) {
+          improvedHint =
+            'Query timed out. Try reducing the search area or increasing specificity.';
+        } else if (remark.includes('parse error')) {
+          improvedHint =
+            'Invalid Overpass QL syntax. Verify query structure and filters.';
+        }
+
+        await this.logOverpassRequest({
+          query,
+          cacheKey,
+          status: 'error',
+          durationMs: Date.now() - start,
+          error: remark,
+        });
+
+        throw new BadRequestException({
+          error: 'Overpass runtime error',
+          details: remark,
+          hint: improvedHint,
+        });
+      }
+
+      if (cacheKey) {
+        await this.cacheManager.set(cacheKey, data, ttl);
+      }
+
+      await this.logOverpassRequest({
+        query,
+        cacheKey,
+        status: 'success',
+        durationMs: Date.now() - start,
+      });
+
+      return data;
     } catch (err: any) {
-      console.error(err);
-      return {
+      if (err instanceof HttpException) {
+        throw err;
+      }
+
+      await this.logOverpassRequest({
+        query,
+        cacheKey,
+        status: 'error',
+        durationMs: Date.now() - start,
+        error: err.response?.data ?? err.message
+      });
+
+      if (err.response) {
+        throw new InternalServerErrorException({
+          error: 'Overpass HTTP error',
+          details: err.response.statusText,
+          hint,
+        });
+      }
+
+      throw new InternalServerErrorException({
         error: 'Overpass query failed',
         details: err.message,
         hint,
-      };
+      });
     }
   }
 
   async findNodesByTagsInBBox(
     tags: Record<string, string>,
     bbox: [number, number, number, number],
+    timeout = 180,
   ) {
+    validateBBox(bbox);
+
     const [south, west, north, east] = bbox;
-    const tagFilters = Object.entries(tags)
-      .map(([k, v]) => `["${k}"="${v}"]`)
-      .join('');
-    const query = `[out:json]; node${tagFilters}(${south},${west},${north},${east}); out;`;
+    const tagFilters = buildTagFilters(tags);
+
+    const query = `
+        [out:json][timeout:${timeout}];
+        node${tagFilters}(${south},${west},${north},${east});
+        out;
+    `;
+
+    const normalizedTags = Object.keys(tags)
+      .sort()
+      .map((k) => `${k}:${tags[k]}`)
+      .join('|');
+    const cacheKey = `bbox:${normalizedTags}:${bbox.join(',')}`;
 
     const hint =
-      'Use /overpass/bbox with body { "tags": { "amenity": "restaurant" }, "bbox": [south, west, north, east] }. Example: [out:json]; node["amenity"="restaurant"](48.8,2.25,48.9,2.45); out;';
+      'Use POST /overpass/bbox with body { "tags": { "key": "value" }, "bbox": [south, west, north, east], "timeout": <number> } (timeout optional)';
 
-    return this.runQuery(query, hint);
+    return this.runQuery(query, hint, cacheKey);
   }
 
-  async findNodesByTagsInArea(tags: Record<string, string>, areaName: string) {
-    const tagFilters = Object.entries(tags)
-      .map(([k, v]) => `["${k}"="${v}"]`)
-      .join('');
-    const query = `[out:json]; area["name"="${areaName}"]->.searchArea; node${tagFilters}(area.searchArea); out;`;
+  async findNodesByTagsInArea(
+    tags: Record<string, string>,
+    areaName: string,
+    options?: {
+      adminLevel?: number;
+      countryCode?: string;
+      timeout?: number;
+    },
+  ) {
+    const timeout = options?.timeout ?? 180;
+    const safeName = escaper(areaName);
+    const tagFilters = buildTagFilters(tags);
+
+    const countryFilter = options?.countryCode
+      ? `["ISO3166-1"="${options.countryCode.toUpperCase()}"]`
+      : '';
+
+    let areaQuery = '';
+
+    if (options?.adminLevel) {
+      areaQuery = `
+        area["name"="${safeName}"]["boundary"="administrative"]
+        ["admin_level"="${options.adminLevel}"]${countryFilter}->.a;
+        `;
+    } else {
+      areaQuery = `
+        (
+            area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="8"]${countryFilter};
+            area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="6"]${countryFilter};
+            area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="4"]${countryFilter};
+        )->.a;
+        `;
+    }
+
+    const query = `
+        [out:json][timeout:${timeout}];
+        ${areaQuery}
+        node${tagFilters}(area.a);
+        out;
+    `;
+
+    const normalizedTags = Object.keys(tags)
+      .sort()
+      .map((k) => `${k}:${tags[k]}`)
+      .join('|');
+    const cacheKey = `area:${safeName}:${normalizedTags}:${options?.adminLevel ?? 'auto'}:${options?.countryCode ?? 'any'}`;
 
     const hint =
-      'Use /overpass/area with body { "tags": { "amenity": "cafe" }, "areaName": "Paris" }. Example: [out:json]; area["name"="Paris"]->.searchArea; node["amenity"="cafe"](area.searchArea); out;';
+      'Use POST /overpass/area with body { "tags": { "key": "value" }, "areaName": "<name>", "adminLevel": <number>, "countryCode": "<ISO2>", "timeout": <number> } (adminLevel, countryCode and timeout optional)';
 
-    return this.runQuery(query, hint);
+    return this.runQuery(query, hint, cacheKey);
   }
 
   async postcodesByCity(
@@ -63,25 +254,46 @@ export class OverpassService {
     options?: {
       adminLevel?: number;
       timeout?: number;
+      countryCode?: string;
     },
   ) {
     const timeout = options?.timeout ?? 300;
+    const safeName = escaper(name);
 
-    const adminFilter = options?.adminLevel
-      ? `[admin_level=${options.adminLevel}]`
+    const countryFilter = options?.countryCode
+      ? `["ISO3166-1"="${options.countryCode.toUpperCase()}"]`
       : '';
+
+    let areaQuery: string;
+
+    if (options?.adminLevel) {
+      areaQuery = `
+      area["name"="${safeName}"]["boundary"="administrative"]
+      ["admin_level"="${options.adminLevel}"]${countryFilter}->.a;
+    `;
+    } else {
+      areaQuery = `
+      (
+        area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="8"]${countryFilter};
+        area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="6"]${countryFilter};
+        area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="4"]${countryFilter};
+      )->.a;
+    `;
+    }
 
     const query = `
         [out:json][timeout:${timeout}];
-        area[name="${name}"][boundary=administrative]${adminFilter}->.a;
+        ${areaQuery}
         nwr(area.a)["addr:postcode"];
         out center tags;
     `;
 
-    const hint =
-      'Use POST /overpass/postcodes with body { "name": "<city>", "adminLevel": <number>, "timeout": <number> } (adminLevel and timeout optional)';
+    const cacheKey = `postcodes:${safeName}:${options?.adminLevel ?? 'auto'}:${options?.countryCode ?? 'any'}`;
 
-    return this.runQuery(query, hint);
+    const hint =
+      'Use POST /overpass/postcodes with body { "name": "<city>", "adminLevel": <number>, "countryCode": "<ISO2>", "timeout": <number> } (adminLevel, countryCode and timeout optional)';
+
+    return this.runQuery(query, hint, cacheKey, 3600);
   }
 
   async custom(query: string) {

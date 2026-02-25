@@ -1,10 +1,10 @@
-export function escape(value: string): string {
+export function escaper(value: string): string {
   return value.replace(/"/g, '\\"');
 }
 
 export function buildTagFilters(tags: Record<string, string>): string {
   return Object.entries(tags)
-    .map(([k, v]) => `["${this.escape(k)}"="${this.escape(v)}"]`)
+    .map(([k, v]) => `["${escaper(k)}"="${escaper(v)}"]`)
     .join('');
 }
 
