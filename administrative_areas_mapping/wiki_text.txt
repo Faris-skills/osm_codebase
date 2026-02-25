@@ -1,0 +1,2299 @@
+<!--
+BE CAREFUL : PLEASE DON'T USE THE CHAR "*" IN THIS TABLE (A "Node-count limit exceeded" ERROR COULD APPEND IF ANY).
+USE FOR EXAMPLE "→" INSTEAD.
+-->
+<!--
+This table merges the old templates "Template:Admin_level_10" and "Template:Admin_level_11". See history of these templates if needed (history of these templates are parts of history of this merge template).
+-->
+<div style="width:100%">
+<small>
+{|class="wikitable sortable sticky mw-datatable"
+|-
+!scope="col" rowspan="2"| {{{head:country|Country ({{Tag|admin_level|2}})}}}
+!scope="col" colspan="9"| {{Key|admin_level}}
+|-U
+!scope="col"| 3
+!scope="col"| 4
+!scope="col"| 5
+!scope="col"| 6
+!scope="col"| 7
+!scope="col"| 8
+!scope="col"| 9
+!scope="col"| 10
+!scope="col"| 11
+|-
+| {{{afghanistan:value | '''{{Flagicon|Afghanistan}}'''<br><small>''(proposed)''</small> }}}
+| {{{afghanistan:n3 | {{n/a|align=left}} }}}
+| {{{afghanistan:n4 | [[wikipedia:Provinces of Afghanistan|Province (ولايت wilayah)]] }}}
+| {{{afghanistan:n5 | [[wikipedia:Districts of Afghanistan|Districts (Wuleswali)]] }}}
+| {{{afghanistan:n6 | {{n/a|align=left}} }}}
+| {{{afghanistan:n7 | {{n/a|align=left}} }}}
+| {{{afghanistan:n8 | {{n/a|align=left}} }}}
+| {{{afghanistan:n9 | {{n/a|align=left}} }}}
+| {{{afghanistan:n10 | {{n/a|align=left}} }}}
+| {{{afghanistan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{albania:value | '''{{Flagicon|Albania}}'''<br><small>''(proposed)''</small> }}}
+| {{{albania:n3 | {{n/a|align=left}} }}}
+| {{{albania:n4 | [[wikipedia:Counties of Albania|counties (qark)]] }}}
+| {{{albania:n5 | {{n/a|align=left}} }}}
+| {{{albania:n6 | {{n/a|align=left}} }}}
+| {{{albania:n7 | [[wikipedia:Municipalities of Albania|municipalities (bashkia)]] }}}
+| {{{albania:n8 | administrative unit (njësia administrative) <small>(former urban (bashki) and rural (komunë) municipalities)</small> }}}
+| {{{albania:n9 | [[wikipedia:Neighborhoods of Tirana|subdistricts (njësi bashkiake)]] }}}
+| {{{albania:n10 | {{n/a|align=left}} }}}
+| {{{albania:n11 | {{n/a|align=left}} }}}
+|-
+| {{{algeria:value | '''{{Flagicon|Algeria}}'''<br><small>''(proposed)''</small> }}}
+| {{{algeria:n3 | {{n/a|align=left}} }}}
+| {{{algeria:n4 | [[wikipedia:Provinces of Algeria|Wilayah]] borders (departements and / or provinces) }}}
+| {{{algeria:n5 | {{n/a|align=left}} }}}
+| {{{algeria:n6 | [[wikipedia:Districts of Algeria|Daïras]] borders (group of municipalities or districts) }}}
+| {{{algeria:n7 | {{n/a|align=left}} }}}
+| {{{algeria:n8 | [[wikipedia:Communes of Algeria|Communes]] borders (municipalities). <small>Use {{Key|name}} to indicate the name of the commune, and {{Key|ref:ONS}} to indicate the unique identifier given by ONS</small> }}}
+| {{{algeria:n9 | {{n/a|align=left}} }}}
+| {{{algeria:n10 | {{n/a|align=left}} }}}
+| {{{algeria:n11 | {{n/a|align=left}} }}}
+|-
+| {{{andorra:value | '''{{Flagicon|Andorra}}'''<br><small>''(proposed)''</small> }}}
+| {{{andorra:n3 | {{n/a|align=left}} }}}
+| {{{andorra:n4 | {{n/a|align=left}} }}}
+| {{{andorra:n5 | {{n/a|align=left}} }}}
+| {{{andorra:n6 | {{n/a|align=left}} }}}
+| {{{andorra:n7 | [[wikipedia:Parishes of Andorra|Parròquies]] borders (communes) }}}
+| {{{andorra:n8 | Municipality borders <small>Only used for the capital city Andorra la Vella</small> }}}
+| {{{andorra:n9 | {{n/a|align=left}} }}}
+| {{{andorra:n10 | {{n/a|align=left}} }}}
+| {{{andorra:n11 | {{n/a|align=left}} }}}
+|-
+| {{{angola:value | '''{{Flagicon|Angola}}'''<br><small>''(proposed)''</small> }}}
+| {{{angola:n3 | {{n/a|align=left}} }}}
+| {{{angola:n4 | [[wikipedia:Provinces_of_Angola|Províncias]] (Provinces) }}}
+| {{{angola:n5 | {{n/a|align=left}} }}}
+| {{{angola:n6 | [[wikipedia:List_of_municipalities_of_Angola|Municípios]] (Municipalities) }}}
+| {{{angola:n7 | [[wikipedia:Communes_of_Angola|Comunas]] (Urban districts or Communes) }}}
+| {{{angola:n8 | {{n/a|align=left}} }}}
+| {{{angola:n9 | {{n/a|align=left}} }}}
+| {{{angola:n10 | {{n/a|align=left}} }}}
+| {{{angola:n11 | {{n/a|align=left}} }}}
+|-
+| {{{antigua:value | '''{{Flagicon|Antigua and Barbuda}}'''<br><small>''(proposed)''</small> }}}
+| {{{antigua:n3 | {{n/a|align=left}} }}}
+| {{{antigua:n4 | Territorial borders }}}
+| {{{antigua:n5 | {{n/a|align=left}} }}}
+| {{{antigua:n6 | [[wikipedia:Parishes and dependencies of Antigua and Barbuda|Parishes and dependencies]] borders }}}
+| {{{antigua:n7 | {{n/a|align=left}} }}}
+| {{{antigua:n8 | {{n/a|align=left}} }}}
+| {{{antigua:n9 | {{n/a|align=left}} }}}
+| {{{antigua:n10 | {{n/a|align=left}} }}}
+| {{{antigua:n11 | {{n/a|align=left}} }}}
+|-
+| {{{argentina:value | '''{{Flagicon|Argentina}}'''<br><small>''(proposed)''</small> }}}
+| {{{argentina:n3 | {{n/a|align=left}} }}}
+| {{{argentina:n4 | Province / Ciudad Autónoma de Buenos Aires }}}
+| {{{argentina:n5 | Departamento / partido }}}
+| {{{argentina:n6 | Distrito (Mendoza Province, Entre Ríos Province), Pedanías (Córdoba Province) }}}
+| {{{argentina:n7 | Municipio (except for Buenos Aires Province, Mendoza, La Rioja and San Juan, where municipio is the same as departmento or partido) }}}
+| {{{argentina:n8 | Villages, City, town }}}
+| {{{argentina:n9 | Barrio }}}
+| {{{argentina:n10 | {{n/a|align=left}} }}}
+| {{{argentina:n11 | {{n/a|align=left}} }}}
+|-
+| {{{armenia:value | '''{{Flagicon|Armenia}}'''<br><small>''(proposed)''</small> }}}
+| {{{armenia:n3 | {{n/a|align=left}} }}}
+| {{{armenia:n4 | Marz (Province) / Yerevan }}}
+| {{{armenia:n5 | Municipality / Yerevan districts }}}
+| {{{armenia:n6 | City/Town }}}
+| {{{armenia:n7 | Village }}}
+| {{{armenia:n8 | Neighbourhood }}}
+| {{{armenia:n9 | {{n/a|align=left}} }}}
+| {{{armenia:n10 | {{n/a|align=left}} }}}
+| {{{armenia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{australia:value | '''{{Flagicon|Australia}}'''<br><small>''see [[Australian Tagging Guidelines/Land and boundaries|Aust. Tagging Guidelines]]''</small> }}}
+| {{{australia:n3 | {{n/a|align=left}} }}}
+| {{{australia:n4 | [[:Category:States and Territories of Australia|State/Territory]] borders }}}
+| {{{australia:n5 | {{n/a|align=left}} }}}
+| {{{australia:n6 | [[wikipedia:en:Local government in Australia|Local Government Areas]] (LGAs), and [[wikipedia:en:Local government in Australia#Unincorporated areas|Unincorporated Areas]] borders }}}
+| {{{australia:n7 | ''([[Australian Capital Territory|ACT]] only)'' District borders }}}
+| {{{australia:n8 | {{n/a|align=left}} }}}
+| {{{australia:n9 | Locality borders }}}
+| {{{australia:n10 | {{n/a|align=left}} }}}
+| {{{australia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{austria:value | '''{{Flagicon|Austria}}''' }}}
+| {{{austria:n3 | {{n/a|align=left}} }}}
+| {{{austria:n4 | [[wikipedia:de:Land (Österreich)|Bundesland]]<br> (NUTS-2) }}}
+| {{{austria:n5 | {{n/a|align=left}} }}}
+| {{{austria:n6 | [[wikipedia:de:Liste der Bezirke und Statutarstädte in Österreich|Politischer Bezirk]]<br>Gemeindekennzahl: xxx }}}
+| {{{austria:n7 | {{n/a|align=left}} }}}
+| {{{austria:n8 | [[wikipedia:de:Gemeinden in Österreich nach Bundesland|Gemeinde]]<br>Gemeindekennzahl: xxxyy<br>LAU-2 }}}
+| {{{austria:n9 | [[wikipedia:de:Gemeindebezirk|Wiener]] / [[wikipedia:de:Kategorie:Stadtbezirk von Graz|Grazer]] / ... Stadt- / Gemeindebezirk }}}
+| {{{austria:n10 | (opt.) Stadtteile / [[wikipedia:de:Liste_der_Katastralgemeinden_in_Österreich|Katastralgemeinde]] }}}
+| {{{austria:n11 | {{n/a|align=left}} }}}
+|-
+| {{{azerbaijan:value | '''{{Flagicon|Azerbaijan}}''' }}}
+| {{{azerbaijan:n3 | {{n/a|align=left}} }}}
+| {{{azerbaijan:n4 | Economic Regions ([[wikipedia:en:Administrative_divisions_of_Azerbaijan#Regions_and_Autonomous_Republic|Economic Regions]]) <small>non-administrative regions, only for statistical usages</small><Br>Autonomous republic (Nakhchivan Autonomous Republic) }}}
+| {{{azerbaijan:n5 | regions ({{lang|az|rayons}}) and cities with authority of republic level ({{lang|az|şəhərlər}}) }}}
+| {{{azerbaijan:n6 | {{n/a|align=left}} }}}
+| {{{azerbaijan:n7 | {{n/a|align=left}} }}}
+| {{{azerbaijan:n8 | municipalities ({{lang|az|bələdiyyələr}}) }}}
+| {{{azerbaijan:n9 | {{n/a|align=left}} }}}
+| {{{azerbaijan:n10 | {{n/a|align=left}} }}}
+| {{{azerbaijan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{bahamas:value | '''{{Flagicon|Bahamas}}'''<br><small>''(proposed)''</small> }}}
+| {{{bahamas:n3 | {{n/a|align=left}} }}}
+| {{{bahamas:n4 | {{n/a|align=left}} }}}
+| {{{bahamas:n5 | {{n/a|align=left}} }}}
+| {{{bahamas:n6 | Central government district - [[wikipedia:en:New Providence|New Providence]] only }}}
+| {{{bahamas:n7 | {{n/a|align=left}} }}}
+| {{{bahamas:n8 | [[wikipedia:en:Local government in the Bahamas#Districts of The Bahamas|Districts of the Bahamas (Local government)]] }}}
+| {{{bahamas:n9 | {{n/a|align=left}} }}}
+| {{{bahamas:n10 | {{n/a|align=left}} }}}
+| {{{bahamas:n11 | {{n/a|align=left}} }}}
+|-
+| {{{bahrain:value | '''{{Flagicon|Bahrain}}'''<br><small>''(proposed)''</small> }}}
+| {{{bahrain:n3 | {{n/a|align=left}} }}}
+| {{{bahrain:n4 | Governorate }}}
+| {{{bahrain:n5 | {{n/a|align=left}} }}}
+| {{{bahrain:n6 | Municipality Example: Al Manamah, Ras Rumman etc }}}
+| {{{bahrain:n7 | {{n/a|align=left}} }}}
+| {{{bahrain:n8 | {{n/a|align=left}} }}}
+| {{{bahrain:n9 | Neighbourhood }}}
+| {{{bahrain:n10 | {{n/a|align=left}} }}}
+| {{{bahrain:n11 | {{n/a|align=left}} }}}
+|-
+| {{{bangladesh:value | '''{{Flagicon|Bangladesh}}'''<br><small>''(proposed)<br>(see also [[wikipedia:Administrative geography of Bangladesh|administrative divisions]])''</small> }}}
+| {{{bangladesh:n3 | {{n/a|align=left}} }}}
+| {{{bangladesh:n4 | [[wikipedia:Divisions of Bangladesh|Division]] }}}
+| {{{bangladesh:n5 | [[wikipedia:Districts of Bangladesh|District]] }}}
+| {{{bangladesh:n6 | [[wikipedia:Upazilas of Bangladesh|Subdistrict]] (Upazila / Thana) }}}
+| {{{bangladesh:n7 | [[wikipedia:List of City Corporations of Bangladesh|City Corporation]] }}}
+| {{{bangladesh:n8 | [[wikipedia:List of Municipal Corporations of Bangladesh|Municipal Corporation]] / Pourashava }}}
+| {{{bangladesh:n9 | [[wikipedia:Unions of Bangladesh|Union]] }}}
+| {{{bangladesh:n10 | {{n/a|align=left}} }}}
+| {{{bangladesh:n11 | {{n/a|align=left}} }}}
+|-
+| {{{barbados:value | '''{{Flagicon|Barbados}}'''<br><small>''(proposed)''</small> }}}
+| {{{barbados:n3 | National Border (Island coastline) }}}
+| {{{barbados:n4 | {{n/a|align=left}} }}}
+| {{{barbados:n5 | {{n/a|align=left}} }}}
+| {{{barbados:n6 | [[wikipedia:Parishes of Barbados|Parishes of Barbados]] }}}
+| {{{barbados:n7 | {{n/a|align=left}} }}}
+| {{{barbados:n8 | {{n/a|align=left}} }}}
+| {{{barbados:n9 | Suburbs, Hamlets and Villages }}}
+| {{{barbados:n10 | Neighbourhoods, Housing Developments }}}
+| {{{barbados:n11 | {{n/a|align=left}} }}}
+|-
+| {{{belarus:value | '''{{Flagicon|Belarus}}'''<br><small>''(proposed)''</small> }}}
+| {{{belarus:n3 | {{n/a|align=left}} }}}
+| {{{belarus:n4 | Oblasts (вобласьць / область) }}}
+| {{{belarus:n5 | {{n/a|align=left}} }}}
+| {{{belarus:n6 | Regions (раён / район) }}}
+| {{{belarus:n7 | {{n/a|align=left}} }}}
+| {{{belarus:n8 | Soviets of settlement (сельсавет / cельсовет) }}}
+| {{{belarus:n9 | Suburbs (раён гораду / район города) }}}
+| {{{belarus:n10 | Municipalities (населены пункт / населённый пункт) }}}
+| {{{belarus:n11 | {{n/a|align=left}} }}}
+|-
+| {{{belgium:value | '''{{Flagicon|Belgium}}'''<small>''<br>([[WikiProject Belgium/Boundaries|proposed / in use]])<br>(see {{Tag|boundary|political}} for linguistic communities)''</small> }}}
+| {{{belgium:n3 | {{n/a|align=left}} }}}
+| {{{belgium:n4 | [[wikipedia:Regions of Belgium|Regions]] (NUTS1) }}}
+| {{{belgium:n5 | {{n/a|align=left}} }}}
+| {{{belgium:n6 | [[wikipedia:Provinces of Belgium|Provinces]] (NUTS2) }}}
+| {{{belgium:n7 | [[wikipedia:Arrondissements of Belgium|Administrative arrondissements]] (NUTS3) }}}
+| {{{belgium:n8 | [[wikipedia:Municipalities of Belgium|Municipalities]] }}}
+| {{{belgium:n9 | Deelgemeenten / sections }}}
+| {{{belgium:n10 | Wijken / quartiers }}}
+| {{{belgium:n11 | {{n/a|align=left}} }}}
+|-
+| {{{belize:value | '''{{Flagicon|Belize}}''' }}}
+| {{{belize:n3 | {{n/a|align=left}} }}}
+| {{{belize:n4 | [[wikipedia:Districts of Belize|Districts]] }}}
+| {{{belize:n5 | {{n/a|align=left}} }}}
+| {{{belize:n6 | {{n/a|align=left}} }}}
+| {{{belize:n7 | [[wikipedia:List of municipalities in Belize#Cities and towns|Cities]] }}}
+| {{{belize:n8 | [[wikipedia:List of municipalities in Belize#Cities and towns|Towns]] }}}
+| {{{belize:n9 | [[wikipedia:List of municipalities in Belize#Villages|Villages]], Suburbs }}}
+| {{{belize:n10 | Hamlets, Neighbourhoods }}}
+| {{{belize:n11 | {{n/a|align=left}} }}}
+|-
+| {{{benin:value | '''{{Flagicon|Benin}}''' }}}
+| {{{benin:n3 | {{n/a|align=left}} }}}
+| {{{benin:n4 | {{Wikipedia|text=no|fr|Département du Bénin|Département}} }}}
+| {{{benin:n5 | {{n/a|align=left}} }}}
+| {{{benin:n6 | Commune }}}
+| {{{benin:n7 | Arrondissement }}}
+| {{{benin:n8 | Village/Quartier de ville }}}
+| {{{benin:n9 | {{n/a|align=left}} }}}
+| {{{benin:n10 | {{n/a|align=left}} }}}
+| {{{benin:n11 | {{n/a|align=left}} }}}
+|-
+| {{{bhutan:value | '''{{Flagicon|Bhutan}}'''<br><small>''(proposed by [[User:ff5722|ff5722]])''</small> }}}
+| {{{bhutan:n3 | {{n/a|align=left}} }}}
+| {{{bhutan:n4 | [[wikipedia:Dzongkhag|Dzongkhag]] }}}
+| {{{bhutan:n5 | [[wikipedia:Dungkhag|Dungkhag]] }}}
+| {{{bhutan:n6 | [[wikipedia:Gewogs of Bhutan|Gewog]] }}}
+| {{{bhutan:n7 | [[wikipedia:Thromde|Thromde]] }}}
+| {{{bhutan:n8 | {{n/a|align=left}} }}}
+| {{{bhutan:n9 | {{n/a|align=left}} }}}
+| {{{bhutan:n10 | {{n/a|align=left}} }}}
+| {{{bhutan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{bolivia:value | '''{{flagicon|Bolivia}}'''<br><small>''(proposed)''</small> }}}
+| {{{bolivia:n3 | {{n/a|align=left}} }}}
+| {{{bolivia:n4 | [[wikipedia:es:Departamentos de Bolivia|Departamentos]] / state border }}}
+| {{{bolivia:n5 | Regiones / regions }}}
+| {{{bolivia:n6 | [[wikipedia:es:Provincias de Bolivia|Provincias]] / provinces }}}
+| {{{bolivia:n7 | Regiones metropolitanas / metropolitan regions }}}
+| {{{bolivia:n8 | [[wikipedia:es:Municipios de Bolivia|Municipios]], [[wikipedia:es:Autonomía indígena originario campesina|Territorio indígena originario campesinos]], Pueblos / municipalities, Indigenous-original-farmer territories, towns }}}
+| {{{bolivia:n9 | Partes del municipio con autoridad, macrodistritos, comunas, juntas vecinales / parts of the municipality with authority, macro-districts, municipalities, neighborhood councils }}}
+| {{{bolivia:n10 | Partes del municipio sin autoridad / parts of the municipality without authority }}}
+| {{{bolivia:n11 | Organizaciones territoriales de base (OTB), Barrios, [http://blog.upsa.edu.bo/?p=1817 Unidad Vecinal (UV)] / territorial base organizations, neighbourhoods, neighbourhood units }}}
+|-
+| {{{bosnia:value | '''{{Flagicon|Bosnia and Herzegovina}}'''<br><small>''([[WikiProject Bosnia and Herzegovina/Administrativne granice|proposed / in use]])''</small> }}}
+| {{{bosnia:n3 | {{n/a|align=left}} }}}
+| {{{bosnia:n4 | entitet / eнтитет / entity<br>distrikt / дистрикт / district<br>[http://pastebin.com/raw.php?i=CDpR9Tvg napomena / напомена / note] }}}
+| {{{bosnia:n5 | kanton (FBiH) / županija (FBiH) / кантон (ФБиХ) / canton (FBiH) }}}
+| {{{bosnia:n6 | grad / град / city }}}
+| {{{bosnia:n7 | općina / opština / општина / muncipality }}}
+| {{{bosnia:n8 | mjesna zajednica / мјесна заједницa / local committee }}}
+| {{{bosnia:n9 | naselje / насеље / settlement }}}
+| {{{bosnia:n10 | {{n/a|align=left}} }}}
+| {{{bosnia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{botswana:value | '''{{Flagicon|Botswana}}'''<br><small>proposed</small> }}}
+| {{{botswana:n3 | {{n/a|align=left}} }}}
+| {{{botswana:n4 | 10 Districts (rural districts), 2 Cities, 5 Towns (urban districts) }}}
+| {{{botswana:n5 | {{n/a|align=left}} }}}
+| {{{botswana:n6 | Subdistricts }}}
+| {{{botswana:n7 | {{n/a|align=left}} }}}
+| {{{botswana:n8 | Towns and Villages }}}
+| {{{botswana:n9 | {{n/a|align=left}} }}}
+| {{{botswana:n10 | {{n/a|align=left}} }}}
+| {{{botswana:n11 | {{n/a|align=left}} }}}
+|-
+| {{{brazil:value | '''{{Flagicon|Brazil}}''' }}}
+| {{{brazil:n3 | Regiões (Sul, Sudeste, Centro-Oeste, Norte, Nordeste)<br>''(regions)'' }}}
+| {{{brazil:n4 | Unidades Federativas (Estados e Distrito Federal)<br>''(states and Federal District)'' }}}
+| {{{brazil:n5 | [[wikipedia:pt:Regiões geográficas intermediárias e imediatas|Regiões Geográficas Intermediárias]] (Intermediate Geographic Regions)<br><s>[[wikipedia:pt:Mesorregiões|Mesorregiões]]<br>''(meso-regions)''</s> }}}
+| {{{brazil:n6 | Regiões metropolitanas<br>''(metropolitan areas)'' }}}
+| {{{brazil:n7 | [[wikipedia:pt:Regiões geográficas intermediárias e imediatas|Regiões Geográficas Imediatas]] (Immediate Geographic Regions)<br><s>[[wikipedia:pt:Microrregiões|Microrregiões]]<br>''(micro-regions)''</s> }}}
+| {{{brazil:n8 | Municípios e regiões administrativas do Distrito Federal<br>''(municipalities and administrative regions of the Federal District)'' }}}
+| {{{brazil:n9 | Distritos e Sub-Prefeituras<br>''(districts)'' }}}
+| {{{brazil:n10 | Bairros e SubDistritos<br>''(suburbs and neighborhoods)'' }}}
+| {{{brazil:n11 | {{n/a|align=left}} }}}
+|-
+| {{{brunei:value | '''{{Flagicon|Brunei}}'''<br><small>''(proposed by [[User:Zulfadli51]])''</small> }}}
+| {{{brunei:n3 | {{n/a|align=left}} }}}
+| {{{brunei:n4 | [[Wikipedia:Districts of Brunei|Districts]] ''(daerah)'' }}}
+| {{{brunei:n5 | {{n/a|align=left}} }}}
+| {{{brunei:n6 | [[Wikipedia:Mukims of Brunei|Mukims]] (subdistricts) }}}
+| {{{brunei:n7 | {{n/a|align=left}} }}}
+| {{{brunei:n8 | [[Wikipedia:Villages of Brunei|Villages]] ''(kampung'' or ''kampong)'', as designated by the Survey Department }}}
+| {{{brunei:n9 | {{n/a|align=left}} }}}
+| {{{brunei:n10 | {{n/a|align=left}} }}}
+| {{{brunei:n11 | {{n/a|align=left}} }}}
+|-
+| {{{bulgaria:value | '''{{Flagicon|Bulgaria}}''' }}}
+| {{{bulgaria:n3 | {{n/a|align=left}} }}}
+| {{{bulgaria:n4 | Regions  (области) }}}
+| {{{bulgaria:n5 | Municipalities (общини) }}}
+| {{{bulgaria:n6 | City Districts (райони в София, Пловдив и Варна) }}}
+| {{{bulgaria:n7 | Borders of mayoraltites (кметства) }}}
+| {{{bulgaria:n8 | Borders of cities, towns and villages (землища) }}}
+| {{{bulgaria:n9 | Districts and suburbs (квартали и предградия) }}}
+| {{{bulgaria:n10 | Suburb parts, neighborhoods (части от квартали, махали) }}}
+| {{{bulgaria:n11 | {{n/a|align=left}} }}}
+|-
+| {{{burkina:value | '''{{Flagicon|Burkina Faso}}'''<br><small>''([[WikiProject Burkina Faso/subdivisions|proposed]])''</small> }}}
+| {{{burkina:n3 | {{n/a|align=left}} }}}
+| {{{burkina:n4 | Régions }}}
+| {{{burkina:n5 | Provinces }}}
+| {{{burkina:n6 | Départements/Communes }}}
+| {{{burkina:n7 | Arrondissements (only in the 2 cities of [[Ouagadougou]] and Bobo Dioulasso) }}}
+| {{{burkina:n8 | Towns or villages (excluding their surrounding rural areas) }}}
+| {{{burkina:n9 | Urban sectors (only in cities, and in the capital town of other urban municipalities) }}}
+| {{{burkina:n10 | {{n/a|align=left}} }}}
+| {{{burkina:n11 | {{n/a|align=left}} }}}
+|-
+| {{{burundi:value | '''{{Flagicon|Burundi}}'''<br> <small>''([[WikiProject Burundi/Boundaries|proposed]] by [[User:Arie Scheffer|Arie Scheffer]])''</small> }}}
+| {{{burundi:n3 | {{n/a|align=left}} }}}
+| {{{burundi:n4 | Provinces }}}
+| {{{burundi:n5 | {{n/a|align=left}} }}}
+| {{{burundi:n6 | Communes }}}
+| {{{burundi:n7 | {{n/a|align=left}} }}}
+| {{{burundi:n8 | Collines }}}
+| {{{burundi:n9 | {{n/a|align=left}} }}}
+| {{{burundi:n10 | Sous-Collines }}}
+| {{{burundi:n11 | {{n/a|align=left}} }}}
+|-
+| {{{cambodia:value | '''{{Flagicon|Cambodia}}'''<br><small>''(proposed by [[User:GeoMechain]])<br>See also [[wikipedia:Administrative divisions of Cambodia|Wikipedia]]''</small> }}}
+| {{{cambodia:n3 | {{n/a|align=left}} }}}
+| {{{cambodia:n4 | [[wikipedia:Provinces of Cambodia|Provinces (ខេត្ត ''khaet'')]] }}}
+| {{{cambodia:n5 | {{n/a|align=left}} }}}
+| {{{cambodia:n6 | [[wikipedia:List of districts in Cambodia|Districts (ស្រុក ''srok''), Sections (ខណ្ឌ ''khan''), Municipalities (ក្រុង ''krong'')]] }}}
+| {{{cambodia:n7 | {{n/a|align=left}} }}}
+| {{{cambodia:n8 | [[wikipedia:List of communes in Cambodia|Communes (ឃុំ khum), Quarters (សង្កាត់ sangkat)]] }}}
+| {{{cambodia:n9 | {{n/a|align=left}} }}}
+| {{{cambodia:n10 | {{n/a|align=left}} }}}
+| {{{cambodia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{cameroon:value | '''{{Flagicon|Cameroon}}''' }}}
+| {{{cameroon:n3 | Reserved for historic constituent states }}}
+| {{{cameroon:n4 | Regions, like Extrême-Nord (similar to NUTS2) }}}
+| {{{cameroon:n5 | {{n/a|align=left}} }}}
+| {{{cameroon:n6 | Départements, like Mayo-Danay (similar to NUTS3) }}}
+| {{{cameroon:n7 | Arrondissements, like Njombe Penja }}}
+| {{{cameroon:n8 | Communes, like Melong. Use {{Key|name}} to indicate the name of the commune }}}
+| {{{cameroon:n9 | {{n/a|align=left}} }}}
+| {{{cameroon:n10 | Non-offical quartiers? }}}
+| {{{cameroon:n11 | {{n/a|align=left}} }}}
+|-
+| {{{canada:value | '''{{Flagicon|Canada}}'''<br><small>''Varies by province; see [[Canada admin level]].''</small> }}}
+| {{{canada:n3 | {{n/a|align=left}} }}}
+| {{{canada:n4 | Provinces & territories }}}
+| {{{canada:n5 | Major divisions (only some provinces) }}}
+| {{{canada:n6 | Regional municipalities & single-tier municipalities }}}
+| {{{canada:n7 | Boroughs/arrondissements of some cities }}}
+| {{{canada:n8 | Lower-tier municipalities in rural areas;<br/> Districts/communities within cities }}}
+| {{{canada:n9 | Localities/wards; some cities call this level 'neighbourhoods' }}}
+| {{{canada:n10 | Neighbourhoods; or subdivisions of neighbourhoods for cities that use level 9 for neighbourhoods }}}
+| {{{canada:n11 | {{n/a|align=left}} }}}
+|-
+| {{{capeverde:value | '''{{Flagicon|Cabo Verde|Cape Verde}}'''<br><small>proposed</small> }}}
+| {{{capeverde:n3 | {{n/a|align=left}} }}}
+| {{{capeverde:n4 | {{n/a|align=left}} }}}
+| {{{capeverde:n5 | {{n/a|align=left}} }}}
+| {{{capeverde:n6 | Municipalities }}}
+| {{{capeverde:n7 | {{n/a|align=left}} }}}
+| {{{capeverde:n8 | in use, fixme }}}
+| {{{capeverde:n9 | Civil parishes }}}
+| {{{capeverde:n10 | {{n/a|align=left}} }}}
+| {{{capeverde:n11 | {{n/a|align=left}} }}}
+|-
+| {{{centrafrica:value | '''{{Flagicon|Central African Republic}}'''<br><small>''(proposed)''</small> }}}
+| {{{centrafrica:n3 | {{n/a|align=left}} }}}
+| {{{centrafrica:n4 | [[wikipedia:Prefectures of the Central African Republic|Préfectures]], like Ouham }}}
+| {{{centrafrica:n5 | {{n/a|align=left}} }}}
+| {{{centrafrica:n6 | [[wikipedia:Sub-prefectures of the Central African Republic|Sous-préfectures]], like Bouca }}}
+| {{{centrafrica:n7 | Communes? }}}
+| {{{centrafrica:n8 | Arrondisements? }}}
+| {{{centrafrica:n9 | Quartiers? }}}
+| {{{centrafrica:n10 | Sub-quartiers? }}}
+| {{{centrafrica:n11 | {{n/a|align=left}} }}}
+|-
+| {{{chad:value | '''{{Flagicon|Chad}}'''<br><small>''(proposed by [[User:pedrito1414|Pete Masters]])<br> See also [[wikipedia:Chad#Administrative divisions|Wikipedia]]''</small> }}}
+| {{{chad:n3 | {{n/a|align=left}} }}}
+| {{{chad:n4 | Régions (23) }}}
+| {{{chad:n5 | {{n/a|align=left}} }}}
+| {{{chad:n6 | Départments (61) }}}
+| {{{chad:n7 | Sous-préfectures (200) }}}
+| {{{chad:n8 | Cantons (446) }}}
+| {{{chad:n9 | Villages ou localités }}}
+| {{{chad:n10 | Quartiers (subdivisions internes au village) }}}
+| {{{chad:n11 | {{n/a|align=left}} }}}
+|-
+| {{{chile:value | '''{{Flagicon|Chile}}''' }}}
+| {{{chile:n3 | {{n/a|align=left}} }}}
+| {{{chile:n4 | ''Regiones'' }}}
+| {{{chile:n5 | {{n/a|align=left}} }}}
+| {{{chile:n6 | ''Provincias'' }}}
+| {{{chile:n7 | {{n/a|align=left}} }}}
+| {{{chile:n8 | ''Comunas'' }}}
+| {{{chile:n9 | {{n/a|align=left}} }}}
+| {{{chile:n10 | {{n/a|align=left}} }}}
+| {{{chile:n11 | {{n/a|align=left}} }}}
+|-
+| rowspan="3" | {{{china:value | '''{{Flagicon|China}}'''<br><small>You'd better read [[China/Boundaries]] before editing. Maybe conflict with this table, please use that as standard</small> }}}
+| {{{china:n3_1 | Reserved for [[wikipedia:en:Greater_administrative_region|Greater administrative region]]<br>预留为[[wikipedia:zh:大行政区|大行政区]] }}}
+| {{{china:n4_1 | Municipality / Province / Autonomous Region<br>省级行政区 }}}
+| {{{china:n5_1 | Prefectures<br>地级行政区 }}}
+| {{{china:n6_1 | County<br>县级行政区 }}}
+| {{{china:n7_1 | State-level new areas and other special areas in large scale<br>国家级新区、国家级高新区、非行政区界等大尺度特殊情况 }}}
+| {{{china:n8_1 | Township (Town / Subdistrict)<br>乡镇级行政区（镇、街道） }}}
+| {{{china:n9_1 | Other special areas in small scale<br>林业局、农垦管局等小尺度特殊情况 }}}
+| {{{china:n10_1 | (Administrative) Village / Community (Quarter)<br>行政村、社区 }}}
+| {{{china:n11_1 | (Natural) Village / Group (Neibourhood)<br>自然村、生产队、村民小组、居民小组 }}}
+|-
+| rowspan="2" | {{{china:n3_2 | SARs / 特別行政區<br>([[Hong Kong]] and [[Macau]] / 香港及澳門)<small>''<br>(proposed by [[User:miklcct]])''</small> }}}
+| {{{china:n4_2 | rowspan="2" {{n/a|align=left}} }}}
+| {{{china:n5_2 | Hong Kong / Kowloon / New Territories <br> 香港/九龍/新界}}}
+| {{{china:n6_2 | Districts / 區}}}
+| {{{china:n7_2 | rowspan="2" {{n/a|align=left}} }}}
+| {{{china:n8_2 | rowspan="2" {{n/a|align=left}} }}}
+| {{{china:n9_2 | rowspan="2" {{n/a|align=left}} }}}
+| {{{china:n10_2 | rowspan="2" {{n/a|align=left}} }}}
+| {{{china:n11_2 | rowspan="2" {{n/a|align=left}} }}}
+|-
+| {{{china:n5_3 | Macau / Coloane / Taipa / Cotai <br> 澳門/路環/氹仔/路氹}}}
+| {{{china:n6_3 | Freguesias / 堂區}}}
+|-
+| {{{colombia:value | '''{{Flagicon|Colombia}}''' }}}
+| {{{colombia:n3 | Administrative Region of planning / Región Administrativa de Planificación<ref>[[w:s:es:Constitución de Colombia de 1991#Capítulo II: Del régimen departamental|Artículo 306 de la Constitución de Colombia de 1991]]</ref> }}}
+| {{{colombia:n4 | Department / Departamento }}}
+| {{{colombia:n5 | [[wikipedia:es:Anexo:Provincias de Colombia|Province / Provincia]] }}}
+| {{{colombia:n6 | Municipality / Municipio }}}
+| {{{colombia:n7 | Urban / Urbano: city / ciudad<br>Rural / Rural: township / corregimiento / área no municipalizada / isla }}}
+| {{{colombia:n8 | Urban / Urbano: locality or commune / localidad o comuna<br>Rural / Rural: village / vereda }}}
+| {{{colombia:n9 | Urban / Urbano: neighbourhood (For Bogota, this is UPZs) / barrio (Para Bogotá, son las UPZs)<br>Rural / Rural: N/A }}}
+| {{{colombia:n10 | N/A (For Bogota, these are the neighbourhoods / Para Bogotá, son los barrios) }}}
+| {{{colombia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{comoros:value | '''{{Flagicon|Comoros}}'''<br><small>proposed</small> }}}
+| {{{comoros:n3 | {{n/a|align=left}} }}}
+| {{{comoros:n4 | Les 3 îles (préfectures) }}}
+| {{{comoros:n5 | {{n/a|align=left}} }}}
+| {{{comoros:n6 | {{n/a|align=left}} }}}
+| {{{comoros:n7 | {{n/a|align=left}} }}}
+| {{{comoros:n8 | communes }}}
+| {{{comoros:n9 | {{n/a|align=left}} }}}
+| {{{comoros:n10 | {{n/a|align=left}} }}}
+| {{{comoros:n11 | {{n/a|align=left}} }}}
+|-
+| {{{congo:value | '''{{Flagicon|Congo|Congo-Brazzaville}}'''<br><small>proposed</small> }}}
+| {{{congo:n3 | {{n/a|align=left}} }}}
+| {{{congo:n4 | Départements }}}
+| {{{congo:n5 | in use, arrondissements ? }}}
+| {{{congo:n6 | Districts }}}
+| {{{congo:n7 | {{n/a|align=left}} }}}
+| {{{congo:n8 | in use, fixme }}}
+| {{{congo:n9 | in use, fixme }}}
+| {{{congo:n10 | in use, fixme }}}
+| {{{congo:n11 | {{n/a|align=left}} }}}
+|-
+| {{{drc:value | '''{{Flagicon|Democratic Republic of the Congo}}'''<br> <small>''(proposed by [[User:Claire Halleux|clairedelune]])''</small> }}}
+| {{{drc:n3 | {{n/a|align=left}} }}}
+| {{{drc:n4 | Province (26) }}}
+| {{{drc:n5 | "Ancienne" province }}}
+| {{{drc:n6 | Territoire / Ville }}}
+| {{{drc:n7 | Collectivité (secteur, chefferie, cité) / Commune }}}
+| {{{drc:n8 | Groupement / Quartier }}}
+| {{{drc:n9 | Localité ou village (terroir) / Cellule }}}
+| {{{drc:n10 | Subdivision interne au village / Bloc }}}
+| {{{drc:n11 | {{n/a|align=left}} }}}
+|-
+| {{{costarica:value | '''{{Flagicon|Costa Rica}}''' }}}
+| {{{costarica:n3 | {{n/a|align=left}} }}}
+| {{{costarica:n4 | [[wikipedia:es:Organización_territorial_de_Costa_Rica|Provincia]] }}}
+| {{{costarica:n5 | {{n/a|align=left}} }}}
+| {{{costarica:n6 | [[wikipedia:es:Cantones_de_Costa_Rica|Cantón]] }}}
+| {{{costarica:n7 | {{n/a|align=left}} }}}
+| {{{costarica:n8 | [[wikipedia:es:Distritos_de_Costa_Rica|Distrito]] }}}
+| {{{costarica:n9 | {{n/a|align=left}} }}}
+| {{{costarica:n10 | Barrio }}}
+| {{{costarica:n11 | {{n/a|align=left}} }}}
+|-
+| {{{coteivoire:value | '''{{Flagicon|Côte d'Ivoire}}''' }}}
+| {{{coteivoire:n3 | {{n/a|align=left}} }}}
+| {{{coteivoire:n4 | District (example: Lagunes) ou District autonome (example: Abidjan)<br>place=state ('''not''' <strike>place=district</strike>) }}}
+| {{{coteivoire:n5 | Region (example: Agnéby-Tiassa)<br>place=region }}}
+| {{{coteivoire:n6 | Département (example: Département Sikensi)<br>place=province }}}
+| {{{coteivoire:n7 | Sous-préfecture (example: Sous-prefecture Bingerville)<br>place=county }}}
+| {{{coteivoire:n8 | Commune (example: Yopougon)<br>place=municipality }}}
+| {{{coteivoire:n9 | Village<br>place=village }}}
+| {{{coteivoire:n10 | Quartier<br>place=neighbourhood }}}
+| {{{coteivoire:n11 | {{n/a|align=left}} }}}
+|-
+| {{{croatia:value | '''{{Flagicon|Croatia}}'''<br><small>''(see [[w:hr:Hrvatska#Upravna podjela|Upravna podjela]])'</small> }}}
+| {{{croatia:n3 | {{n/a|align=left}} }}}
+| {{{croatia:n4 | counties (hr: ''županije'') }}}
+| {{{croatia:n5 | {{n/a|align=left}} }}}
+| {{{croatia:n6 | {{n/a|align=left}} }}}
+| {{{croatia:n7 | cities/towns or municipalities (hr: ''gradovi ili općine'') }}}
+| {{{croatia:n8 | settlements (hr: ''naselja'') }}}
+| {{{croatia:n9 | city districts or local committees (hr: ''gradske četvrti/kotari ili mjesni odbori'') }}}
+| {{{croatia:n10 | local committees of Zagreb (hr: ''mjesni odbori Zagreba'') }}}
+| {{{croatia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{cuba:value | '''{{Flagicon|Cuba}}'''<br><small>''(proposed by [[User:Ricky75]], [[User:Carluti]])''</small> }}}
+| {{{cuba:n3 | {{n/a|align=left}} }}}
+| {{{cuba:n4 | Provincia }}}
+| {{{cuba:n5 | {{n/a|align=left}} }}}
+| {{{cuba:n6 | Municipio }}}
+| {{{cuba:n7 | {{n/a|align=left}} }}}
+| {{{cuba:n8 | Ciudades }}}
+| {{{cuba:n9 | {{n/a|align=left}} }}}
+| {{{cuba:n10 | Barrios }}}
+| {{{cuba:n11 | {{n/a|align=left}} }}}
+|-
+| {{{cyprus:value | '''{{Flagicon|Cyprus}} / Κύπρος / Kıbrıs''' }}}
+| {{{cyprus:n3 | ''De facto'' partitions:<br>→ [[wikipedia:Cyprus|Republic of Cyprus]] (RoC)<br>→ [[wikipedia:Northern Cyprus|Turkish Republic of Northern Cyprus]] (TRNC) <small>(de facto a country border hence has passport control, barriers, soldiers etc.)</small><br>→ [[wikipedia:United Nations Buffer Zone in Cyprus|UN buffer zone]] <small>(should also be marked {{Tag|military|danger_area}} where applicable)</small> }}}
+| {{{cyprus:n4 | The 6 [[wikipedia:Districts of Cyprus|''de jure'' Districts]] }}}
+| {{{cyprus:n5 | The 5 districs of RoC and 6 districts of TRNC (LAU 1)}}}
+| {{{cyprus:n6 | Municipalities & Community Clusters (LAU 2)}}}
+| {{{cyprus:n7 | Municipal Quarters}}}
+| {{{cyprus:n8 | Communities }}}
+| {{{cyprus:n9 | Municipality Districts/ Parishes }}}
+| {{{cyprus:n10 | Settlement }}}
+| {{{cyprus:n11 | {{n/a|align=left}} }}}
+|-
+| {{{czechia:value | '''{{Flagicon|Czechia}}''' }}}
+| {{{czechia:n3 | Statistic regions (regiony soudržnosti, NUTS 2) }}}
+| {{{czechia:n4 | Regions (kraje, NUTS 3) }}}
+| {{{czechia:n5 | Districts (okresy, LAU 1), Prague municipal districts (obvody Prahy) }}}
+| {{{czechia:n6 | Správní obvody obcí s rozšířenou působností (SO ORP), Prague administrative districts (správní obvody Prahy) }}}
+| {{{czechia:n7 | Správní obvody obcí s pověřeným úřadem (SO POÚ), Military areas (vojenské újezdy) }}}
+| {{{czechia:n8 | Towns / villages (obce) (LAU 2) }}}
+| {{{czechia:n9 | Municipal parts of autonomous towns (městské části statutárních měst) }}}
+| {{{czechia:n10 | Cadastral places (katastrální území) }}}
+| {{{czechia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{denmark:value | '''{{Flagicon|Denmark}}'''<br><small>''(proposed)''</small> }}}
+| {{{denmark:n3 | {{n/a|align=left}} }}}
+| {{{denmark:n4 | Regioner (regions - administrative unit) }}}
+| {{{denmark:n5 | {{n/a|align=left}} }}}
+| {{{denmark:n6 | {{n/a|align=left}} }}}
+| {{{denmark:n7 | Kommune (municipalities) }}}
+| {{{denmark:n8 | {{n/a|align=left}} }}}
+| {{{denmark:n9 | Christiansø Administration (administration) }}}
+| {{{denmark:n10 | {{n/a|align=left}} }}}
+| {{{denmark:n11 | {{n/a|align=left}} }}}
+|-
+| {{{djibouti:value | '''{{Flagicon|Djibouti}}'''<br><small>proposed</small> }}}
+| {{{djibouti:n3 | {{n/a|align=left}} }}}
+| {{{djibouti:n4 | Régions (إقليم) }}}
+| {{{djibouti:n5 | {{n/a|align=left}} }}}
+| {{{djibouti:n6 | Districts (ar:?) }}}
+| {{{djibouti:n7 | {{n/a|align=left}} }}}
+| {{{djibouti:n8 | Villes, villages (ar:?) }}}
+| {{{djibouti:n9 | {{n/a|align=left}} }}}
+| {{{djibouti:n10 | {{n/a|align=left}} }}}
+| {{{djibouti:n11 | {{n/a|align=left}} }}}
+|-
+| {{{dominica:value | '''{{Flagicon|Dominica}}'''<br><small>proposed</small> }}}
+| {{{dominica:n3 | {{n/a|align=left}} }}}
+| {{{dominica:n4 | Parishes }}}
+| {{{dominica:n5 | {{n/a|align=left}} }}}
+| {{{dominica:n6 | in use, city ? }}}
+| {{{dominica:n7 | {{n/a|align=left}} }}}
+| {{{dominica:n8 | {{n/a|align=left}} }}}
+| {{{dominica:n9 | {{n/a|align=left}} }}}
+| {{{dominica:n10 | in use, quarter ? }}}
+| {{{dominica:n11 | {{n/a|align=left}} }}}
+|-
+| {{{dominican:value | '''{{Flagicon|Dominican Republic}}'''<br><small>''([[WikiProject Dominican Republic#Boundaries|proposed]])''</small> }}}
+| {{{dominican:n3 | {{n/a|align=left}} }}}
+| {{{dominican:n4 | Province (Provincia) }}}
+| {{{dominican:n5 | {{n/a|align=left}} }}}
+| {{{dominican:n6 | Municipality (Municipio) }}}
+| {{{dominican:n7 | {{n/a|align=left}} }}}
+| {{{dominican:n8 | District (Distrito municipal) }}}
+| {{{dominican:n9 | {{n/a|align=left}} }}}
+| {{{dominican:n10 | {{n/a|align=left}} }}}
+| {{{dominican:n11 | {{n/a|align=left}} }}}
+|-
+| {{{ecuador:value | '''{{Flagicon|Ecuador}}'''<br><small>''(proposed by [[User:Temporalista|Temporalista]])''</small> }}}
+| {{{ecuador:n3 | {{n/a|align=left}} }}}
+| {{{ecuador:n4 | Provincia }}}
+| {{{ecuador:n5 | {{n/a|align=left}} }}}
+| {{{ecuador:n6 | Cantón }}}
+| {{{ecuador:n7 | Límite Urbano (ciudades) }}}
+| {{{ecuador:n8 | Parroquia }}}
+| {{{ecuador:n9 | Barrio (Urbano), Comunidad (Rural) }}}
+| {{{ecuador:n10 | N/A (¿sectores censales?) }}}
+| {{{ecuador:n11 | {{n/a|align=left}} }}}
+|-
+| {{{egypt:value | '''{{Flagicon|Egypt}}'''<br><small>''(proposed by [[User:Metehyi|Metehyi]])''</small> }}}
+| {{{egypt:n3 | {{n/a|align=left}} }}}
+| {{{egypt:n4 | Governorate (Muhafazah محافظة) }}}
+| {{{egypt:n5 | {{n/a|align=left}} }}}
+| {{{egypt:n6 | {{n/a|align=left}} }}}
+| {{{egypt:n7 | Municipal division }}}
+| {{{egypt:n8 | fixme }}}
+| {{{egypt:n9 | fixme }}}
+| {{{egypt:n10 | {{n/a|align=left}} }}}
+| {{{egypt:n11 | {{n/a|align=left}} }}}
+|-
+| {{{elsalvador:value | '''{{Flagicon|El Salvador}}'''<br><small>''(proposed by [[User:AragonChristopherR17z|AragonChristopherR17z]])''</small> }}}
+| {{{elsalvador:n3 | {{n/a|align=left}} }}}
+| {{{elsalvador:n4 | Departamento }}}
+| {{{elsalvador:n5 | Distrito }}}
+| {{{elsalvador:n6 | Municipio }}}
+| {{{elsalvador:n7 | Cantón }}}
+| {{{elsalvador:n8 | Caserío }}}
+| {{{elsalvador:n9 | Barrio/Colonia }}}
+| {{{elsalvador:n10 | {{n/a|align=left}} }}}
+| {{{elsalvador:n11 | {{n/a|align=left}} }}}
+|-
+| {{{equguinea:value | '''{{Flagicon|Equatorial Guinea}}'''<br><small>''(proposed by [[User:johanemilsson|johanemilsson]])''</small> }}}
+| {{{equguinea:n3 | Regiones (Insular Region and Continental Region) }}}
+| {{{equguinea:n4 | Provincias }}}
+| {{{equguinea:n5 | {{n/a|align=left}} }}}
+| {{{equguinea:n6 | Districts }}}
+| {{{equguinea:n7 | {{n/a|align=left}} }}}
+| {{{equguinea:n8 | {{n/a|align=left}} }}}
+| {{{equguinea:n9 | {{n/a|align=left}} }}}
+| {{{equguinea:n10 | {{n/a|align=left}} }}}
+| {{{equguinea:n11 | {{n/a|align=left}} }}}
+|-
+| {{{eritrea:value | '''{{Flagicon|Eritrea}}'''<br><small>proposed</small> }}}
+| {{{eritrea:n3 | {{n/a|align=left}} }}}
+| {{{eritrea:n4 | Régions (ti:ዞባ, ar:إقليم) }}}
+| {{{eritrea:n5 | {{n/a|align=left}} }}}
+| {{{eritrea:n6 | {{n/a|align=left}} }}}
+| {{{eritrea:n7 | {{n/a|align=left}} }}}
+| {{{eritrea:n8 | {{n/a|align=left}} }}}
+| {{{eritrea:n9 | {{n/a|align=left}} }}}
+| {{{eritrea:n10 | {{n/a|align=left}} }}}
+| {{{eritrea:n11 | {{n/a|align=left}} }}}
+|-
+| {{{estonia:value | '''{{Flagicon|Estonia}}'''<br><small>''([[Talk:WikiProject Estonia#admin_level|proposed]])''</small> }}}
+| {{{estonia:n3 | {{n/a|align=left}} }}}
+| {{{estonia:n4 | {{n/a|align=left}} }}}
+| {{{estonia:n5 | {{n/a|align=left}} }}}
+| {{{estonia:n6 | Countys (''maakonnad'') }}}
+| {{{estonia:n7 | Municipalities (''vallad, omavalitsuslikud linnad'') }}}
+| {{{estonia:n8 | Tallinn and Kohtla-Järve (as settlement units) }}}
+| {{{estonia:n9 | Settlement units (''asustusüksused: külad, alevikud, alevid, vallasisesed linnad''), city districts (''linnaosad'', in Tallinn and Kohtla-Järve) }}}
+| {{{estonia:n10 | Subdistricts (''asumid'', in Tallinn) }}}
+| {{{estonia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{eswatini:value | '''{{Flagicon|Eswatini|Swaziland}}'''<br><small>''(proposed by [[User:Htonl|Adrian Frith]])''</small> }}}
+| {{{eswatini:n3 | {{n/a|align=left}} }}}
+| {{{eswatini:n4 | ''Tifundza'' (regions) }}}
+| {{{eswatini:n5 | {{n/a|align=left}} }}}
+| {{{eswatini:n6 | ''Tinkhundla'' (constituencies) }}}
+| {{{eswatini:n7 | {{n/a|align=left}} }}}
+| {{{eswatini:n8 | ''Imiphakatsi'' (chiefdoms) }}}
+| {{{eswatini:n9 | {{n/a|align=left}} }}}
+| {{{eswatini:n10 | {{n/a|align=left}} }}}
+| {{{eswatini:n11 | {{n/a|align=left}} }}}
+|-
+| {{{ethiopia:value | '''{{Flagicon|Ethiopia}}'''<br><small>''(proposed by [[User:Ukundji|Ukundji]])''</small> }}}
+| {{{ethiopia:n3 | {{n/a|align=left}} }}}
+| {{{ethiopia:n4 | Administrative States (9) }}}
+| {{{ethiopia:n5 | Zones (68+2) }}}
+| {{{ethiopia:n6 | Woreda (550+6) }}}
+| {{{ethiopia:n7 | {{n/a|align=left}} }}}
+| {{{ethiopia:n8 | Kebele }}}
+| {{{ethiopia:n9 | {{n/a|align=left}} }}}
+| {{{ethiopia:n10 | villages (Gots) }}}
+| {{{ethiopia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{fiji:value | '''{{Flagicon|Fiji}}'''<br><small>proposed</small> }}}
+| {{{fiji:n3 | {{n/a|align=left}} }}}
+| {{{fiji:n4 | Divisions }}}
+| {{{fiji:n5 | {{n/a|align=left}} }}}
+| {{{fiji:n6 | Provinces }}}
+| {{{fiji:n7 | {{n/a|align=left}} }}}
+| {{{fiji:n8 | {{n/a|align=left}} }}}
+| {{{fiji:n9 | {{n/a|align=left}} }}}
+| {{{fiji:n10 | {{n/a|align=left}} }}}
+| {{{fiji:n11 | {{n/a|align=left}} }}}
+|-
+| {{{finland:value | '''{{Flagicon|Finland}}'''<br><small>''(proposed by [[User:Boozeman|Boozeman]], augmented by [[User:Skela|Skela]])''</small> }}}
+| {{{finland:n3 | Main areas (Pääalueet, [[wikipedia:fi:NUTS:FI|NUTS]] 1): Manner-Suomi }}}
+| {{{finland:n4 | Regions (Maakunnat, [[wikipedia:fi:NUTS:FI|NUTS]] 3): [//www.openstreetmap.org/browse/relation/37355 Uusimaa] }}}
+| {{{finland:n5 | {{n/a|align=left}} }}}
+| {{{finland:n6 | {{n/a|align=left}} }}}
+| {{{finland:n7 | Sub-regions (Seutukunnat, [[wikipedia:fi:LAU:FI|LAU]] 1): [//www.openstreetmap.org/browse/relation/38101 Helsingin seutukunta] }}}
+| {{{finland:n8 | municipalities (Kunnat / Kaupungit, [[wikipedia:fi:LAU:FI|LAU]] 2, <small>for {{Key|ref}}, see [http://www.vrk.fi/ Väestörekisterikeskus], kuntaluettelo): [//www.openstreetmap.org/browse/relation/34914 Helsinki]</small> }}}
+| {{{finland:n9 | villages (kylät), Kaupunginosien/kunnanosien suuralueet (Helsinki; Espoo, Vantaa ...) }}}
+| {{{finland:n10 | City/municipal districts(kaupunginosat/kunnanosat): [//www.openstreetmap.org/browse/relation/188175 Kulosaari] }}}
+| {{{finland:n11 | {{n/a|align=left}} }}}
+|-
+| rowspan="2" | {{{france:value | '''{{Flagicon|France}}'''<br><small>([[WikiProject France/Tracer les limites administratives|in use]])''</small> }}}
+| {{{france:n3_1 | Territorial areas<br><small>''(non purely administrative: one for Metropolitan France including Corsica, and one for each overseas departement)''</small><br>Overseas collectivities }}}
+| {{{france:n4_1 | Régions<br><small>''(note: 7 régions have replaced the 16 former régions still used by NUTS2 and ISO3166-2)''</small> }}}
+| {{{france:n5_1 | Circonscription départementale<br> <small>''(replacing a splitted former department, for the préfecture of Rhône, still used by NUTS3 and ISO3166-2)''</small> }}}
+| {{{france:n6_1 | Départements<br><small>''(similar to NUTS3 and ISO3166-2), including the new department of Rhône (a sous-préfecture)<br>The Métropole de Lyon (also a sous-préfecture)''</small> }}}
+| {{{france:n7_1 | Arrondissements<br><small>''(subdivision of departements around a sous-préfecture)<br>(note: previously used for EPCI, which are now outside the admin_level scheme)''</small> }}}
+| {{{france:n8_1 | Communes<br><small>''Use {{Key|name}} to indicate the name of the commune, and {{Key|ref:INSEE}} to indicate the unique identifier given by INSEE (COG).''</small> }}}
+| {{{france:n9_1 | Arrondissements municipaux (in Paris, Lyon, Marseille only), or communes associées and communes déléguées (in partially merged communes). }}}
+| {{{france:n10_1 | Quartiers<br><small>''(used for the local democracy).<br> May also be subdivided at level 11 into micro-quartiers in some densely populated cities.''</small> }}}
+| {{{france:n11 | rowspan="2" {{n/a|align=left}} }}}
+|-
+| {{{france:n3_2 | '''{{Flagicon|French Polynesia}}''' }}}
+| {{{france:n4_2 | {{n/a|align=left}} }}}
+| {{{france:n5_2 | {{n/a|align=left}} }}}
+| {{{france:n6_2 | Administrative subdivisions <br><small>''(ISLV, IDV, Marquises, Tuamotu-Gambiers, Australes)''</small>}}}
+| {{{france:n7_2 | {{n/a|align=left}} }}}
+| {{{france:n8_2 | Communes <br><small>''(unitaires ou groupées)''</small> }}}
+| {{{france:n9_2 | Communes associées }}}
+| {{{france:n10_2 | Districts, quartiers, ou ile <br><small>''(for info, non administrative)''</small>}}}
+|-
+| {{{gabon:value | '''{{Flagicon|Gabon}}'''<br><small>''(proposed by [[User:johanemilsson|johanemilsson]])''</small> }}}
+| {{{gabon:n3 | {{n/a|align=left}} }}}
+| {{{gabon:n4 | Provinces }}}
+| {{{gabon:n5 | {{n/a|align=left}} }}}
+| {{{gabon:n6 | Departments }}}
+| {{{gabon:n7 | {{n/a|align=left}} }}}
+| {{{gabon:n8 | {{n/a|align=left}} }}}
+| {{{gabon:n9 | {{n/a|align=left}} }}}
+| {{{gabon:n10 | {{n/a|align=left}} }}}
+| {{{gabon:n11 | {{n/a|align=left}} }}}
+|-
+| {{{gambia:value | '''{{Flagicon|Gambia}}'''<br><small>''(proposed by [[User:kalc|kalc]] 7 May 2017)''</small> }}}
+| {{{gambia:n3 | {{n/a|align=left}} }}}
+| {{{gambia:n4 | [[wikipedia:Subdivisions of the Gambia|Regions (Divisions)]] }}}
+| {{{gambia:n5 | [[wikipedia:Local government areas of the Gambia|LGAs]] }}}
+| {{{gambia:n6 | [[wikipedia:Districts of the Gambia|Districts]] }}}
+| {{{gambia:n7 | {{n/a|align=left}} }}}
+| {{{gambia:n8 | {{n/a|align=left}} }}}
+| {{{gambia:n9 | {{n/a|align=left}} }}}
+| {{{gambia:n10 | {{n/a|align=left}} }}}
+| {{{gambia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{georgia:value | '''{{Flagicon|Georgia}}'''<br><small>''(Details - [[Administrative Divisions of Georgia]])''</small> }}}
+| {{{georgia:n3 | Borders of the disputed territories (Abkhazia/Autonomous Republic of Abkhazia, South Ossetia/Samachablo) }}}
+| {{{georgia:n4 | Borders of autonomous republics, regions and Tbilisi (as a region itself) }}}
+| {{{georgia:n5 | {{n/a|align=left}} }}}
+| {{{georgia:n6 | Borders of municipalities }}}
+| {{{georgia:n7 | {{n/a|align=left}} }}}
+| {{{georgia:n8 | Cities limits }}}
+| {{{georgia:n9 | {{n/a|align=left}} }}}
+| {{{georgia:n10 | Borders of cities' administrative districts }}}
+| {{{georgia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{germany:value | '''''new levels:'''''<br><br>'''{{flagicon|Germany}}'''<br><small>''see also [[de:Grenze|Grenzen in Deutschland]]<br>and [[Talk:Key:boundary#Use_of_border_types_in_Germany_2|Diskussionsseite / discussion page]]</small> }}}
+| {{{germany:n3 | {{n/a|align=left}} }}}
+| {{{germany:n4 | ''federal states border''<br><br>Bundesland<br><br>NUTS 1 }}}
+| {{{germany:n5 | ''state-district border''<br><br>Regierungsbezirk<br><br>NUTS 2 }}}
+| {{{germany:n6 | ''county borders''<br><br>Landkreis / Kreis / kreisfreie Stadt<br><br>NUTS 3 }}}
+| {{{germany:n7 | ''amt'' [http://en.wikipedia.org/wiki/Amt_(political_division)]<br><br>Samtgemeinde, Verwaltungsgemeinschaft<br><br>LAU 1 (aka NUTS 4) }}}
+| {{{germany:n8 | ''Towns, Municipalities / City-districts''<br><br>Stadt, Gemeinde<br><br>LAU 2 (aka NUTS 5) }}}
+| {{{germany:n9 | '' Parts of a municipality with parish councils /self_government''<br><br>Stadtbezirk / Gemeindeteil mit Selbstverwaltung }}}
+| {{{germany:n10 | ''Parts of a municipality without ...''<br><br>Stadtteil / Gemeindeteil ohne Selbstverwaltung / Gemarkung }}}
+| {{{germany:n11 | subdivision of Gemarkung<br>Flur }}}
+|-
+| {{{ghana:value | '''{{Flagicon|Ghana}}'''<br><small>''(proposed)''</small> }}}
+| {{{ghana:n3 | {{n/a|align=left}} }}}
+| {{{ghana:n4 | [[wikipedia:Regions of Ghana|Region]] }}}
+| {{{ghana:n5 | {{n/a|align=left}} }}}
+| {{{ghana:n6 | [[wikipedia:Districts of Ghana|District]] }}}
+| {{{ghana:n7 | {{n/a|align=left}} }}}
+| {{{ghana:n8 | Town/Village }}}
+| {{{ghana:n9 | {{n/a|align=left}} }}}
+| {{{ghana:n10 | Neighborhood/Borrow }}}
+| {{{ghana:n11 | {{n/a|align=left}} }}}
+|-
+| {{{greece:value | '''{{Flagicon|Greece}}'''<br><small>''(proposed)''</small> }}}
+| {{{greece:n3 | Όρια {{Wikipedia|el|icon=no|text=no|Άγιο Όρος|Αυτόνομης Μοναστικής Πολιτείας Αγίου Όρους}} }}}
+| {{{greece:n4 | Όρια {{Wikipedia|el|icon=no|text=no|Αποκεντρωμένες διοικήσεις της Ελλάδας|αποκεντρωμένων διοικήσεων}} }}}
+| {{{greece:n5 | Όρια {{Wikipedia|el|icon=no|text=no|Περιφέρειες της Ελλάδας|Περιφερειών}} (NUTS 2) }}}
+| {{{greece:n6 | Όρια {{Wikipedia|el|icon=no|text=no|Περιφερειακές ενότητες της Ελλάδας|Περιφερειακών ενοτήτων}} (NUTS 3) }}}
+| {{{greece:n7 | Όρια {{Wikipedia|el|icon=no|text=no|Δήμοι της Ελλάδας|Δήμων}} }}}
+| {{{greece:n8 | Όρια {{Wikipedia|el|icon=no|text=no|Δημοτική ενότητα|Δημοτικών ενοτήτων}} }}}
+| {{{greece:n9 | Όρια {{Wikipedia|el|icon=no|text=no|Κοινότητα (τοπική αυτοδιοίκηση)|Δημοτικών κοινοτήτων}} (LAU) }}}
+| {{{greece:n10 | {{n/a|align=left}} }}}
+| {{{greece:n11 | {{n/a|align=left}} }}}
+|-
+| {{{grenada:value | '''{{Flagicon|Grenada|Grenada|Grenada}}'''<br><small>proposed</small> }}}
+| {{{grenada:n3 | {{n/a|align=left}} }}}
+| {{{grenada:n4 | {{n/a|align=left}} }}}
+| {{{grenada:n5 | {{n/a|align=left}} }}}
+| {{{grenada:n6 | Parriches (6) / Dependency (1) }}}
+| {{{grenada:n7 | {{n/a|align=left}} }}}
+| {{{grenada:n8 | {{n/a|align=left}} }}}
+| {{{grenada:n9 | {{n/a|align=left}} }}}
+| {{{grenada:n10 | {{n/a|align=left}} }}}
+| {{{grenada:n11 | {{n/a|align=left}} }}}
+|-
+| {{{guatemala:value | '''{{Flagicon|Guatemala}}'''<br><small>''(proposed by [[User:Setian|Esteban Ortiz]] 21 June 2009''</small> }}}
+| {{{guatemala:n3 | {{n/a|align=left}} }}}
+| {{{guatemala:n4 | State border ''(Departamentos)'' }}}
+| {{{guatemala:n5 | {{n/a|align=left}} }}}
+| {{{guatemala:n6 | Municipal border ''(Municipios)'' }}}
+| {{{guatemala:n7 | {{n/a|align=left}} }}}
+| {{{guatemala:n8 | City and town border ''(Zonas)'' }}}
+| {{{guatemala:n9 | {{n/a|align=left}} }}}
+| {{{guatemala:n10 | {{n/a|align=left}} }}}
+| {{{guatemala:n11 | {{n/a|align=left}} }}}
+|-
+| {{{guernsey:value | '''{{Flagicon|Guernsey}}'''<br><small>''(in use)''</small> }}}
+| {{{guernsey:n3 | {{n/a|align=left}} }}}
+| {{{guernsey:n4 | Islands with separate jurisdictions: Guernsey (incl. Herm and Jethou), Alderney, Sark (incl. Brecqhou) }}}
+| {{{guernsey:n5 | {{n/a|align=left}} }}}
+| {{{guernsey:n6 | {{n/a|align=left}} }}}
+| {{{guernsey:n7 | {{n/a|align=left}} }}}
+| {{{guernsey:n8 | [[wikipedia:Parishes of Guernsey|Parishes]] }}}
+| {{{guernsey:n9 | Subdivisions of Vale (Vingtaine de l'Epine and Clos du Valle) }}}
+| {{{guernsey:n10 | Cantons (St. Peter Port) }}}
+| {{{guernsey:n11 | {{n/a|align=left}} }}}
+|-
+| {{{guinea:value | '''{{Flagicon|Guinea}}'''<br><small>''(proposed / used)''</small> }}}
+| {{{guinea:n3 | {{n/a|align=left}} }}}
+| {{{guinea:n4 | [[wikipedia:Regions of Guinea|Region]] }}}
+| {{{guinea:n5 | {{n/a|align=left}} }}}
+| {{{guinea:n6 | [[wikipedia:Prefectures of Guinea|Prefectures]] }}}
+| {{{guinea:n7 | {{n/a|align=left}} }}}
+| {{{guinea:n8 | [[wikipedia:Sub-prefectures of Guinea|Sub-prefectures (Communes)]] }}}
+| {{{guinea:n9 | Villages / Towns }}}
+| {{{guinea:n10 | Quartiers (Neighbourhoods) }}}
+| {{{guinea:n11 | {{n/a|align=left}} }}}
+|-
+| {{{guineabissau:value | '''{{Flagicon|Guinea-Bissau}}'''<br><small>proposed</small> }}}
+| {{{guineabissau:n3 | Bissau Autonomous Sector (Sector autónomo de Bissau) / Provinces (provincias) }}}
+| {{{guineabissau:n4 | Regions (regiões) }}}
+| {{{guineabissau:n5 | {{n/a|align=left}} }}}
+| {{{guineabissau:n6 | Sectors (sectores) }}}
+| {{{guineabissau:n7 | {{n/a|align=left}} }}}
+| {{{guineabissau:n8 | {{n/a|align=left}} }}}
+| {{{guineabissau:n9 | {{n/a|align=left}} }}}
+| {{{guineabissau:n10 | {{n/a|align=left}} }}}
+| {{{guineabissau:n11 | {{n/a|align=left}} }}}
+|-
+| {{{guyana:value | '''{{Flagicon|Guyana}}'''<br><small>proposed</small> }}}
+| {{{guyana:n3 | {{n/a|align=left}} }}}
+| {{{guyana:n4 | Regions }}}
+| {{{guyana:n5 | {{n/a|align=left}} }}}
+| {{{guyana:n6 | Neighbourhood Democratic Councils }}}
+| {{{guyana:n7 | {{n/a|align=left}} }}}
+| {{{guyana:n8 | Districts ? }}}
+| {{{guyana:n9 | {{n/a|align=left}} }}}
+| {{{guyana:n10 | Quarters/Neighbourhoods ? }}}
+| {{{guyana:n11 | {{n/a|align=left}} }}}
+|-
+| {{{haiti:value | '''{{Flagicon|Haiti}}''' (Republic of)<br><small>''(proposed by [[User:Vsandre|Vsandre]] 15 January 2010''</small> }}}
+| {{{haiti:n3 | {{n/a|align=left}} }}}
+| {{{haiti:n4 | State border ''(Départements)'' (Layer 1) }}}
+| {{{haiti:n5 | Districts ''(Arrondissements)'' }}}
+| {{{haiti:n6 | Search-And-Rescue sectors ('''temporary''') }}}
+| {{{haiti:n7 | {{n/a|align=left}} }}}
+| {{{haiti:n8 | City and town border ''(communes)'' (Layer 2) }}}
+| {{{haiti:n9 | {{n/a|align=left}} }}}
+| {{{haiti:n10 | Suburbs ''(sections)'' (Layer 3) }}}
+| {{{haiti:n11 | {{n/a|align=left}} }}}
+|-
+| {{{holysee:value | '''{{Flagicon|Vatican City|Holy See (Vatican City)}}'''<br><small>proposed</small> }}}
+| {{{holysee:n3 | {{n/a|align=left}} }}}
+| {{{holysee:n4 | {{n/a|align=left}} }}}
+| {{{holysee:n5 | {{n/a|align=left}} }}}
+| {{{holysee:n6 | {{n/a|align=left}} }}}
+| {{{holysee:n7 | {{n/a|align=left}} }}}
+| {{{holysee:n8 | {{n/a|align=left}} }}}
+| {{{holysee:n9 | {{n/a|align=left}} }}}
+| {{{holysee:n10 | {{n/a|align=left}} }}}
+| {{{holysee:n11 | {{n/a|align=left}} }}}
+|-
+| {{{honduras:value | '''{{Flagicon|Honduras}}'''<br><small>''(proposed by [[User:antoniolocandro|Antonio Locandro]] 11 March 2014)''</small> }}}
+| {{{honduras:n3 | {{n/a|align=left}} }}}
+| {{{honduras:n4 | ''Departamentos'' (State Border) }}}
+| {{{honduras:n5 | {{n/a|align=left}} }}}
+| {{{honduras:n6 | ''Municipios'' (Municipal Border) }}}
+| {{{honduras:n7 | {{n/a|align=left}} }}}
+| {{{honduras:n8 | ''Aldeas'' (Admin level border which encompass several towns / cities) }}}
+| {{{honduras:n9 | ''Ciudades'' (Cities) }}}
+| {{{honduras:n10 | ''Barrios y Colonias'' (Neighborhoods) }}}
+| {{{honduras:n11 | {{n/a|align=left}} }}}
+|-
+| {{{hungary:value | '''{{Flagicon|Hungary}}'''<br><small>''(proposed / used)''</small> }}}
+| {{{hungary:n3 | {{n/a|align=left}} }}}
+| {{{hungary:n4 | Országrészek ''(Groups of Regions, NUTS 1)'' }}}
+| {{{hungary:n5 | Régiók ''(Regions, NUTS 2)'' }}}
+| {{{hungary:n6 | Megyék / főváros ''(Counties / capital city, NUTS 3)'' }}}
+| {{{hungary:n7 | Járások ''(LAU 1)'' }}}
+| {{{hungary:n8 | Települések ''(LAU 2)'' }}}
+| {{{hungary:n9 | Kerületek ''(Districts)'' }}}
+| {{{hungary:n10 | {{n/a|align=left}} }}}
+| {{{hungary:n11 | {{n/a|align=left}} }}}
+|-
+| {{{iceland:value | '''{{Flagicon|Iceland}}''' }}}
+| {{{iceland:n3 | {{n/a|align=left}} }}}
+| {{{iceland:n4 | {{n/a|align=left}} }}}
+| {{{iceland:n5 | [[wikipedia:en:Regions of Iceland|Landshlutar]] - ''Regions'' }}}
+| {{{iceland:n6 | [[:Image:Sveitarfélög-landsvæði.png|Sveitarfélög]] - ''Municipalities'' }}}
+| {{{iceland:n7 | {{n/a|align=left}} }}}
+| {{{iceland:n8 | {{n/a|align=left}} }}}
+| {{{iceland:n9 | Hverfi - ''Districts'' }}}
+| {{{iceland:n10 | Hverfahlutar - ''Neighbourhoods'' }}}
+| {{{iceland:n11 | {{n/a|align=left}} }}}
+|-
+| {{{india:value | '''{{Flagicon|India}}'''<br><small>''(see also [[wikipedia:Administrative divisions of India|administrative divisions]])''</small> }}}
+| {{{india:n3 | {{n/a|align=left}} }}}
+| {{{india:n4 | State }}}
+| {{{india:n5 | [[Districts in India|District]] }}}
+| {{{india:n6 | [[Subdistricts in India|Subdistrict (Tehsil / Mandal / Taluk)]] }}}
+| {{{india:n7 | Metropolitan Area }}}
+| {{{india:n8 | Municipal Corporation / Municipality / City Council }}}
+| {{{india:n9 | Civic Zone }}}
+| {{{india:n10 | Village/Civic Ward }}}
+| {{{india:n11 | {{n/a|align=left}} }}}
+|-
+| {{{indonesia:value | '''{{Flagicon|Indonesia}}''' }}}
+| {{{indonesia:n3 | {{n/a|align=left}} }}}
+| {{{indonesia:n4 | Province (Provinsi / Daerah Istimewa / Daerah Khusus) }}}
+| {{{indonesia:n5 | City / Regency (Kota / Kota Administrasi / Kabupaten / Kabupaten Administrasi / Kotamadya) }}}
+| {{{indonesia:n6 | District (Kecamatan / Distrik / Kapanewon / Kemantren ) }}}
+| {{{indonesia:n7 | Village (Kelurahan / Desa / Gampong / Kampung / Pekon / Nagari) }}}
+| {{{indonesia:n8 | Hamlet (Dusun) }}}
+| {{{indonesia:n9 | Community Group (Rukun Warga) }}}
+| {{{indonesia:n10 | Neighborhood Unit (Rukun Tetangga) }}}
+| {{{indonesia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{iran:value | '''{{Flagicon|Iran}}''' }}}
+| {{{iran:n3 | {{n/a|align=left}} }}}
+| {{{iran:n4 | Province (استان / Ostan) }}}
+| {{{iran:n5 | County (شهرستان / Shahrestan) }}}
+| {{{iran:n6 | District (بخش /Bakhsh) }}}
+| {{{iran:n7 | • City (شهر / Shahr) <br> • Municipality or rural agglomeration (دهستان / Dehestan) }}}
+| {{{iran:n8 | Village (روستا / Rousta) }}}
+| {{{iran:n9 | Urban District (منطقه شهری) }}}
+| {{{iran:n10 | Urban Area (ناحیه شهری) }}}
+| {{{iran:n11 | Neighborhood (محله / Mahaleh) }}}
+|-
+| {{{iraq:value | '''{{Flagicon|Iraq}}'''<br><small>''(proposed by [[User:johanemilsson|johanemilsson]], modified [[User:Øukasz|Øukasz]]''</small> }}}
+| {{{iraq:n3 | [[wikipedia:Iraqi Kurdistan|Iraqi Kurdistan]] (Arbil, Duhok, Sulaymaniyah) region }}}
+| {{{iraq:n4 | Governorates (muḥāfażah) }}}
+| {{{iraq:n5 | {{n/a|align=left}} }}}
+| {{{iraq:n6 | Districts (qadha) }}}
+| {{{iraq:n7 | Subdistricts (nahya) }}}
+| {{{iraq:n8 | Boroughs (hay) in urban and Counties (mukataa) in rural areas }}}
+| {{{iraq:n9 | Neighbourhoods (mahalla) in urban and Villages (qarya) in rural areas }}}
+| {{{iraq:n10 | {{n/a|align=left}} }}}
+| {{{iraq:n11 | {{n/a|align=left}} }}}
+|-
+| {{{ireland:value | '''{{Flagicon|Ireland}}''' }}}
+| {{{ireland:n3 | {{n/a|align=left}} }}}
+| {{{ireland:n4 | Reserved for compatibility with UK states (eg Northern Ireland) }}}
+| {{{ireland:n5 | Province }}}
+| {{{ireland:n6 | County }}}
+| {{{ireland:n7 | Adminstrative County, County City }}}
+| {{{ireland:n8 | Borough & Town council, Dublin Postal Districts }}}
+| {{{ireland:n9 | Electoral Division }}}
+| {{{ireland:n10 | Townland }}}
+| {{{ireland:n11 | {{n/a|align=left}} }}}
+|-
+| {{{israel:value | '''{{Flagicon|Israel}}'''<br>'''{{Flagicon|Palestine}}''' }}}
+| {{{israel:n3 | {{n/a|align=left}} }}}
+| {{{israel:n4 | מחוז<br>(כולל הגדה המערבית ורצועת עזה)<br>District<br>(including West Bank and Gaza Strip) }}}
+| {{{israel:n5 | נפה<br>תחומי A, B, C של הגדה המערבית<br>Subdistrict<br>Areas A, B, C of West Bank }}}
+| {{{israel:n6 | אזור טבעי<br>(בשטח פלסטיני: נפה)<br>Natural Region<br>(In Palestinian Territory: Subdistrict) }}}
+| {{{israel:n7 | מטרופולין<br>Metropolitan area }}}
+| {{{israel:n8 | עיר, מועצה מקומית, מועצה אזורית<br>בשטחים הפלסטיניים: עירייה רמה א' או ב'<br>City, Local council, Regional council<br>In Palestinian Territory: Muncipality (grade 1, 2) }}}
+| {{{israel:n9 | תחת עיר ומועצה מקומית: רובע<br>תחת מועצה אזורית: יישוב<br>בשטחים הפלסטיניים: עירייה רמה ג' או ד'<br>Under city and local council: Borough<br>Under regional council: Village<br>In Palestinian Territory: Muncipality (grade 3, 4) }}}
+| {{{israel:n10 | שכונה<br>Neighborhood }}}
+| {{{israel:n11 | {{n/a|align=left}} }}}
+|-
+| {{{italy:value | '''{{Flagicon|Italy}}'''<br><small>''(as discussed on the Italian Mailing list Vol 16, Issue 27, [[User:Dieterdreist|Dieterdreist]] - Updated March 9 2019 [[User:IlBano|Ilbano]])''</small> }}}
+| {{{italy:n3 | {{n/a|align=left}} }}}
+| {{{italy:n4 | per i confini regionali (en: boundary of regions) }}}
+| {{{italy:n5 | {{n/a|align=left}} }}}
+| {{{italy:n6 | per i confini provinciali (en: boundary of provinces) }}}
+| {{{italy:n7 | per le comunità montane (en: mountain community) o le unioni di comuni (en: union of municipalities) }}}
+| {{{italy:n8 | per i confini comunali (en: boundary of municipalities) }}}
+| {{{italy:n9 | {{n/a|align=left}} }}}
+| {{{italy:n10 | per le circoscrizioni (dove sono rimaste) o per le località (en: boundary of districts) }}}
+| {{{italy:n11 | {{n/a|align=left}} }}}
+|-
+| {{{jamaica:value | '''{{Flagicon|Jamaica}}'''<br><small>proposed</small> }}}
+| {{{jamaica:n3 | {{n/a|align=left}} }}}
+| {{{jamaica:n4 | {{n/a|align=left}} }}}
+| {{{jamaica:n5 | Counties }}}
+| {{{jamaica:n6 | Parishes }}}
+| {{{jamaica:n7 | {{n/a|align=left}} }}}
+| {{{jamaica:n8 | Settlements (Cities, Towns, Villages ?) }}}
+| {{{jamaica:n9 | Settlements (Villages ?, Hamlets) }}}
+| {{{jamaica:n10 | {{n/a|align=left}} }}}
+| {{{jamaica:n11 | {{n/a|align=left}} }}}
+|-
+| {{{japan:value | '''{{Flagicon|Japan}}'''<br><small>''(copied from [[Japan tagging#Boundary]])''</small> }}}
+| {{{japan:n3 | Reserved for [[wikipedia:State (country subdivision)|state]] border - [[wikipedia:ja:道州制|道州制]]) }}}
+| {{{japan:n4 | Prefecture border }}}
+| {{{japan:n5 | Sub Prefecture border (振興局・支庁 in Hokkaido) }}}
+| {{{japan:n6 | County (郡) }}}
+| {{{japan:n7 | Municipal border (Cities, Towns, Villages, Special wards of Tokyo) }}}
+| {{{japan:n8 | Suburb; Wards of cities designated by government ordinance [[wikipedia:ja:政令指定都市|政令指定都市]] , Wards designated by local ordinance - [[wikipedia:ja:地域自治区|地域自治区]] }}}
+| {{{japan:n9 | Quarter; Major Neighbourhood - [[wikipedia:ja:住居表示|大字]] (大字の下に字がある地域の場合のみ使用、それ以外はneighbourhood) }}}
+| {{{japan:n10 | Neighbourhood ; Minor Neighbourhood - [[wikipedia:ja:住居表示|町, 字, 丁, 丁目]] (字名が「大字-字」の2段階になってない場合は、すべてこちら) }}}
+| {{{japan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{jersey:value | '''{{Flagicon|Jersey}}'''<br><small>''(in use)''</small> }}}
+| {{{jersey:n3 | {{n/a|align=left}} }}}
+| {{{jersey:n4 | {{n/a|align=left}} }}}
+| {{{jersey:n5 | {{n/a|align=left}} }}}
+| {{{jersey:n6 | {{n/a|align=left}} }}}
+| {{{jersey:n7 | {{n/a|align=left}} }}}
+| {{{jersey:n8 | [[wikipedia:Parishes of Jersey|Parishes]] }}}
+| {{{jersey:n9 | [[wikipedia:Vingtaine|Vingtaines]] (cueillettes in St. Ouen) }}}
+| {{{jersey:n10 | Cantons (St. Helier) }}}
+| {{{jersey:n11 | {{n/a|align=left}} }}}
+|-
+| {{{jordan:value | '''{{Flagicon|Jordan}}''' }}}
+| {{{jordan:n3 | {{n/a|align=left}} }}}
+| {{{jordan:n4 | Governorate }}}
+| {{{jordan:n5 | {{n/a|align=left}} }}}
+| {{{jordan:n6 | District }}}
+| {{{jordan:n7 | Subdistrict }}}
+| {{{jordan:n8 | {{n/a|align=left}} }}}
+| {{{jordan:n9 | {{n/a|align=left}} }}}
+| {{{jordan:n10 | {{n/a|align=left}} }}}
+| {{{jordan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{kazakhstan:value | '''{{Flagicon|Kazakhstan}}'''<br><small>proposed</small> }}}
+| {{{kazakhstan:n3 | {{n/a|align=left}} }}}
+| {{{kazakhstan:n4 | Regions (облысы) / City of republican significance (Almaty, Astana, Shymkent) }}}
+| {{{kazakhstan:n5 | {{n/a|align=left}} }}}
+| {{{kazakhstan:n6 | Districts (ауданы) }}}
+| {{{kazakhstan:n7 | {{n/a|align=left}} }}}
+| {{{kazakhstan:n8 | Rural district (ауылдық округі) }}}
+| {{{kazakhstan:n9 | {{n/a|align=left}} }}}
+| {{{kazakhstan:n10 | {{n/a|align=left}} }}}
+| {{{kazakhstan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{kenya:value | '''{{Flagicon|Kenya}}'''<br><small>''(proposed)''</small> }}}
+| {{{kenya:n3 | '''[[wikipedia:Provinces of Kenya|Provinces]]''' ''(old system and retained in new system for local region reference)'' }}}
+| {{{kenya:n4 | '''[[wikipedia:Counties of Kenya|Counties]]''' ''(new system)'' }}}
+| {{{kenya:n5 | '''[[wikipedia:Subcounties of Kenya|Districts]]''' ''(old system)'' }}}
+| {{{kenya:n6 | '''[[wikipedia:List of constituencies of Kenya|Subcounties]]''' - also called '''constituencies'''. ''(new system)'' }}}
+| {{{kenya:n7 | '''[[wikipedia:Local authorities of Kenya|Local authorities]]''' & '''[[wikipedia:Divisions of Kenya|Divisions]]''' '''cities''', '''municipalities''', '''towns''' and '''counties''' ''(not to be confused with national counties admin_level=4)'' }}}
+| {{{kenya:n8 | '''Wards''' ''(new system)''. Mostly identical to '''Locations''' }}}
+| {{{kenya:n9 | '''Locations''' ''(old system)''. Mostly identical to '''Wards''' }}}
+| {{{kenya:n10 | '''Villages''' ''(new system)'' & '''Sublocations''' ''(old system)'' }}}
+| {{{kenya:n11 | {{n/a|align=left}} }}}
+|-
+| {{{kiribati:value | '''{{Flagicon|Kiribati}}'''<br><small>''(proposed)''</small> }}}
+| {{{kiribati:n3 | {{n/a|align=left}} }}}
+| {{{kiribati:n4 | {{n/a|align=left}} }}}
+| {{{kiribati:n5 | {{n/a|align=left}} }}}
+| {{{kiribati:n6 | {{n/a|align=left}} }}}
+| {{{kiribati:n7 | {{n/a|align=left}} }}}
+| {{{kiribati:n8 | Island Councils (24)<br>Example: Abemama, South Tabiteuea etc }}}
+| {{{kiribati:n9 | {{n/a|align=left}} }}}
+| {{{kiribati:n10 | {{n/a|align=left}} }}}
+| {{{kiribati:n11 | {{n/a|align=left}} }}}
+|-
+| {{{kosovo:value | '''{{Flagicon|Kosovo}}'''<br><small>''(proposed/used, proposed by [[MarcRKS]] & [[bardhazizi]])''</small> }}}
+| {{{kosovo:n3 | {{n/a|align=left}} }}}
+| {{{kosovo:n4 | Districts<br>(Rajonet e Kosovës) ? }}}
+| {{{kosovo:n5 | {{n/a|align=left}} }}}
+| {{{kosovo:n6 | Municipalities<br>(Komunat e Kosovës) }}}
+| {{{kosovo:n7 | {{n/a|align=left}} }}}
+| {{{kosovo:n8 | Settlements / Cadastral zones<br>(Zonat kadastrale) }}}
+| {{{kosovo:n9 | {{n/a|align=left}} }}}
+| {{{kosovo:n10 | City districts and neighbourhoods<br>(Lagjjet) }}}
+| {{{kosovo:n11 | {{n/a|align=left}} }}}
+|-
+| {{{kuwait:value | '''{{Flagicon|Kuwait}}'''<br><small>''(proposed)''</small> }}}
+| {{{kuwait:n3 | {{n/a|align=left}} }}}
+| {{{kuwait:n4 | Governorates (Mouhafazah محافظة) }}}
+| {{{kuwait:n5 | {{n/a|align=left}} }}}
+| {{{kuwait:n6 | Cities / Towns }}}
+| {{{kuwait:n7 | City blocks / Towns blocks }}}
+| {{{kuwait:n8 | {{n/a|align=left}} }}}
+| {{{kuwait:n9 | {{n/a|align=left}} }}}
+| {{{kuwait:n10 | {{n/a|align=left}} }}}
+| {{{kuwait:n11 | {{n/a|align=left}} }}}
+|-
+| {{{kyrgyzstan:value | '''{{Flagicon|Kyrgyzstan}}'''<br><small>''(proposed)''</small> }}}
+| {{{kyrgyzstan:n3 | {{n/a|align=left}} }}}
+| {{{kyrgyzstan:n4 | Regions (облусу) / Cities of state importance (Bishkek and Osh) }}}
+| {{{kyrgyzstan:n5 | {{n/a|align=left}} }}}
+| {{{kyrgyzstan:n6 | Districts (району) / Cities of district importance (Batken, Kök-Janggak...) }}}
+| {{{kyrgyzstan:n7 | {{n/a|align=left}} }}}
+| {{{kyrgyzstan:n8 | Cities / Towns (Balykchy...)  }}}
+| {{{kyrgyzstan:n9 | Villages ? }}}
+| {{{kyrgyzstan:n10 | {{n/a|align=left}} }}}
+| {{{kyrgyzstan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{laos:value | '''{{Flagicon|Laos}}'''<br><small>''(proposed)''</small> }}}
+| {{{laos:n3 | {{n/a|align=left}} }}}
+| {{{laos:n4 | Provinces (Lao: ແຂວງ khoueng) or one prefecture (kampheng nakhon) }}}
+| {{{laos:n5 | {{n/a|align=left}} }}}
+| {{{laos:n6 | Districts (Lao: ເມືອງ mɯ́ang) }}}
+| {{{laos:n7 | Villages (Lao: ບ້ານ ban) }}}
+| {{{laos:n8 | {{n/a|align=left}} }}}
+| {{{laos:n9 | {{n/a|align=left}} }}}
+| {{{laos:n10 | {{n/a|align=left}} }}}
+| {{{laos:n11 | {{n/a|align=left}} }}}
+|-
+| {{{latvia:value | '''{{Flagicon|Latvia}}'''<br><small>''(proposed)''</small> }}}
+| {{{latvia:n3 | {{n/a|align=left}} }}}
+| {{{latvia:n4 | {{n/a|align=left}} }}}
+| {{{latvia:n5 | Municipalities (Novadi), Cities (Valstspilsētas) }}}
+| {{{latvia:n6 | {{n/a|align=left}} }}}
+| {{{latvia:n7 | Towns (Pilsētas) }}}
+| {{{latvia:n8 | Rural territories (Pagasti) }}}
+| {{{latvia:n9 | Villages (Ciemi) }}}
+| {{{latvia:n10 | Suburbs (Priekšpilsētas) }}}
+| {{{latvia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{lebanon:value | '''{{Flagicon|Lebanon}}'''<br><small>''source [http://www.cas.gov.lb/index.php?option=com_content&view=article&id=84&Itemid=54])''</small> }}}
+| {{{lebanon:n3 | {{n/a|align=left}} }}}
+| {{{lebanon:n4 | Governorate (Mouhafazah محافظة) }}}
+| {{{lebanon:n5 | Qadaa (also known as ''Caza'' قضاء ج. أقضية) }}}
+| {{{lebanon:n6 | Federation of municipalities (إتحاد بلديات) }}}
+| {{{lebanon:n7 | Municipality (بلدية) }}}
+| {{{lebanon:n8 | منطقة عقاريّة }}}
+| {{{lebanon:n9 | {{n/a|align=left}} }}}
+| {{{lebanon:n10 | {{n/a|align=left}} }}}
+| {{{lebanon:n11 | {{n/a|align=left}} }}}
+|-
+| {{{lesotho:value | '''{{Flagicon|Lesotho}}'''<br><small>''(proposed by [[User:Htonl|Adrian Frith]])''</small> }}}
+| {{{lesotho:n3 | {{n/a|align=left}} }}}
+| {{{lesotho:n4 | Districts }}}
+| {{{lesotho:n5 | {{n/a|align=left}}  }}}}}}
+| {{{lesotho:n6 | Constitutencies
+| {{{lesotho:n7 | {{n/a|align=left}} }}}
+| {{{lesotho:n8 | Community councils }}}
+| {{{lesotho:n9 | {{n/a|align=left}} }}}
+| {{{lesotho:n10 | {{n/a|align=left}} }}}
+| {{{lesotho:n11 | {{n/a|align=left}} }}}
+|-
+| {{{liberia:value | '''{{Flagicon|Liberia}}'''<br><small>''(proposed by [[User:edvac|Rafael Ávila Coya]])''</small> }}}
+| {{{liberia:n3 | {{n/a|align=left}} }}}
+| {{{liberia:n4 | Counties (15) }}}
+| {{{liberia:n5 | {{n/a|align=left}} }}}
+| {{{liberia:n6 | Districts (90) }}}
+| {{{liberia:n7 | {{n/a|align=left}} }}}
+| {{{liberia:n8 | Clans (chiefdoms?) }}}
+| {{{liberia:n9 | {{n/a|align=left}} }}}
+| {{{liberia:n10 | {{n/a|align=left}} }}}
+| {{{liberia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{libya:value | '''{{Flagicon|Libya}}'''<br><small>''(proposed by [[User:Jjaf.de|Jano John Akim Franke]])''</small> }}}
+| {{{libya:n3 | {{n/a|align=left}} }}}
+| {{{libya:n4 | District (Shabiya) }}}
+| {{{libya:n5 | {{n/a|align=left}} }}}
+| {{{libya:n6 | {{n/a|align=left}} }}}
+| {{{libya:n7 | {{n/a|align=left}} }}}
+| {{{libya:n8 | {{n/a|align=left}} }}}
+| {{{libya:n9 | {{n/a|align=left}} }}}
+| {{{libya:n10 | {{n/a|align=left}} }}}
+| {{{libya:n11 | {{n/a|align=left}} }}}
+|-
+| {{{liechtenstein:value | '''{{Flagicon|Liechtenstein}}'''<br><small>''(proposed)''</small> }}}
+| {{{liechtenstein:n3 | {{n/a|align=left}} }}}
+| {{{liechtenstein:n4 | {{n/a|align=left}} }}}
+| {{{liechtenstein:n5 | {{n/a|align=left}} }}}
+| {{{liechtenstein:n6 | Electoral districts (Wahlkreis) }}}
+| {{{liechtenstein:n7 | {{n/a|align=left}} }}}
+| {{{liechtenstein:n8 | Municipalities (Gemeinde) }}}
+| {{{liechtenstein:n9 | {{n/a|align=left}} }}}
+| {{{liechtenstein:n10 | {{n/a|align=left}} }}}
+| {{{liechtenstein:n11 | {{n/a|align=left}} }}}
+|-
+| {{{lithuania:value | '''{{Flagicon|Lithuania}}''' }}}
+| {{{lithuania:n3 | {{n/a|align=left}} }}}
+| {{{lithuania:n4 | Counties (Apskritys) }}}
+| {{{lithuania:n5 | Municipalities (Savivaldybės / Rajonai) }}}
+| {{{lithuania:n6 | Elderships (Seniūnijos) }}}
+| {{{lithuania:n7 | {{n/a|align=left}} }}}
+| {{{lithuania:n8 | Cities / towns / villages (Miestai / miesteliai / Kaimai) }}}
+| {{{lithuania:n9 | {{n/a|align=left}} }}}
+| {{{lithuania:n10 | City/Town suburbs (Miesto / miestelio dalys / miesto seniūnijos) }}}
+| {{{lithuania:n11 | {{n/a|align=left}} }}}
+|-
+| {{{luxembourg:value | '''{{Flagicon|Luxembourg}}''' }}}
+| {{{luxembourg:n3 | {{n/a|align=left}} }}}
+| {{{luxembourg:n4 | {{n/a|align=left}} }}}
+| {{{luxembourg:n5 | {{n/a|align=left}} }}}
+| {{{luxembourg:n6 | Cantons (region) }}}
+| {{{luxembourg:n7 | {{n/a|align=left}} }}}
+| {{{luxembourg:n8 | Communes }}}
+| {{{luxembourg:n9 | Sections / Villages / Neighbourhoods }}}
+| {{{luxembourg:n10 | {{n/a|align=left}} }}}
+| {{{luxembourg:n11 | {{n/a|align=left}} }}}
+|-
+| {{{madagascar:value | '''{{Flagicon|Madagascar}}'''<br><small>''([[FR:Madagascar tagging guidelines#Divisions administratives de Madagascar|proposed]])''</small> }}}
+| {{{madagascar:n3 | Faritany mizakatena (provinces) }}}
+| {{{madagascar:n4 | Faritra (regions) }}}
+| {{{madagascar:n5 | {{n/a|align=left}} }}}
+| {{{madagascar:n6 | Distrika (districts) }}}
+| {{{madagascar:n7 | {{n/a|align=left}} }}}
+| {{{madagascar:n8 | Kaominina (communes) }}}
+| {{{madagascar:n9 | Firaisana (arrondissements) }}}
+| {{{madagascar:n10 | Fokontany (sections, communities of settlements / townships / villages) }}}
+| {{{madagascar:n11 | {{n/a|align=left}} }}}
+|-
+| {{{malawi:value | '''{{Flagicon|Malawi}}'''<br><small>''(proposed)''</small> }}}
+| {{{malawi:n3 | [[wikipedia:Regions of Malawi|Regions]] }}}
+| {{{malawi:n4 | [[wikipedia:Districts of Malawi|Districts]] }}}
+| {{{malawi:n5 | {{n/a|align=left}} }}}
+| {{{malawi:n6 | Traditional authorities (rural areas), Urban administrative wards (urban centers) }}}
+| {{{malawi:n7 | {{n/a|align=left}} }}}
+| {{{malawi:n8 | '''''SC''''' - sub-chiefs governed under the authority of the local traditional authority. The sub-chiefdoms are used in order to create reasonably sized administrative units within large TAs.<br>'''''Wards''''' - the urban equivalent of a rural traditional authority or sub-chief area.<br>'''''Area''''' - Numbered administrative wards in Lilongwe city. ([http://www.ifpri.org/sites/default/files/pubs/pubs/cp/malawiatlas/malawiatlas_01.pdf Malawi Atlas]) }}}
+| {{{malawi:n9 | GVH }}}
+| {{{malawi:n10 | Village }}}
+| {{{malawi:n11 | {{n/a|align=left}} }}}
+|-
+| {{{malaysia:value | '''{{Flagicon|Malaysia}}''' }}}
+| {{{malaysia:n3 | <s>territories (wilayah)</s> (proposed) }}}
+| {{{malaysia:n4 | negeri (states) }}}
+| {{{malaysia:n5 | bahagian (divisions) ''Sabah & Sarawak only'' }}}
+| {{{malaysia:n6 | daerah (districts) }}}
+| {{{malaysia:n7 | daerah kecil (subdistricts) }}}
+| {{{malaysia:n8 | mukim (townships) }}}
+| {{{malaysia:n9 | {{n/a|align=left}} }}}
+| {{{malaysia:n10 | kampung, taman, dll (municipalities, including townships, cities, villages, etc.) }}}
+| {{{malaysia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{maldives:value | '''{{Flagicon|Maldives}}'''<br><small>''(proposed)''</small> }}}
+| {{{maldives:n3 | {{n/a|align=left}} }}}
+| {{{maldives:n4 | Atolls / Capital (Malé) }}}
+| {{{maldives:n5 | {{n/a|align=left}} }}}
+| {{{maldives:n6 | {{n/a|align=left}} }}}
+| {{{maldives:n7 | {{n/a|align=left}} }}}
+| {{{maldives:n8 | Islands ? }}}
+| {{{maldives:n9 | Districts ? }}}
+| {{{maldives:n10 | {{n/a|align=left}} }}}
+| {{{maldives:n11 | {{n/a|align=left}} }}}
+|-
+| {{{mali:value | '''{{Flagicon|Mali}}'''<br><small>''(proposed)''</small> }}}
+| {{{mali:n3 | {{n/a|align=left}} }}}
+| {{{mali:n4 | Régions }}}
+| {{{mali:n5 | {{n/a|align=left}} }}}
+| {{{mali:n6 | Cercles }}}
+| {{{mali:n7 | {{n/a|align=left}} }}}
+| {{{mali:n8 | Commune }}}
+| {{{mali:n9 | {{n/a|align=left}} }}}
+| {{{mali:n10 | {{n/a|align=left}} }}}
+| {{{mali:n11 | {{n/a|align=left}} }}}
+|-
+| {{{malta:value | '''{{Flagicon|Malta}}'''<br><small>''(in use)''</small> }}}
+| {{{malta:n3 | {{n/a|align=left}} }}}
+| {{{malta:n4 | {{n/a|align=left}} }}}
+| {{{malta:n5 | {{n/a|align=left}} }}}
+| {{{malta:n6 | Islands (gżejjer) (NUTS 3) }}}
+| {{{malta:n7 | [[wikipedia:Regions of Malta|Regions (reġjuni)]] (LAU 1) }}}
+| {{{malta:n8 | [[wikipedia:Local councils of Malta|Local councils (kunsilli lokali)]] (LAU 2) }}}
+| {{{malta:n9 | {{n/a|align=left}} }}}
+| {{{malta:n10 | {{n/a|align=left}} }}}
+| {{{malta:n11 | {{n/a|align=left}} }}}
+|-
+| {{{marshall:value | '''{{Flagicon|Marshall Islands}}'''<br><small>''(proposed)''</small> }}}
+| {{{marshall:n3 | {{n/a|align=left}} }}}
+| {{{marshall:n4 | chains (of islands) }}}
+| {{{marshall:n5 | {{n/a|align=left}} }}}
+| {{{marshall:n6 | {{n/a|align=left}} }}}
+| {{{marshall:n7 | {{n/a|align=left}} }}}
+| {{{marshall:n8 | Atolls (municipalities }}}
+| {{{marshall:n9 | {{n/a|align=left}} }}}
+| {{{marshall:n10 | {{n/a|align=left}} }}}
+| {{{marshall:n11 | {{n/a|align=left}} }}}
+|-
+| {{{mauritania:value | '''{{Flagicon|Mauritania}}'''<br><small>''(proposed)''</small> }}}
+| {{{mauritania:n3 | {{n/a|align=left}} }}}
+| {{{mauritania:n4 | Régions (Wilayah) }}}
+| {{{mauritania:n5 | {{n/a|align=left}} }}}
+| {{{mauritania:n6 | Départements (Moughataa) }}}
+| {{{mauritania:n7 | {{n/a|align=left}} }}}
+| {{{mauritania:n8 | Arrondissement }}}
+| {{{mauritania:n9 | Communes }}}
+| {{{mauritania:n10 | {{n/a|align=left}} }}}
+| {{{mauritania:n11 | {{n/a|align=left}} }}}
+|-
+| {{{mauritius:value | '''{{Flagicon|Mauritius}}'''<br><small>''(proposed)''</small> }}}
+| {{{mauritius:n3 | Outer territories (Rodriques, Agaléga, Saint Brandon) }}}
+| {{{mauritius:n4 | Districts }}}
+| {{{mauritius:n5 | {{n/a|align=left}} }}}
+| {{{mauritius:n6 | Cities (Vacoas-Phoenix, Quatre Bornes, Beau Bassin-Rose Hill, Curepipe) }}}
+| {{{mauritius:n7 | {{n/a|align=left}} }}}
+| {{{mauritius:n8 | Villages ? }}}
+| {{{mauritius:n9 | {{n/a|align=left}} }}}
+| {{{mauritius:n10 | Hamlets ? }}}
+| {{{mauritius:n11 | {{n/a|align=left}} }}}
+|-
+| {{{mexico:value | '''{{Flagicon|Mexico}}'''<br><small>''(proposed by [[User:OpenStreetMapMX|OSM México]])<br>(source: [http://www.inegi.org.mx/geo/contenidos/normastecnicas/dom_geo.aspx])''</small> }}}
+| {{{mexico:n3 | {{n/a|align=left}} }}}
+| {{{mexico:n4 | State borders }}}
+| {{{mexico:n5 | {{n/a|align=left}} }}}
+| {{{mexico:n6 | Municipal borders }}}
+| {{{mexico:n7 | {{n/a|align=left}} }}}
+| {{{mexico:n8 | City / Town limits }}}
+| {{{mexico:n9 | District limits / Delegaciones }}}
+| {{{mexico:n10 | City sectors / Colonias }}}
+| {{{mexico:n11 | {{n/a|align=left}} }}}
+|-
+| {{{micronesia:value | '''{{Flagicon|Micronesia|Micronesia|Micronesia (Federated States of)}}'''<br><small>''(proposed)''</small> }}}
+| {{{micronesia:n3 | {{n/a|align=left}} }}}
+| {{{micronesia:n4 | States }}}
+| {{{micronesia:n5 | {{n/a|align=left}} }}}
+| {{{micronesia:n6 | {{n/a|align=left}} }}}
+| {{{micronesia:n7 | {{n/a|align=left}} }}}
+| {{{micronesia:n8 | Municipalities }}}
+| {{{micronesia:n9 | {{n/a|align=left}} }}}
+| {{{micronesia:n10 | {{n/a|align=left}} }}}
+| {{{micronesia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{moldova:value | '''{{Flagicon|Moldova}} (Republic of Moldova)'''<br><small>''(proposed by [[User:Moldovan_Merkator|Moldovan_Merkator]], [[User:Anatolie|Anatolie Golovco]], [https://www.openstreetmap.org/user/Oleg_MD Oleg_MD] / in use)''</small> }}}
+| {{{moldova:n3 | '''Disputed territory''' - unrecognized state ([https://www.openstreetmap.org/relation/65335 Pridnestrovian Moldavian Republic] <ref>not to be confused with [https://www.openstreetmap.org/relation/2607033 The Administrative-Territorial Units of the Left Bank of the Dniester]</ref>) }}}
+| {{{moldova:n4 | - '''Autonomous regions''' [https://www.openstreetmap.org/relation/1699032 UTA Găgauzia] and [https://www.openstreetmap.org/relation/2607033 ATU from the left bank of the Dniester (UAT din stînga Nistrului)]<br>
+- '''Districts''' (Raioane) [ex: [https://www.openstreetmap.org/relation/1693560 Florești], [https://www.openstreetmap.org/relation/59002 Briceni], etc.]<br>
+- '''Second level Municipalities''' (Municipiile de nivelul II) [https://www.openstreetmap.org/relation/1691801 Chișinău], [https://www.openstreetmap.org/relation/58983 Bălți] and [https://www.openstreetmap.org/relation/9581354 Bender] }}}
+| {{{moldova:n5 | - '''Găgăuzia Districts''' (Raioane) [https://www.openstreetmap.org/relation/1706978 Comrat], [https://www.openstreetmap.org/relation/1706979 Ceadîr-Lunga] and [https://www.openstreetmap.org/relation/7103068 Vulcănești] Districts<br>
+- '''Transnistria Districts''' (Raioane) [https://www.openstreetmap.org/relation/1702217 Rîbnița], [https://www.openstreetmap.org/relation/1702215 Dubăsari], [https://www.openstreetmap.org/relation/1702214 Grigoriopol] and [https://www.openstreetmap.org/relation/1702218 Slobozia] Districts<br>
+- '''Transnistria Cities''' [https://www.openstreetmap.org/relation/1702219 Tiraspol City Council] and [https://www.openstreetmap.org/relation/944727 Bender City Council] }}}
+| {{{moldova:n6 | '''First level Municipalities''' (Municipiile de nivelul I) [ex.: [https://www.openstreetmap.org/relation/5636983 Orhei], [https://www.openstreetmap.org/relation/7446674 Ungheni], etc.] }}}
+| {{{moldova:n7 | '''Chișinău Municipality's sectors''' (Sectoarele Municipiului Chișinău) [ex.: [https://www.openstreetmap.org/relation/1813316 Rîșcani], [https://www.openstreetmap.org/relation/1813297 Buiucani], etc.] }}}
+| {{{moldova:n8 | - '''Towns''' (Orașe) [ex.: [https://www.openstreetmap.org/relation/5647776 Briceni], [https://www.openstreetmap.org/relation/5736380 Glodeni], [https://www.openstreetmap.org/relation/9288287 Dubăsari], etc.]<br>
+- '''Communes''' (Comune) [ex.: [https://www.openstreetmap.org/relation/530648 Larga], [https://www.openstreetmap.org/relation/1706626 Crocmaz], etc.]<br>
+- '''Villages that do not form a commune''' (Satele care nu formează o comună) [ex.: [https://www.openstreetmap.org/relation/1811555 Talmaza], [https://www.openstreetmap.org/relation/1216705 Copanca], [https://www.openstreetmap.org/relation/9191731 Bocani], etc.] }}}
+| {{{moldova:n9 | '''The intravilane limit of villages, towns and cities''' (Limita intravilana a satelor, orașelor și municipiilor) [ex.: [https://www.openstreetmap.org/way/49895483 Căinari], [https://www.openstreetmap.org/way/81662204 Cricova]] }}}
+| {{{moldova:n10 | '''Quarters''' (Cartiere) }}}
+| {{{moldova:n11 | {{n/a|align=left}} }}}
+|-
+| {{{monaco:value | '''{{Flagicon|Monaco}}'''<br><small>''(proposed)''</small> }}}
+| {{{monaco:n3 | {{n/a|align=left}} }}}
+| {{{monaco:n4 | {{n/a|align=left}} }}}
+| {{{monaco:n5 | {{n/a|align=left}} }}}
+| {{{monaco:n6 | {{n/a|align=left}} }}}
+| {{{monaco:n7 | {{n/a|align=left}} }}}
+| {{{monaco:n8 | Commune }}}
+| {{{monaco:n9 | {{n/a|align=left}} }}}
+| {{{monaco:n10 | Quartiers administratifs }}}
+| {{{monaco:n11 | {{n/a|align=left}} }}}
+|-
+| {{{mongolia:value | '''{{Flagicon|Mongolia}}'''<br><small>''(proposed)''</small> }}}
+| {{{mongolia:n3 | {{n/a|align=left}} }}}
+| {{{mongolia:n4 | Capital, provinces (хот, аймаг / ᠬᠣᠲᠠ , ᠠᠶᠢᠮᠠᠭ )  }}}
+| {{{mongolia:n5 | {{n/a|align=left}} }}}
+| {{{mongolia:n6 | Sum, Districts (сум, дүүрэг / ᠰᠤᠮᠤ , ᠳᠡᢉᠦᠷᢉᠡ) }}}
+| {{{mongolia:n7 | {{n/a|align=left}} }}}
+| {{{mongolia:n8 | Bag, Subdistricts (баг, хороо / ᠪᠠᠭ , ᠬᠣᠷᠢᠶ᠎ᠠ) }}}
+| {{{mongolia:n9 | {{n/a|align=left}} }}}
+| {{{mongolia:n10 | {{n/a|align=left}} }}}
+| {{{mongolia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{montenegro:value | '''{{Flagicon|Montenegro}}'''<br><small>''(proposed)''</small> }}}
+| {{{montenegro:n3 | {{n/a|align=left}} }}}
+| {{{montenegro:n4 | {{n/a|align=left}} }}}
+| {{{montenegro:n5 | {{n/a|align=left}} }}}
+| {{{montenegro:n6 | municipalities<br>(opštine / општине) }}}
+| {{{montenegro:n7 | {{n/a|align=left}} }}}
+| {{{montenegro:n8 | settlements<br>(naselja / насеља) }}}
+| {{{montenegro:n9 | {{n/a|align=left}} }}}
+| {{{montenegro:n10 | {{n/a|align=left}} }}}
+| {{{montenegro:n11 | {{n/a|align=left}} }}}
+|-
+|- style="text-align:left;"
+| rowspan="2" |{{{morocco:value | '''{{Flagicon|Morocco}}''' }}}
+| rowspan="2" style="font-size:smaller;background:#EEE;color:#333;vertical-align:middle;text-align:left;" class="table-na" |N/A 
+| rowspan="2" |Regions (Wilayah) (ولاية) (جهات المغرب)
+| rowspan="2" |Prefectures (العمالات)<br />Provinces (الأقاليم)
+| style="font-size:smaller;background:#EEE;color:#333;vertical-align:middle;text-align:left;" class="table-na" |N/A
+| style="font-size:smaller;background:#EEE;color:#333;vertical-align:middle;text-align:left;" class="table-na" |N/A
+|Urban Communes (Municipalities) (البلديات) (الجماعات الحضرية)
+|Préfectures d'Arrondissements (عمالات المقاطعات) (only in [[Casablanca]])
+|Arrondissements (المقاطعات) (only in [[Casablanca]], [[Rabat]], [[Tanger]], [[Marrakesh]], [[Fez]] and [[Salé]])
+| rowspan="2" style="text-align:center;" |Quartiers (الأحياء)
+|- style="text-align:left;"
+|Cercles (الدائرة)
+|Caïdats (القيادة)
+|Rural Communes (الجماعات القروية)
+| style="font-size:smaller;background:#EEE;color:#333;vertical-align:middle;text-align:left;" class="table-na" |N/A
+| style="font-size:smaller;background:#EEE;color:#333;vertical-align:middle;text-align:left;" class="table-na" |N/A
+|-
+| {{{mozambique:value | '''{{Flagicon|Mozambique}}'''<br><small>''(proposed)''</small> }}}
+| {{{mozambique:n3 | Regions // Regiões (Norte, Centro, Sul)<br>''Currently not in use'' }}}
+| {{{mozambique:n4 | Provinces OR Capital Maputo // Províncias OU Cidade de Maputo}}}
+| {{{mozambique:n5 | Districts OR Province Capital Cities // Distritos OU Cidades Capitais Provinciais }}}
+| {{{mozambique:n6 | Administrative Post // Posto Administrativo }}}
+| {{{mozambique:n7 | {{n/a|align=left}} }}}
+| {{{mozambique:n8 | Neighbourhoods // Bairros }}}
+| {{{mozambique:n9 | Blocks // Quarteirões<br>''Currently not in use'' }}}
+| {{{mozambique:n10 | {{n/a|align=left}} }}}
+| {{{mozambique:n11 | {{n/a|align=left}} }}}
+|-
+| {{{myanmar:value | '''{{Flagicon|Myanmar}}'''<br><small>''(proposed)<br>(see [[wikipedia:Administrative divisions of Burma|administrative divisions]])''</small> }}}
+| {{{myanmar:n3 | De facto independent areas (e.g. Wa state) }}}
+| {{{myanmar:n4 | States, regions, union territory<br><small>ပြည်နယ်, တိုင်းဒေသကြီး, ပြည်တောင်စုနယ်မြေ</small> }}}
+| {{{myanmar:n5 | Cities (Yangon, Naypyitaw, Mandalay), self-administered divisions<br><small>မြို့ , ကိုယ်ပိုင်အုပ် ချုပ်ခွင့်ရ တိုင်း</small> }}}
+| {{{myanmar:n6 | Districts, self-administered zones<br><small>ခရိုင်, ကိုယ်ပိုင်အုပ် ချုပ်ခွင့်ရဒေသ</small> }}}
+| {{{myanmar:n7 | Townships<br><small>မြို့နယ်</small> }}}
+| {{{myanmar:n8 | Subtownships<br><small>မြို့နယ်ခွဲ</small> }}}
+| {{{myanmar:n9 | Towns, village tracts<br><small>မြို့ , ကျေးရွာအုပ်စု</small> }}}
+| {{{myanmar:n10 | Wards, villages<br><small>ရပ်ကွက်, ကျေးရွာ</small> }}}
+| {{{myanmar:n11 | {{n/a|align=left}} }}}
+|-
+| {{{namibia:value | '''{{Flagicon|Namibia}}'''<br><small>''(proposed)''</small> }}}
+| {{{namibia:n3 | {{n/a|align=left}} }}}
+| {{{namibia:n4 | [[wikipedia:Regions of Namibia|Regions]] }}}
+| {{{namibia:n5 | {{n/a|align=left}} }}}
+| {{{namibia:n6 | [[wikipedia:List of constituencies of Namibia|Constituencies]] }}}
+| {{{namibia:n7 | {{n/a|align=left}} }}}
+| {{{namibia:n8 | Municipalities }}}
+| {{{namibia:n9 | {{n/a|align=left}} }}}
+| {{{namibia:n10 | {{n/a|align=left}} }}}
+| {{{namibia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{nauru:value | '''{{Flagicon|Nauru}}'''<br><small>''(proposed)''</small> }}}
+| {{{nauru:n3 | {{n/a|align=left}} }}}
+| {{{nauru:n4 | Electoral Constituencies }}}
+| {{{nauru:n5 | {{n/a|align=left}} }}}
+| {{{nauru:n6 | Districts }}}
+| {{{nauru:n7 | {{n/a|align=left}} }}}
+| {{{nauru:n8 | {{n/a|align=left}} }}}
+| {{{nauru:n9 | {{n/a|align=left}} }}}
+| {{{nauru:n10 | {{n/a|align=left}} }}}
+| {{{nauru:n11 | {{n/a|align=left}} }}}
+|-
+| {{{nepal:value | '''{{Flagicon|Nepal}}''' }}}
+| {{{nepal:n3 | [[Nepal/Boundaries/Development_Regions| '''Development Regions''']]<br><b>Not in current use</b><br>(in use before 2015) }}}
+| {{{nepal:n4 | [[Nepal/Boundaries/Provinces| '''Provinces''']] }}}
+| {{{nepal:n5 | [[Nepal/Boundaries/Zones| '''Zones''']]<br><b>Not in current use</b><br>(in use before 2015) }}}
+| {{{nepal:n6 | [[Nepal/Boundaries/Districts| '''Districts''']] }}}
+| {{{nepal:n7 | [[Nepal/Boundaries/Municipalities| '''Municipalities''']]<br>Rural municipalities, Municipalities, Sub metropolitans and Metropolitans (Nepali: गाउँपालिका,नगरपालिका, उप-महानगरपालिका, महानगरपालिका) }}}
+| {{{nepal:n8 | Cities/Villages (This admin level in OSM is what the Nepal Gov. calls a "Village Development Committee" (VDC) (Nepali: गाउँ विकास समिति; ''gāun bikās samiti'')) }}}
+| {{{nepal:n9 | [[Nepal/Boundaries/Wards| '''Wards''']] }}}
+| {{{nepal:n10 | Tole }}}
+| {{{nepal:n11 | {{n/a|align=left}} }}}
+|-
+| rowspan="3" | {{{netherlands:value | '''{{flagicon|Netherlands|Kingdom of the Netherlands|Netherlands, Kingdom of the}}'''<br><small>''(see [[Kingdom of the Netherlands#Administrative divisions|administrative divisions of the Kingdom]] and [[Administrative divisions of the Netherlands|administrative divisions of the Netherlands]])''</small> }}}
+| rowspan="3" | {{{netherlands:n3 | Countries (''landen''). These are [[Netherlands]], [[Aruba]], [[Curaçao]] and [[Sint Maarten]] }}}
+| rowspan="3" | {{{netherlands:n4 | Provinces (''provincies'', NUTS 2, only in European [[Netherlands]]), e.g. [[Zeeland]], [[Noord-Holland]] }}}
+| {{{netherlands:n5 | rowspan="3" {{n/a|align=left}} }}}
+| {{{netherlands:n6 | rowspan="3" {{n/a|align=left}} }}}
+| {{{netherlands:n7 | rowspan="3" {{n/a|align=left}} }}}
+| {{{netherlands:n8_1 | Municipalities (''gemeenten'', LAU 2, only in European [[Netherlands]]), e.g. Amsterdam, Schiermonnikoog }}}
+| {{{netherlands:n9 | rowspan="3" {{n/a|align=left}} }}}
+| rowspan="3" | {{{netherlands:n10 | Settlements (''woonplaatsen'', only in European [[Netherlands]]): non-autonomous municipal subdivisions, registered in [[BAG]]. Retain even if congruent with municipality ({{Tag|admin_level|8}}) and thus not a subdivision in the strict sense }}}
+| {{{netherlands:n11 | rowspan="3" {{n/a|align=left}} }}}
+|-
+| {{{netherlands:n8_2 | Caribbean public bodies (''Caribische openbare lichamen'', only in Caribbean [[Netherlands]]). These are [[Bonaire]], [[Sint Eustatius]] and [[Saba]]. Known colloquially as special municipalities (''bijzondere gemeenten'') }}}
+|-
+| {{{netherlands:n8_3 | In [[Aruba]] <small>''(proposed)''</small>: Districts (municipalities) known as GAC regions }}}
+|-
+| {{{newzealand:value | '''{{Flagicon|New Zealand}}'''<br><small>''(in use)''</small> }}}
+| {{{newzealand:n3 | {{n/a|align=left}} }}}
+| {{{newzealand:n4 | [[wikipedia:Regions of New Zealand|Regions]] (Canterbury, Bay of Plenty, Auckland, Gisborne etc.) governed by a regional council or unitary authority, and the Chatham Islands Territory }}}
+| {{{newzealand:n5 | {{n/a|align=left}} }}}
+| {{{newzealand:n6 | [[wikipedia:Territorial authorities of New Zealand|Districts and Cities]] governed by a territorial authority (Dunedin City, Kapiti Coast District etc.) }}}
+| {{{newzealand:n7 | {{n/a|align=left}} }}}
+| {{{newzealand:n8 | [[wikipedia:Auckland_Council#Wards_and_local_boards|Local boards (Auckland)]] and community boards (elsewhere) <small>(Note: wards are electoral constituencies for the territorial authority council and have no adminsitrative function)</small> }}}
+| {{{newzealand:n9 | {{n/a|align=left}} }}}
+| {{{newzealand:n10 | {{n/a|align=left}} }}}
+| {{{newzealand:n11 | {{n/a|align=left}} }}}
+|-
+| {{{nicaragua:value | '''{{Flagicon|Nicaragua}}'''<br><small>''(proposed)''</small> }}}
+| {{{nicaragua:n3 | {{n/a|align=left}} }}}
+| {{{nicaragua:n4 | Departamentos, such as Chontales and RAACS }}}
+| {{{nicaragua:n5 | {{n/a|align=left}} }}}
+| {{{nicaragua:n6 | Municipios, such as Boaco and Juigalpa }}}
+| {{{nicaragua:n7 | Indigenous territories, such as Tawira and Mayagna Sauni Bu }}}
+| {{{nicaragua:n8 | City boundaries, such as Granada and León }}}
+| {{{nicaragua:n9 | Distritos, Comarcas, such as Distrito I and El Almacen }}}
+| {{{nicaragua:n10 | Barrios / Residenciales / Colonias, such as Villa Sandino and Bosques de Altamira }}}
+| {{{nicaragua:n11 | {{n/a|align=left}} }}}
+|-
+| {{{niger:value | '''{{Flagicon|Niger}}'''<br><small>''(proposed)''</small> }}}
+| {{{niger:n3 | {{n/a|align=left}} }}}
+| {{{niger:n4 | Régions }}}
+| {{{niger:n5 | {{n/a|align=left}} }}}
+| {{{niger:n6 | Départements }}}
+| {{{niger:n7 | {{n/a|align=left}} }}}
+| {{{niger:n8 | Communes }}}
+| {{{niger:n9 | {{n/a|align=left}} }}}
+| {{{niger:n10 | {{n/a|align=left}} }}}
+| {{{niger:n11 | {{n/a|align=left}} }}}
+|-
+| {{{nigeria:value | '''{{Flagicon|Nigeria}}'''<br><small>''(proposed)''</small> }}}
+| {{{nigeria:n3 | Geopolitical zones (6) }}}
+| {{{nigeria:n4 | States (36) + the federal capital territory }}}
+| {{{nigeria:n5 | {{n/a|align=left}} }}}
+| {{{nigeria:n6 | Local Government Areas (774) }}}
+| {{{nigeria:n7 | {{n/a|align=left}} }}}
+| {{{nigeria:n8 | Wards (10 to 15 for each LGA - They are like councils) }}}
+| {{{nigeria:n9 | {{n/a|align=left}} }}}
+| {{{nigeria:n10 | {{n/a|align=left}} }}}
+| {{{nigeria:n11 | {{n/a|align=left}} }}}
+|-
+| {{{northkorea:value | '''{{Flagicon|North Korea}}'''<br><small>''(proposed)''</small> }}}
+| {{{northkorea:n3 | {{n/a|align=left}} }}}
+| {{{northkorea:n4 | Province (도), Capital city (직할시), Special city (특별시) }}}
+| {{{northkorea:n5 | {{n/a|align=left}} }}}
+| {{{northkorea:n6 | County (군), City (시) }}}
+| {{{northkorea:n7 | Ward (구역) }}}
+| {{{northkorea:n8 | Town (읍), Village (리), Neighbourhood (동), Workers' district (로동자구) }}}
+| {{{northkorea:n9 | {{n/a|align=left}} }}}
+| {{{northkorea:n10 | {{n/a|align=left}} }}}
+| {{{northkorea:n11 | {{n/a|align=left}} }}}
+|-
+| {{{northmacedonia:value | '''{{Flagicon|North Macedonia}}'''<br><small>''(proposed by [[User:borces]])<br>(see also [[wikipedia:mk:Административна поделба на Македонија|mk:Административна поделба на Македонија]])''</small> }}}
+| {{{northmacedonia:n3 | {{n/a|align=left}} }}}
+| {{{northmacedonia:n4 | Статистички Региони (Statistical regions) }}}
+| {{{northmacedonia:n5 | {{n/a|align=left}} }}}
+| {{{northmacedonia:n6 | Град Скопје (City of Skopje) }}}
+| {{{northmacedonia:n7 | Општини (Municipalities ) }}}
+| {{{northmacedonia:n8 | Град/Село (city / town / village) }}}
+| {{{northmacedonia:n9 | Населби (suburb) }}}
+| {{{northmacedonia:n10 | Маало / Локалитет (neighbourhood / locality) }}}
+| {{{northmacedonia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{norway:value | '''{{Flagicon|Norway}}'''<br><small>''(proposed)''</small> }}}
+| {{{norway:n3 | {{n/a|align=left}} }}}
+| {{{norway:n4 | County (Fylke) (19)<br>Examples: Rogaland, Hordaland }}}
+| {{{norway:n5 | {{n/a|align=left}} }}}
+| {{{norway:n6 | {{n/a|align=left}} }}}
+| {{{norway:n7 | Muncipiality (Kommue) (430)<br>Examples: Stavanger, Sandnes }}}
+| {{{norway:n8 | {{n/a|align=left}} }}}
+| {{{norway:n9 | Bydel <br>Examples: Røa, Våland, Minde }}}
+| {{{norway:n10 | {{n/a|align=left}} }}}
+| {{{norway:n11 | {{n/a|align=left}} }}}
+|-
+| {{{oman:value | '''{{Flagicon|Oman}}'''<br><small>''(proposed)''</small> }}}
+| {{{oman:n3 | {{n/a|align=left}} }}}
+| {{{oman:n4 | [[wikipedia:en:Governorates_of_Oman|Governorate]]<br>[[wikipedia:ar:التقسيم_الإداري_في_سلطنة_عمان | محافظة]]}}}
+| {{{oman:n5 | {{n/a|align=left}} }}}
+| {{{oman:n6 | [[wikipedia:en:Provinces_of_Oman|Provinces]]<br>[[wikipedia:ar:ولايات_عمان|ولاية]]}}}
+| {{{oman:n7 | {{n/a|align=left}} }}}
+| {{{oman:n8 | Villages/Towns<br>{{lang|ar|قرية أو مدينة}} }}}
+| {{{oman:n9 | {{n/a|align=left}} }}}
+| {{{oman:n10 | Blocks/Subdivisons of Villages and Towns<br>{{lang|ar|مجمع او تقسيمات قرى/مدن}} }}}
+| {{{oman:n11 | {{n/a|align=left}} }}}
+|-
+| {{{pakistan:value | '''{{Flagicon|Pakistan}}'''<br><small>''(proposed)''</small> }}}
+| {{{pakistan:n3 | {{n/a|align=left}} }}}
+| {{{pakistan:n4 | Province<br>{{lang|ur|صوبہ}} }}}
+| {{{pakistan:n5 | Division<br>{{lang|ur|ڈویژن}} }}}
+| {{{pakistan:n6 | District<br>{{lang|ur|ضلع}} }}}
+| {{{pakistan:n7 | Subdistrict<br>{{lang|ur|تحصیل}} }}}
+| {{{pakistan:n8 | Metropolitan Corporation<br>{{lang|ur|بلدیہ عظمیٰ}} }}}
+| {{{pakistan:n9 | Union Council<br>{{lang|ur|یونین کونسل}} }}}
+| {{{pakistan:n10 | {{n/a|align=left}} }}}
+| {{{pakistan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{palau:value | '''{{Flagicon|Palau}}'''<br><small>''(proposed)''</small> }}}
+| {{{palau:n3 | {{n/a|align=left}} }}}
+| {{{palau:n4 | States }}}
+| {{{palau:n5 | {{n/a|align=left}} }}}
+| {{{palau:n6 | {{n/a|align=left}} }}}
+| {{{palau:n7 | {{n/a|align=left}} }}}
+| {{{palau:n8 | {{n/a|align=left}} }}}
+| {{{palau:n9 | {{n/a|align=left}} }}}
+| {{{palau:n10 | {{n/a|align=left}} }}}
+| {{{palau:n11 | {{n/a|align=left}} }}}
+|-
+| {{{panama:value | '''{{Flagicon|Panama}}''' }}}
+| {{{panama:n3 | {{n/a|align=left}} }}}
+| {{{panama:n4 | Provincias<br>(puede ser comarca) }}}
+| {{{panama:n5 | Regiones Indígenas }}}
+| {{{panama:n6 | Distritos / Municipios }}}
+| {{{panama:n7 | {{n/a|align=left}} }}}
+| {{{panama:n8 | Corregimientos }}}
+| {{{panama:n9 | Comunidad (rural)<br>Localidad (urbana) }}}
+| {{{panama:n10 | Barrios<br/>Barriada }}}
+| {{{panama:n11 | {{n/a|align=left}} }}}
+|-
+| {{{papuanewguinea:value | '''{{Flagicon|Papua New Guinea}}'''<br><small>''(proposed)''</small> }}}
+| {{{papuanewguinea:n3 | Regions }}}
+| {{{papuanewguinea:n4 | Provinces / Autonomous Region of Bougainville / National Capital District }}}
+| {{{papuanewguinea:n5 | Districts }}}
+| {{{papuanewguinea:n6 | Urban and Rural LLG (Local-level governments) }}}
+| {{{papuanewguinea:n7 | in use, fixme }}}
+| {{{papuanewguinea:n8 | {{n/a|align=left}} }}}
+| {{{papuanewguinea:n9 | in use, fixme }}}
+| {{{papuanewguinea:n10 | {{n/a|align=left}} }}}
+| {{{papuanewguinea:n11 | {{n/a|align=left}} }}}
+|-
+| {{{paraguay:value | '''{{Flagicon|Paraguay}}''' }}}
+| {{{paraguay:n3 | natural regions<br>[[wikipedia:es:Paraguay#Regiones_Naturales|regiones naturales]] }}}
+| {{{paraguay:n4 | states<br>departamentos }}}
+| {{{paraguay:n5 | {{n/a|align=left}} }}}
+| {{{paraguay:n6 | {{n/a|align=left}} }}}
+| {{{paraguay:n7 | {{n/a|align=left}} }}}
+| {{{paraguay:n8 | municipal, city limits<br>municipalidades / distritos }}}
+| {{{paraguay:n9 | {{n/a|align=left}} }}}
+| {{{paraguay:n10 | suburb and locality<br>barrios y compañias rurales }}}
+| {{{paraguay:n11 | {{n/a|align=left}} }}}
+|-
+| {{{peru:value | '''{{Flagicon|Peru}}''' }}}
+| {{{peru:n3 | {{n/a|align=left}} }}}
+| {{{peru:n4 | [[wikipedia:en:Regions_of_Peru|States, Departments]]<br>[[wikipedia:es:Departamentos_del_Perú|Departamentos]] }}}
+| {{{peru:n5 | {{n/a|align=left}} }}}
+| {{{peru:n6 | [[wikipedia:en:Provinces_of_Peru|Regions, Provinces]]<br>[[wikipedia:es:Provincias_del_Perú|Provincias]] }}}
+| {{{peru:n7 | {{n/a|align=left}} }}}
+| {{{peru:n8 | [[wikipedia:en:Districts_of_Peru|Counties, Districts]]<br>[[wikipedia:es:Distritos_del_Perú|Distritos]] }}}
+| {{{peru:n9 | {{n/a|align=left}} }}}
+| {{{peru:n10 | suburb and locality<br>Centros Poblados, Caserío, Anexo, Comunidad Nativa, etc }}}
+| {{{peru:n11 | {{n/a|align=left}} }}}
+|-
+| {{{philippines:value | ''new levels''<br>'''{{flagicon|the Philippines|Philippines|Philippines}}'''<br><small>''10-admin level proposal is replaced by 11-admin_level, with sitios and puroks taking {{tag|admin_level||11}}''</small> }}}
+| {{{philippines:n3 | Regions (''Rehiyon'') }}}
+| {{{philippines:n4 | Provinces (''Lalawigan'') }}}
+| {{{philippines:n5 | Provincial legislative districts }}}
+| {{{philippines:n6 | Cities/municipalities (''Lungsod/bayan'') }}}
+| {{{philippines:n7 | City/municipal legislative districts }}}
+| {{{philippines:n8 | Administrative districts of Manila, Iloilo City and Davao City, former barangays that remain in use for addressing purposes (e.g. in Quezon City, Caloocan) }}}
+| {{{philippines:n9 | Barangay zones }}}
+| {{{philippines:n10 | Barangay }}}
+| {{{philippines:n11 | Sitio/purok }}}
+|-
+| {{{poland:value | '''{{flagicon|Poland}}''' }}}
+| {{{poland:n3 | {{n/a|align=left}} }}}
+| {{{poland:n4 | [[wikipedia:Voivodeships of Poland|''województwa'']] (voivodships, provinces, regions)<br> [[WikiProject_Poland/Podzia%C5%82_administracyjny#Wojew.C3.B3dztwa|Details in Polish]] }}}
+| {{{poland:n5 | {{n/a|align=left}} }}}
+| {{{poland:n6 | [[wikipedia:Powiat|''powiaty'']] (counties) - some cities have county status - in OSM their borders have both relations - one as a city and second as a county.<br>[[WikiProject_Poland/Podzia%C5%82_administracyjny#Powiaty_ziemskie|Details in Polish]] }}}
+| {{{poland:n7 | [[wikipedia:Gmina|''gminy'']] (municipalities) - some cities have municipality status - in OSM their borders have both relations - one as a city and second as a municipality.<br>[[WikiProject_Poland/Podzia%C5%82_administracyjny#Gminy_wiejskie_i_miejsko-wiejskie|Details in Polish]] }}}
+| {{{poland:n8 | cities, towns and villages.<br>(''miasta, miasteczka i wsie'').<br>[[WikiProject_Poland/Podzia%C5%82_administracyjny#Miasta|Details in Polish]] }}}
+| {{{poland:n9 | City districts (''dzielnice'') }}}
+| {{{poland:n10 | Przysiółki - usually isolated parts of villages.<br>[[WikiProject_Poland/Podzia%C5%82_administracyjny#Przysi.C3.B3.C5.82ki_.2F_cz.C4.99.C5.9Bci_miejscowo.C5.9Bci|Details in Polish]] }}}
+| {{{poland:n11 | boundaries for neighborhoods ''(osiedla)'' }}}
+|-
+| {{{portugal:value | '''{{Flagicon|Portugal}}'''<br><small>''([[WikiProject Portugal/Divisões Administrativas/Lista de Divisões Administrativas|Project page]])''</small> }}}
+| {{{portugal:n3 | {{n/a|align=left}} }}}
+| {{{portugal:n4 | [[wikipedia:Autonomous_Regions_of_Portugal|Autonomous Regions]] (Regiões autónomas)}}}
+| {{{portugal:n5 | {{n/a|align=left}} }}}
+| {{{portugal:n6 | [[wikipedia:Districts of Portugal|Districts]] (Distritos)}}}
+| {{{portugal:n7 | [[wikipedia:Administrative divisions of Portugal#Municipalities|Municipalities]] (Municípios) }}}
+| {{{portugal:n8 | [[wikipedia:Administrative divisions of Portugal#Civil parishes|Civil parishes]] (Freguesias) }}}
+| {{{portugal:n9 | {{n/a|align=left}} }}}
+| {{{portugal:n10 | {{n/a|align=left}} }}}
+| {{{portugal:n11 | {{n/a|align=left}} }}}
+|-
+| {{{qatar:value | '''{{Flagicon|Qatar}}'''<br><small>''(proposed)''</small> }}}
+| {{{qatar:n3 | {{n/a|align=left}} }}}
+| {{{qatar:n4 | Municipalities (baladiyah مدينة) }}}
+| {{{qatar:n5 | {{n/a|align=left}} }}}
+| {{{qatar:n6 | {{n/a|align=left}} }}}
+| {{{qatar:n7 | {{n/a|align=left}} }}}
+| {{{qatar:n8 | {{n/a|align=left}} }}}
+| {{{qatar:n9 | {{n/a|align=left}} }}}
+| {{{qatar:n10 | Districts }}}
+| {{{qatar:n11 | {{n/a|align=left}} }}}
+|-
+| {{{romania:value | '''{{Flagicon|Romania}} (România)'''<br><small>''(proposed)''</small> }}}
+| {{{romania:n3 | {{n/a|align=left}} }}}
+| {{{romania:n4 | Macroregions (NUTS1) or other divisions of equivalent size if they will ever be used in administration }}}
+| {{{romania:n5 | Regions (NUTS2) same as above }}}
+| {{{romania:n6 | Counties (Judeţe) and the Municipality of Bucharest (NUTS-3)
+<small>''currently those are set to 4, this is intended and will be changed if and when higher levels will be implemented in administration''</small> }}}
+| {{{romania:n7 | Metropolitan zones (or other type of inter-municipal association) }}}
+| {{{romania:n8 | Municipalities (Comune, Orașe, Municipii) (NUTS-LAU); Bucharest's sectors }}}
+| {{{romania:n9 | Villages, administrative parts of cities / municipalities }}}
+| {{{romania:n10 | Neighbourhoods }}}
+| {{{romania:n11 | {{n/a|align=left}} }}}
+|-
+|-<!-- Данная версия была выработана в результате долгих и трудных переговоров. Просьба наобум не править. В случае, если вы хотите предложить иную структуру, создайте новую строчку в этой таблице -->
+| rowspan="2" | {{{russia:value | '''{{Flagicon|Russia}} (Russian Federation)'''<br><small>''([[RU:Key:boundary|details]])''</small> }}}
+| {{{russia:n3 | [[wikipedia:en:Federal districts of Russia|Federal districts]] }}}
+| {{{russia:n4 | [[wikipedia:en:Federal subjects of Russia|Federal subjects]] }}}
+| {{{russia:n5 | Groups of municipal districts / urban okrugs, administrative okrugs / districts of federal cities }}}
+| {{{russia:n6 | Municipal districts and okrugs of federal subjects (except federal cities), urban okrugs, including ZATO and urban okrugs with intracity division }}}
+| {{{russia:n7 | rowspan=2 {{n/a|align=left}} }}}
+| {{{russia:n8 | Urban and rural municipalities, municipal intra-city territories of federal cities, districts of urban okrugs with intracity division }}}
+| {{{russia:n9 | Districts and other administrative-territorial units of urban and municipal okrugs }}}
+| {{{russia:n10 | <small>''(Under discussion: all hamlets / suburbs or only suburbs with local government offices)''</small> }}}
+| {{{russia:n11 | rowspan="2" {{n/a|align=left}} }}}
+|-
+| <!-- 3 --> [[wikipedia:ru:Федеральные округа Российской Федерации|Федеральные округа]]
+| <!-- 4 --> [[wikipedia:ru:Федеративное устройство России|Субъекты федерации]]
+| <!-- 5 --> Объединения муниципальных районов / городских округов, административные округа / районы городов федерального значения (ГФЗ)
+| <!-- 6 --> Муниципальные районы и округа субъектов федерации (кроме ГФЗ), городские округа, в т.ч. ЗАТО и ГО с внутригородским делением
+| <!-- 8 --> Городские и сельские муниципальные образования, внутригородские муниципальные образования ГФЗ, районы ГО с внутригородским делением
+| <!-- 9 --> Районы и другие административно-территориальные единицы городских и муниципальных округов
+| <!-- 10 --> <small>''(Обсуждается: все населённые пункты либо только микрорайоны с территориальными управлениями администрации)''</small>
+|-
+| {{{rwanda:value | '''{{Flagicon|Rwanda}}'''<br><small>''(proposed)''</small> }}}
+| {{{rwanda:n3 | {{n/a|align=left}} }}}
+| {{{rwanda:n4 | Provinces / Kigali City }}}
+| {{{rwanda:n5 | {{n/a|align=left}} }}}
+| {{{rwanda:n6 | Districts }}}
+| {{{rwanda:n7 | Chefferies ? }}}
+| {{{rwanda:n8 | In use: Municipalities ? }}}
+| {{{rwanda:n9 | In use: Villages ? Hamlets ? }}}
+| {{{rwanda:n10 | {{n/a|align=left}} }}}
+| {{{rwanda:n11 | {{n/a|align=left}} }}}
+|-
+| {{{sahrawiarab:value | '''{{Flagicon|Sahrawi Arab Democratic Republic}}'''<br><small>''(proposed)''</small> }}}
+| {{{sahrawiarab:n3 | {{n/a|align=left}} }}}
+| {{{sahrawiarab:n4 | {{n/a|align=left}} }}}
+| {{{sahrawiarab:n5 | {{n/a|align=left}} }}}
+| {{{sahrawiarab:n6 | {{n/a|align=left}} }}}
+| {{{sahrawiarab:n7 | Caidats (القيادة) }}}
+| {{{sahrawiarab:n8 | Municipalities (الجماعات الحضرية) }}}
+| {{{sahrawiarab:n9 | {{n/a|align=left}} }}}
+| {{{sahrawiarab:n10 | {{n/a|align=left}} }}}
+| {{{sahrawiarab:n11 | {{n/a|align=left}} }}}
+|-
+| {{{stkitts:value | '''{{Flagicon|Saint Kitts and Nevis}}'''<br><small>''(proposed)''</small> }}}
+| {{{stkitts:n3 | {{n/a|align=left}} }}}
+| {{{stkitts:n4 | St Kitts / Nevis }}}
+| {{{stkitts:n5 | {{n/a|align=left}} }}}
+| {{{stkitts:n6 | Parishes }}}
+| {{{stkitts:n7 | {{n/a|align=left}} }}}
+| {{{stkitts:n8 | {{n/a|align=left}} }}}
+| {{{stkitts:n9 | {{n/a|align=left}} }}}
+| {{{stkitts:n10 | {{n/a|align=left}} }}}
+| {{{stkitts:n11 | {{n/a|align=left}} }}}
+|-
+| {{{stlucia:value | '''{{Flagicon|Saint Lucia}}'''<br><small>''(proposed by [[User:PierrickBlaise|Pierrick Blaise]])''</small> }}}
+| {{{stlucia:n3 | {{n/a|align=left}} }}}
+| {{{stlucia:n4 | Districts }}}
+| {{{stlucia:n5 | {{n/a|align=left}} }}}
+| {{{stlucia:n6 | {{n/a|align=left}} }}}
+| {{{stlucia:n7 | {{n/a|align=left}} }}}
+| {{{stlucia:n8 | {{n/a|align=left}} }}}
+| {{{stlucia:n9 | {{n/a|align=left}} }}}
+| {{{stlucia:n10 | {{n/a|align=left}} }}}
+| {{{stlucia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{stvincent:value | '''{{Flagicon|Saint Vincent and the Grenadines}}'''<br><small>''(proposed)''</small> }}}
+| {{{stvincent:n3 | {{n/a|align=left}} }}}
+| {{{stvincent:n4 | {{n/a|align=left}} }}}
+| {{{stvincent:n5 | {{n/a|align=left}} }}}
+| {{{stvincent:n6 | Parishes }}}
+| {{{stvincent:n7 | {{n/a|align=left}} }}}
+| {{{stvincent:n8 | {{n/a|align=left}} }}}
+| {{{stvincent:n9 | {{n/a|align=left}} }}}
+| {{{stvincent:n10 | {{n/a|align=left}} }}}
+| {{{stvincent:n11 | {{n/a|align=left}} }}}
+|-
+| {{{samoa:value | '''{{Flagicon|Samoa}}'''<br><small>''(proposed)''</small> }}}
+| {{{samoa:n3 | {{n/a|align=left}} }}}
+| {{{samoa:n4 | Borders of 11 Traditional Political Districts }}}
+| {{{samoa:n5 | {{n/a|align=left}} }}}
+| {{{samoa:n6 | Borders of 51 Electoral Constituencies }}}
+| {{{samoa:n7 | {{n/a|align=left}} }}}
+| {{{samoa:n8 | Boundaries of 343+ Villages }}}
+| {{{samoa:n9 | {{n/a|align=left}} }}}
+| {{{samoa:n10 | {{n/a|align=left}} }}}
+| {{{samoa:n11 | {{n/a|align=left}} }}}
+|-
+| {{{sanmarino:value | '''{{Flagicon|San Marino}}'''<br><small>''(proposed)''</small> }}}
+| {{{sanmarino:n3 | {{n/a|align=left}} }}}
+| {{{sanmarino:n4 | {{n/a|align=left}} }}}
+| {{{sanmarino:n5 | {{n/a|align=left}} }}}
+| {{{sanmarino:n6 | {{n/a|align=left}} }}}
+| {{{sanmarino:n7 | {{n/a|align=left}} }}}
+| {{{sanmarino:n8 | [[wikipedia:Municipalities of San Marino|Municipalities (castelli)]] }}}
+| {{{sanmarino:n9 | {{n/a|align=left}} }}}
+| {{{sanmarino:n10 | {{n/a|align=left}} }}}
+| {{{sanmarino:n11 | {{n/a|align=left}} }}}
+|-
+| {{{saotome:value | '''{{Flagicon|Sao Tome and Principe}}'''<br><small>''(proposed)''</small> }}}
+| {{{saotome:n3 | {{n/a|align=left}} }}}
+| {{{saotome:n4 | Autonomous Region of Príncipe }}}
+| {{{saotome:n5 | {{n/a|align=left}} }}}
+| {{{saotome:n6 | Districts }}}
+| {{{saotome:n7 | Municipalities ? }}}
+| {{{saotome:n8 | {{n/a|align=left}} }}}
+| {{{saotome:n9 | {{n/a|align=left}} }}}
+| {{{saotome:n10 | {{n/a|align=left}} }}}
+| {{{saotome:n11 | {{n/a|align=left}} }}}
+|-
+| {{{saudiarabia:value | '''{{Flagicon|Saudi Arabia}}'''<br><small>''(proposed)''</small> }}}
+| {{{saudiarabia:n3 | {{n/a|align=left}} }}}
+| {{{saudiarabia:n4 | Regions (منطقة) }}}
+| {{{saudiarabia:n5 | {{n/a|align=left}} }}}
+| {{{saudiarabia:n6 | Governorate (محافظة) }}}
+| {{{saudiarabia:n7 | {{n/a|align=left}} }}}
+| {{{saudiarabia:n8 | {{n/a|align=left}} }}}
+| {{{saudiarabia:n9 | Municipalities (بلدية) }}}
+| {{{saudiarabia:n10 | Districts (حي) }}}
+| {{{saudiarabia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{senegal:value | '''{{Flagicon|Senegal}}'''<br><small>''([[FR:WikiProject Senegal#Frontières administratives|proposed]])''</small> }}}
+| {{{senegal:n3 | {{n/a|align=left}} }}}
+| {{{senegal:n4 | boundary of the "Regions" like Saint-Louis, Matam... }}}
+| {{{senegal:n5 | boundaries of the "Départements" see a list [[wikipedia:fr:Départements du Sénégal|here]] }}}
+| {{{senegal:n6 | {{n/a|align=left}} }}}
+| {{{senegal:n7 | boundary of "arrondissements" : subdivision of departements; see a list [[wikipedia:fr:Arrondissements du Sénégal|here]] }}}
+| {{{senegal:n8 | boundary of communes like Dakar, Tambacounda, Ziguinchor...see a list [[wikipedia:fr:Communes du Sénégal#Région de Tambacounda|here]] or rural communities }}}
+| {{{senegal:n9 | boundary of "Arrondissement municipal" }}}
+| {{{senegal:n10 | Used for the local democracy : quartiers }}}
+| {{{senegal:n11 | {{n/a|align=left}} }}}
+|-
+| {{{serbia:value | '''{{Flagicon|Serbia}}'''<br><small>''([https://forum.openstreetmap.org/viewtopic.php?id=56153 agreed])<br>(see [[wikipedia:Administrative divisions of Serbia|Administrative division]] or [[wikipedia:Statistical regions of Serbia|Statistical regions]] for possible future division)''</small> }}}
+| {{{serbia:n3 | {{n/a|align=left}} }}}
+| {{{serbia:n4 | autonomous provinces<br>аутономне покрајине<br>(also Serbia - North and Serbia - South NUTS1 regions)}}}
+| {{{serbia:n5 | regions<br>региони<br>(NUTS2)}}}
+| {{{serbia:n6 | administrative districts<br>управни окрузи<br>(areas<br>области NUTS3)}}}
+| {{{serbia:n7 | cities<br>градови}}}
+| {{{serbia:n8 | municipalities and urban municipalities<br>општине и градске општине}}}
+| {{{serbia:n9 | settlements<br>насеља}}}
+| {{{serbia:n10 | local communities<br>месне заједнице}}}
+| {{{serbia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{seychelles:value | '''{{Flagicon|Seychelles}}'''<br><small>''(proposed)''</small> }}}
+| {{{seychelles:n3 | {{n/a|align=left}} }}}
+| {{{seychelles:n4 | Groups of Districts (Greater Victoria, Rural Mahé, Praslin, La Digue, Outer Islands) }}}
+| {{{seychelles:n5 | {{n/a|align=left}} }}}
+| {{{seychelles:n6 | Districts (eg Bel Air) }}}
+| {{{seychelles:n7 | {{n/a|align=left}} }}}
+| {{{seychelles:n8 | {{n/a|align=left}} }}}
+| {{{seychelles:n9 | {{n/a|align=left}} }}}
+| {{{seychelles:n10 | {{n/a|align=left}} }}}
+| {{{seychelles:n11 | {{n/a|align=left}} }}}
+|-
+| {{{sierraleone:value | '''{{Flagicon|Sierra Leone}}'''<br><small>''(proposed by [[User:IndoFio|IndoFio]])''</small> }}}
+| {{{sierraleone:n3 | {{n/a|align=left}} }}}
+| {{{sierraleone:n4 | borders of 3 Provinces (Eastern, Northern, and Southern) + Western Area (as described in ISO 3166-2) }}}
+| {{{sierraleone:n5 | borders of 12 administrative districts, 6 municipalities (including Freetown) and Western Area Rural }}}
+| {{{sierraleone:n6 | borders of Paramount Chiefdoms, 8 Wards in Freetown and 4 Districts in Western Area }}}
+| {{{sierraleone:n7 | borders of Section Chiefdoms (Paramount Chiefdoms only) }}}
+| {{{sierraleone:n8 | {{n/a|align=left}} }}}
+| {{{sierraleone:n9 | {{n/a|align=left}} }}}
+| {{{sierraleone:n10 | {{n/a|align=left}} }}}
+| {{{sierraleone:n11 | {{n/a|align=left}} }}}
+|-
+| {{{singapore:value | '''{{Flagicon|Singapore}}'''<br><small>''(proposed)''</small> }}}
+| {{{singapore:n3 | {{n/a|align=left}} }}}
+| {{{singapore:n4 | {{n/a|align=left}} }}}
+| {{{singapore:n5 | [[wikipedia:Regions of Singapore|Region]] }}}
+| {{{singapore:n6 | [[wikipedia:Planning areas of Singapore|Planning Areas]] }}}
+| {{{singapore:n7 | [[wikipedia:Subzones of Singapore|Subzones]] }}}
+| {{{singapore:n8 | {{n/a|align=left}} }}}
+| {{{singapore:n9 | {{n/a|align=left}} }}}
+| {{{singapore:n10 | {{n/a|align=left}} }}}
+| {{{singapore:n11 | {{n/a|align=left}} }}}
+|-
+| {{{slovakia:value | '''{{Flagicon|Slovakia}}''' }}}
+| {{{slovakia:n3 | NUTS 2 Region (Groups of Regions): (''SK: oblasti: Bratislavský kraj, západné Slovensko, stredné Slovensko, východné Slovensko'') }}}
+| {{{slovakia:n4 | NUTS 3 Kraj (region borders) (''SK: hranica kraja, vyššieho územného celku'') }}}
+| {{{slovakia:n5 | {{n/a|align=left}} }}}
+| {{{slovakia:n6 | borders of Bratislava and Košice (''SK: hranice miest Bratislava a Košice'') }}}
+| {{{slovakia:n7 | {{n/a|align=left}} }}}
+| {{{slovakia:n8 | LAU 1 Okres (district borders) (''SK: hranica okresu'') }}}
+| {{{slovakia:n9 | LAU 2 Obec (Town/Village), autonomous towns in Bratislava and Košice }}}
+| {{{slovakia:n10 | Katastrálne územie (Cadastral place) (''SK: katastrálne územie obce'') }}}
+| {{{slovakia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{slovenia:value | '''{{Flagicon|Slovenia}}'''<br><small>''(see [[WikiProject Slovenia/Regije|Regije]] and [[wikipedia:sl:Upravna delitev Slovenije|Upravna delitev Slovenije]])''</small> }}}
+| {{{slovenia:n3 | {{n/a|align=left}} }}}
+| {{{slovenia:n4 | reserved for regional borders - if they are ever finalized (''SL: pokrajine'') }}}
+| {{{slovenia:n5 | {{n/a|align=left}} }}}
+| {{{slovenia:n6 | {{n/a|align=left}} }}}
+| {{{slovenia:n7 | Administrative units borders (''SL: upravne enote'') LAU 1}}}
+| {{{slovenia:n8 | Municipal borders (''SL: občine'') LAU 2}}}
+| {{{slovenia:n9 | {{n/a|align=left}} }}}
+| {{{slovenia:n10 | Suburbs, hamlets (''SL: meje naselij'') }}}
+| {{{slovenia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{solomon:value | '''{{Flagicon|Solomon Islands}}'''<br><small>''(proposed)''</small> }}}
+| {{{solomon:n3 | {{n/a|align=left}} }}}
+| {{{solomon:n4 | Provinces (9) / Capital }}}
+| {{{solomon:n5 | Wards }}}
+| {{{solomon:n6 | {{n/a|align=left}} }}}
+| {{{solomon:n7 | {{n/a|align=left}} }}}
+| {{{solomon:n8 | {{n/a|align=left}} }}}
+| {{{solomon:n9 | Suburbs }}}
+| {{{solomon:n10 | {{n/a|align=left}} }}}
+| {{{solomon:n11 | {{n/a|align=left}} }}}
+|-
+| {{{somalia:value | '''{{Flagicon|Somalia}}'''<br><small>''(proposed)''</small> }}}
+| {{{somalia:n3 | Somaliland (disputed territory) }}}
+| {{{somalia:n4 | States (6) }}}
+| {{{somalia:n5 | Regions (19) }}}
+| {{{somalia:n6 | Districts (106 on wikipedia, currently 88 in osm) }}}
+| {{{somalia:n7 | {{n/a|align=left}} }}}
+| {{{somalia:n8 | {{n/a|align=left}} }}}
+| {{{somalia:n9 | Quarters }}}
+| {{{somalia:n10 | {{n/a|align=left}} }}}
+| {{{somalia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{southafrica:value | '''{{Flagicon|South Africa}}''' }}}
+| {{{southafrica:n3 | {{n/a|align=left}} }}}
+| {{{southafrica:n4 | provincial borders }}}
+| {{{southafrica:n5 | {{n/a|align=left}} }}}
+| {{{southafrica:n6 | district borders (borders of district municipalities and metropolitan municipalities) }}}
+| {{{southafrica:n7 | N/A<br>''Proposed change to ''' municipal borders (borders of local municipalities within districts)''' ''(proposed by [https://www.openstreetmap.org/user/Ian%20Coetzee Ian Coetzee] on 4 December 2021) }}}
+| {{{southafrica:n8 | municipal borders (borders of local municipalities within districts)<br>''Proposed change to'' '''city/town borders''' (proposed by [https://www.openstreetmap.org/user/Ian%20Coetzee Ian Coetzee] on 4 December 2021) }}}
+| {{{southafrica:n9 | N/A<br>''Proposed change to'' '''ward borders''' (proposed by [https://www.openstreetmap.org/user/Ian%20Coetzee Ian Coetzee] on 26 November 2021) }}}
+| {{{southafrica:n10 | ward borders<br>''Proposed change to'' '''suburb borders''' (proposed by [https://www.openstreetmap.org/user/Ian%20Coetzee Ian Coetzee] on 26 November 2021) }}}
+| {{{southafrica:n11 | {{n/a|align=left}} }}}
+|-
+| rowspan="2" | {{{southkorea:value | '''{{Flagicon|South Korea}}''' (ROK)<br> <small>''(proposed by [[User:Namuori|namuori]] under discussion talk-ko Sep-2012)''</small> }}}
+| {{{southkorea:n3 | rowspan="2" {{n/a|align=left}} }}}
+| {{{southkorea:n4_1 | Regional(State) Border (Metropolitan Self-Governing Entity(MSGE) or 광역자치단체, as per [[wikipedia:ko:대한민국의 행정 구역|대한민국의 행정 구역]] - 특별시(서울), 광역시, 도, 특별자치도(제주), 특별자치시(세종)) }}}
+| {{{southkorea:n5 | rowspan="2" {{n/a|align=left}} }}}
+| {{{southkorea:n6_1 | County Border (Basic Self-Governing Entity(BSGE) or 기초자치단체 - MSGE's Gu/Gun & Do's Si 특별시의 자치구, 광역시의 자치구/군, 도의 자치시/군) }}}
+| {{{southkorea:n7_1 | City; Within a BSGE (기초자치단체(자치시)의): -gu 구 ; Within a Special Self-governing province (특별자치도의) :-si 시 }}}
+| {{{southkorea:n8_1 | Town; Within a -si (시의): -dong 동, -ga 가; Within a -do (도의): -eup 읍 : -myeon 면 }}}
+| {{{southkorea:n9 | rowspan="2" {{n/a|align=left}} }}}
+| {{{southkorea:n10_1 | Village (-ri, 리), -tong 통 }}}
+| {{{southkorea:n11 | rowspan="2" {{n/a|align=left}} }}}
+|-
+| {{{southkorea:n4_2 | Province (-do, 도), Metropolitan City (gwangyeok-si 광역시), Special City (Seoul)(teukbyeol-si 특별시) }}}
+| {{{southkorea:n6_2 | County (-gun, 군), City (-si, 시), Basic Self-Governing Entity (BSGE, 기초자치단체) }}}
+| {{{southkorea:n7_2 | District (-gu, 구). Special Self-governing Province (Jeju)(teukbyeol-jachido 특별자치도) }}}
+| {{{southkorea:n8_2 | {{n/a|align=left}} }}}
+| {{{southkorea:n10_2 | {{n/a|align=left}} }}}
+|-
+| {{{southsudan:value | '''{{Flagicon|South Sudan}}'''<br><small>''(proposed by [[User:Claire Halleux|clairedelune]])''</small> }}}
+| {{{southsudan:n3 | Historical region (3) }}}
+| {{{southsudan:n4 | State (28) }}}
+| {{{southsudan:n5 | (Before 2015) State (10) }}}
+| {{{southsudan:n6 | County (86) }}}
+| {{{southsudan:n7 | Payam (580) }}}
+| {{{southsudan:n8 | Boma (2092) }}}
+| {{{southsudan:n9 |  Village }}}
+| {{{southsudan:n10 | Village subdivision (rural) / Block (urban) }}}
+| {{{southsudan:n11 | {{n/a|align=left}} }}}
+|-
+| rowspan="2" | {{{spain:value | '''{{Flagicon|Spain}}'''<br><small>''(proposed)''</small><br>Frontera nacional }}}
+| {{{spain:n3 | (Unused) [[wikipedia:Groups of Spanish autonomous communities|Groups of Spanish autonomous communities]] ([[wikipedia:NUTS:ES|NUTS 1]]) }}}
+| {{{spain:n4 | [[wikipedia:Autonomous communities of Spain|Autonomous communities]] ([[wikipedia:NUTS:ES|NUTS 2]]) }}}
+| {{{spain:n5 | rowspan=2 {{n/a|align=left}} }}}
+| {{{spain:n6 | [[wikipedia:Provinces of Spain|Provinces]], see {{Tag|boundary|political}} for [[wikipedia:Cabildo insular |insular councils]] ([[wikipedia:NUTS:ES|NUTS 3]]) }}}
+| {{{spain:n7 | [[wikipedia:Judicial districts of Spain|Judicial districts]], [[wikipedia:Comarcas of Spain|comarcas]] (counties) and [[wikipedia:es:Cuadrillas de Álava|cuadrillas]] }}}
+| {{{spain:n8 | [[wikipedia:Municipalities of Spain|Municipalities]], equivalent to townships, communes }}}
+| {{{spain:n9 | Districts (parishes) }}}
+| {{{spain:n10 | [[wikipedia:Ward (country subdivision)|Wards]] }}}
+| {{{spain:n11 | rowspan="2" {{n/a|align=left}} }}}
+|-
+| <!-- 3 --> (No usado) [[wikipedia:ca:NUTS de nivell I#Espanya|Grupos de comunidades autónomas]] ([[wikipedia:es:NUTS:ES|NUTS 1]]).
+| <!-- 4 --> [[wikipedia:es:Comunidad autónoma|Comunidades autónomas]] ([[wikipedia:es:NUTS:ES|NUTS 2]]).
+| <!-- 6 --> [[wikipedia:es:Provincias de España |Provincias]], ver {{Tag|boundary|political}} para [[wikipedia:es:Cabildo Insular |cabildos insulares]] ([[wikipedia:es:NUTS:ES|NUTS 3]]).
+| <!-- 7 --> [[wikipedia:es:Partido judicial (España)|Partidos judiciales]], [[wikipedia:es:Comarcas de España|comarcas]] y [[wikipedia:es:Cuadrillas de Álava|cuadrillas]].
+| <!-- 8 --> [[wikipedia:es:Municipio (España)|Municipios]], equivalentes a ayuntamientos o [[wikipedia:ast:Conceyos d'Asturies|conceyos]] de [[Asturias]] y [[wikipedia:gl:Concellos de Galicia|concellos]] de [[Galicia]].
+| <!-- 9 --> [[wikipedia:es:Distritos de España|Distrito]] ([[wikipedia:es:Entidad colectiva de población |Entidad colectiva de población]]): diputaciones, [[wikipedia:es:Pedanía|pedanías]], [[wikipedia:gl:Parroquias de Galicia|parroquias civiles]] de Galicia, [[wikipedia:ast:Parroquia rural (Asturies)|parroquias rurales]] de Asturias, hermandades, [[wikipedia:es:Ledanía|ledanías]], [[wikipedia:es:Concejo (Navarra)|concejos]] de [[Comunidad Foral de Navarra|Navarra]] y [[wikipedia:es:Concejo (Álava)|concejos]] de [[Álava]].
+| <!-- 10 --> [[wikipedia:es:Entidad singular de población |Entidad singular de población]]: villa, lugar, aldea, caserío, poblado, barrio, urbanización.
+|-
+| {{{srilanka:value | '''{{Flagicon|Sri Lanka}}'''<br><small>''(proposed)''</small> }}}
+| {{{srilanka:n3 | {{n/a|align=left}} }}}
+| {{{srilanka:n4 | Provinces (மாகாணம்) }}}
+| {{{srilanka:n5 | Districts (மாவட்டம்) }}}
+| {{{srilanka:n6 | Divisions (பிரிவுகள்) }}}
+| {{{srilanka:n7 | Subdivisions (கிராம சேவையாளர் பிரிவு) ? }}}
+| {{{srilanka:n8 | Municipalities ? }}}
+| {{{srilanka:n9 | Suburbs, Quarters, Neighbourhoods ? }}}
+| {{{srilanka:n10 | {{n/a|align=left}} }}}
+| {{{srilanka:n11 | {{n/a|align=left}} }}}
+|-
+| {{{sudan:value | '''{{Flagicon|Sudan}}'''<br><small>''(proposed)''</small> }}}
+| {{{sudan:n3 | {{n/a|align=left}} }}}
+| {{{sudan:n4 | States (Wilayah ولاية) }}}
+| {{{sudan:n5 | Big Cities / Regions ? }}}
+| {{{sudan:n6 | Districts (fixme, see level 8) }}}
+| {{{sudan:n7 | in use, fixme }}}
+| {{{sudan:n8 | Districts (fixme, see level 6) }}}
+| {{{sudan:n9 | Municipalities ? }}}
+| {{{sudan:n10 | in use, fixme }}}
+| {{{sudan:n11 | Suburbs, Quarters, Neighbourhood, Blocks ? }}}
+|-
+| {{{suriname:value | '''{{Flagicon|Suriname}}'''<br> <small>''(proposed by [[User:Pander|Pander]])''</small> }}}
+| {{{suriname:n3 | {{n/a|align=left}} }}}
+| {{{suriname:n4 | [https://nl.wikipedia.org/wiki/Districten_van_Suriname Districten] ([https://en.wikipedia.org/wiki/Districts_of_Suriname districts] equivalent to counties or provinces) }}}
+| {{{suriname:n5 | {{n/a|align=left}} }}}
+| {{{suriname:n6 | {{n/a|align=left}} }}}
+| {{{suriname:n7 | {{n/a|align=left}} }}}
+| {{{suriname:n8 | [https://nl.wikipedia.org/wiki/Ressort_(Suriname) Ressorten] ([https://en.wikipedia.org/wiki/Resorts_of_Suriname resorts] approximately equivalent to municipalities) }}}
+| {{{suriname:n9 | {{n/a|align=left}} }}}
+| {{{suriname:n10 | {{n/a|align=left}} }}}
+| {{{suriname:n11 | {{n/a|align=left}} }}}
+|-
+| {{{sweden:value | '''{{Flagicon|Sweden}}''' }}}
+| {{{sweden:n3 | {{n/a|align=left}} }}}
+| {{{sweden:n4 | Län (County / NUTS3)<br>(21) Example: Västra Götalands län, Örebro län etc }}}
+| {{{sweden:n5 | {{n/a|align=left}} }}}
+| {{{sweden:n6 | Sameby (Sámi village, administers hunting/fishing in fell areas since 2020) <br> Example: Grans sameby, Ubmeje tjeälddie }}}
+| {{{sweden:n7 | Kommun (Muncipiality / LAU2) <br>(290) Example: Göteborg, Alingsås etc }}}
+| {{{sweden:n8 | Distrikt (district / parish, previously ''socken'') <br> Example: Anundsjö distrikt }}}
+| {{{sweden:n9 | Stadsdelsområde / Stadsdelsnämdsområde (Stockholm / Göteborg) <br> Example: Frölunda, Skarpnäck etc <br>In Umeå, this is called "Stadsdel" (Backenområdet, Marieområdet)<ref>http://www.umea.se/umeakommun/byggaboochmiljo/arkiv/nyhetsarkiv/artiklarbyggaboochmiljo/vadheterdinstadsdelegentligen.5.5a3cfc9f1556ae464a73f76.html</ref> }}}
+| {{{sweden:n10 | Stadsdel / Primärområde <br> Example: Masthugget, Södermalm etc <br> In Umeå, this is called "Stadsdelsområde" (Backen, Umedalen, Mariehem, Marieberg)<ref>http://www.umea.se/umeakommun/byggaboochmiljo/arkiv/nyhetsarkiv/artiklarbyggaboochmiljo/vadheterdinstadsdelegentligen.5.5a3cfc9f1556ae464a73f76.html</ref> }}}
+| {{{sweden:n11 | {{n/a|align=left}} }}}
+|-
+| {{{switzerland:value | '''{{Flagicon|Switzerland}}'''<br><small>''(proposed by [[User:Studerap|studerap]], extended by [[User:t-i|t-i]])''</small> }}}
+| {{{switzerland:n3 | {{n/a|align=left}} }}}
+| {{{switzerland:n4 | Cantons (de: Kantone)<br>Example: Aargau, Vaud }}}
+| {{{switzerland:n5 | Administrative region or other which isn't a district ([[wikipedia:de:Kanton Bern#Verwaltungskreise und -regionen|de: Verwaltungs&shy;regionen]], fr: Régions administratives) }}}
+| {{{switzerland:n6 | Districts ([[wikipedia:de:Bezirk (Schweiz)#Liste der Bezirke der Schweiz nach Kantonen|de: Bezirke/Ämter]], fr: districts)<br>e.g. Entlebuch<br>Schaffhausen, Neuchâtel and Geneva don't have districts }}}
+| {{{switzerland:n7 | Circles or [[wikipedia:de:Bellinzona (Bezirk)|something other]] between districts and municipalities }}}
+| {{{switzerland:n8 | Municipalities (de: Gemeinden/Städte, fr: communes/villes)<br>Example: Basel, Montreux }}}
+| {{{switzerland:n9 | Suburbs (de: Stadtkreise/Stadtteile, fr: secteurs)<br>e.g. Kreis 7 (Zurich) }}}
+| {{{switzerland:n10 | Quarters (de: Quartiere, fr: quartiers)<br>e.g. Les Pâquis (Geneva) }}}
+| {{{switzerland:n11 | {{n/a|align=left}} }}}
+|-
+| {{{syria:value | '''{{Flagicon|Syria}}''' }}}
+| {{{syria:n3 | {{n/a|align=left}} }}}
+| {{{syria:n4 | Governorates<br>محافظة<br>muhafazah }}}
+| {{{syria:n5 | Districts<br>منطقة<br>mintaqah }}}
+| {{{syria:n6 | Subdistricts<br>ناحية‎‎<br>nahiya }}}
+| {{{syria:n7 | {{n/a|align=left}} }}}
+| {{{syria:n8 | Cities, towns and villages of Subdistrict<hr />Damascus Municipalities<br>بلدية<br>baladiyah }}}
+| {{{syria:n9 | {{n/a|align=left}} }}}
+| {{{syria:n10 | Damascus neighborhoods<br>الحي<br>hayy }}}
+| {{{syria:n11 | {{n/a|align=left}} }}}
+|-
+| {{{taiwan:value | '''{{Flagicon|Taiwan}}''' }}}
+| {{{taiwan:n3 | {{n/a|align=left}} }}}
+| {{{taiwan:n4 | Municipality 直轄市; Provintial municipality 省轄市; County 縣 }}}
+| {{{taiwan:n5 | {{n/a|align=left}} }}}
+| {{{taiwan:n6 | {{n/a|align=left}} }}}
+| {{{taiwan:n7 | District 直轄市、省轄市的區 }}}
+| {{{taiwan:n8 | County-administered city 縣轄市; Township 鄉/鎮 }}}
+| {{{taiwan:n9 | Village 村/里 }}}
+| {{{taiwan:n10 | Neighbourhood 鄰 }}}
+| {{{taiwan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{tajikistan:value | '''{{Flagicon|Tajikistan}}'''<br><small>''(proposed by [[User:Maailma|Maailma]])''</small> }}}
+| {{{tajikistan:n3 | {{n/a|align=left}} }}}
+| {{{tajikistan:n4 | Borders of 3 Provinces (Sughd, Khatlon, Districts of Republican Subordination), 1 Region (Gorno-Badakhshan Autonomous Region) and Capital city (Dushanbe) }}}
+| {{{tajikistan:n5 | {{n/a|align=left}} }}}
+| {{{tajikistan:n6 | District (e.g. Varzob, Khovaling, Murghob) }}}
+| {{{tajikistan:n7 | {{n/a|align=left}} }}}
+| {{{tajikistan:n8 | Jamoat (e.g. Sarichashma) }}}
+| {{{tajikistan:n9 | {{n/a|align=left}} }}}
+| {{{tajikistan:n10 | Deha (village) / micro rayons }}}
+| {{{tajikistan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{tanzania:value | '''{{Flagicon|Tanzania}}'''<br><small>''(proposed)''</small> }}}
+| {{{tanzania:n3 | Zone (e.g. Northern Zone) }}}
+| {{{tanzania:n4 | Region (e.g. Arusha) }}}
+| {{{tanzania:n5 | District (e.g. Arumeru) }}}
+| {{{tanzania:n6 | Division (e.g. Mbarika) }}}
+| {{{tanzania:n7 | Ward (e.g. Usa River) }}}
+| {{{tanzania:n8 | {{n/a|align=left}} }}}
+| {{{tanzania:n9 | Village (in rural context) or Sub-ward/Mtaa (e.g. USA River; urban) }}}
+| {{{tanzania:n10 | Shina (area of responsibility of a Mjumbe or Tencell) }}}
+| {{{tanzania:n11 | {{n/a|align=left}} }}}
+|-
+| {{{thailand:value | '''{{Flagicon|Thailand}}'''<br><small>See also [[WikiProject Thailand#Administrative levels|Thailand administrative levels]]</small> }}}
+| {{{thailand:n3 | {{n/a|align=left}} }}}
+| {{{thailand:n4 | → Province / จังหวัด<br>→ Bangkok / กรุงเทพมหานคร }}}
+| {{{thailand:n5 | {{n/a|align=left}} }}}
+| {{{thailand:n6 | → District / อำเภอ<br>→ District / เขต (in Bangkok) }}}
+| {{{thailand:n7 | → Subdistrict Administrative Organization (SAO) / องค์การบริหารส่วนตำบล (อบต.)<br>→ City Municipality / เทศบาลนคร<br>→ Town Municipality / เทศบาลเมือง<br>→ Subdistrict Municipality / เทศบาลตำบล<br>→ Pattaya City / เมืองพัทยา }}}
+| {{{thailand:n8 | → Subdistrict / ตำบล<br>→ Subdistrict / แขวง (in Bangkok) }}}
+| {{{thailand:n9 | Khwaeng / แขวง (in municipality) }}}
+| {{{thailand:n10 | Village / หมู่บ้าน }}}
+| {{{thailand:n11 | Community / ชุมชน }}}
+|-
+| {{{timorleste:value | '''{{Flagicon|East Timor|East Timor|Timor-Leste}}'''<br><small>''(proposed)''</small> }}}
+| {{{timorleste:n3 | {{n/a|align=left}} }}}
+| {{{timorleste:n4 | Municipalities (pt:município, tet:munisípiu) }}}
+| {{{timorleste:n5 | Subdistricts (pt:postos administrativos, tet:postu administrativu) }}}
+| {{{timorleste:n6 | Villages (Sucos) (pt:aldeias (sucos), tet:sukus) }}}
+| {{{timorleste:n7 | {{n/a|align=left}} }}}
+| {{{timorleste:n8 | {{n/a|align=left}} }}}
+| {{{timorleste:n9 | {{n/a|align=left}} }}}
+| {{{timorleste:n10 | {{n/a|align=left}} }}}
+| {{{timorleste:n11 | {{n/a|align=left}} }}}
+|-
+| {{{togo:value | '''{{Flagicon|Togo}}'''<br><small>''(proposed)''</small> }}}
+| {{{togo:n3 | {{n/a|align=left}} }}}
+| {{{togo:n4 | Région<br>Commune de [[Lomé]] ''(statut particulier)'' }}}
+| {{{togo:n5 | Préfecture<br><small>''(note : la préfecture du Golfe, dans la région Maritime, couvre également Lomé)''</small> }}}
+| {{{togo:n6 | Sous-préfecture<br><small>''(note : Lomé est également une sous-préfecture)''</small> }}}
+| {{{togo:n7 | Commune <small>''(sauf Lomé)''</small> }}}
+| {{{togo:n8 | Arrondissement municipal }}}
+| {{{togo:n9 | Quartier }}}
+| {{{togo:n10 | Village }}}
+| {{{togo:n11 | {{n/a|align=left}} }}}
+|-
+| {{{tonga:value | '''{{Flagicon|Tonga}}'''<br><small>''(proposed)''</small> }}}
+| {{{tonga:n3 | {{n/a|align=left}} }}}
+| {{{tonga:n4 | Administrative divisions (to:?) }}}
+| {{{tonga:n5 | Districts (Vahe) }}}
+| {{{tonga:n6 | {{n/a|align=left}} }}}
+| {{{tonga:n7 | in use, fixme }}}
+| {{{tonga:n8 | {{n/a|align=left}} }}}
+| {{{tonga:n9 | {{n/a|align=left}} }}}
+| {{{tonga:n10 | {{n/a|align=left}} }}}
+| {{{tonga:n11 | {{n/a|align=left}} }}}
+|-
+| {{{trinidad:value | '''{{Flagicon|Trinidad and Tobago}}'''<br><small>''(proposed)''</small> }}}
+| {{{trinidad:n3 | {{n/a|align=left}} }}}
+| {{{trinidad:n4 | Regional corporations / Municipalities / Ward }}}
+| {{{trinidad:n5 | {{n/a|align=left}} }}}
+| {{{trinidad:n6 | {{n/a|align=left}} }}}
+| {{{trinidad:n7 | {{n/a|align=left}} }}}
+| {{{trinidad:n8 | {{n/a|align=left}} }}}
+| {{{trinidad:n9 | in use, quarters ? }}}
+| {{{trinidad:n10 | {{n/a|align=left}} }}}
+| {{{trinidad:n11 | {{n/a|align=left}} }}}
+|-
+| {{{tunisia:value | '''{{Flagicon|Tunisia}}''' }}}
+| {{{tunisia:n3 | {{n/a|align=left}} }}}
+| {{{tunisia:n4 | Borders of the 24 [[wikipedia:Governorates_of_Tunisia|Governorates]] of Tunisia }}}
+| {{{tunisia:n5 | Delegations (Districts) Borders }}}
+| {{{tunisia:n6 | Imadats (Sectors) Borders }}}
+| {{{tunisia:n7 | {{n/a|align=left}} }}}
+| {{{tunisia:n8 | {{n/a|align=left}} }}}
+| {{{tunisia:n9 | {{n/a|align=left}} }}}
+| {{{tunisia:n10 | {{n/a|align=left}} }}}
+| {{{tunisia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{turkey:value | '''{{Flagicon|Turkey}}'''<br>See [[wikipedia:tr:NUTS|NUTS]] as well }}}
+| {{{turkey:n3 | the Census defined [[wikipedia:Regions of Turkey|geographical regions]] of Turkey (which are used for administrative purposes and are well-known in the country)<br>NUTS 1 }}} '''(Coğrafi Bölgeler)'''
+| {{{turkey:n4 | Borders of the 81 [[wikipedia:Provinces of Turkey|provinces]] (NUTS 3) }}} '''(İller)'''
+| {{{turkey:n5 | {{n/a|align=left}} }}}
+| {{{turkey:n6 | Borders of [[wikipedia:Districts of Turkey|districts]] LAU 1 (aka NUTS 4) }}} '''(İlçeler)'''
+| {{{turkey:n7 | Borders of incorporated villages LAU 2 (aka NUTS 5) }}} '''(Beldeler)'''
+| {{{turkey:n8 | Borders of neighbourhoods and unincorporated villages }}} '''(Köyler ve Mahalleler)'''
+| {{{turkey:n9 | {{n/a|align=left}} }}}
+| {{{turkey:n10 | Village subdivisions  }}} '''(Köy altı yerleşimler: çiftlik, mezra, kom, divan, oba, yayla, küme evleri)'''
+| {{{turkey:n11 | {{n/a|align=left}} }}}
+|-
+| {{{turkmenistan:value | '''{{flagicon|Turkmenistan}}'''<br><small>''(proposed)''</small> }}}
+| {{{turkmenistan:n3 | {{n/a|align=left}} }}}
+| {{{turkmenistan:n4 | Provinces / Welayatlar / Области (e.g., Ahal) }}}
+| {{{turkmenistan:n5 | Provincial districts / Welayatyň etraplary / Районы областей (e.g., Ak Bugday etraby) }}}
+| {{{turkmenistan:n6 | Cities, Towns, Rural Councils / Şäherler, Şäherçeler, Geňeşler / Города, посёлки, сельсоветы (e.g., Balkanabat, Oguzhan, Bugdaýly geňeşligi) }}}
+| {{{turkmenistan:n7 | Municipal Boroughs with mayors / Şäheryň häkimli uly etraplary / Крупные городские районы с мэром (e.g., Awaza)
+| {{{turkmenistan:n8 | Villages / Obalar / Сёла (e.g., Babaarap) }}}
+| {{{turkmenistan:n9 | Municipal Districts / Şäheryň kiçi etraplary (etrapçalary) / Микрорайоны (e.g., Parahat 7) }}}
+| {{{turkmenistan:n10 | Hamlets, Neighborhoods, Subdistricts / Oba ilatly punktlary, Ýaşaýyş toplumlary, Etrabyň etraplary / Хуторы, Субмикрорайоны (e.g., Üçgöz, Çoganly Ýaşaýyş Toplumy, Parahat 7/2) }}}
+| {{{turkmenistan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{tuvalu:value | '''{{Flagicon|Tuvalu}}'''<br><small>''(proposed)''</small> }}}
+| {{{tuvalu:n3 | {{n/a|align=left}} }}}
+| {{{tuvalu:n4 | {{n/a|align=left}} }}}
+| {{{tuvalu:n5 | {{n/a|align=left}} }}}
+| {{{tuvalu:n6 | {{n/a|align=left}} }}}
+| {{{tuvalu:n7 | {{n/a|align=left}} }}}
+| {{{tuvalu:n8 | Administrative atolls/islands (9 Districts) }}}
+| {{{tuvalu:n9 | {{n/a|align=left}} }}}
+| {{{tuvalu:n10 | {{n/a|align=left}} }}}
+| {{{tuvalu:n11 | {{n/a|align=left}} }}}
+|-
+| {{{uganda:value | '''{{Flagicon|Uganda}}''' }}}
+| {{{uganda:n3 | Borders of the [[wikipedia:Regions of Uganda|regions]] (which do not have any political or administrative importance) }}}
+| {{{uganda:n4 | Borders of the 112 [[wikipedia:Districts of Uganda|districts]] }}}
+| {{{uganda:n5 | {{n/a|align=left}} }}}
+| {{{uganda:n6 | Borders of [[wikipedia:Counties of Uganda|counties]] }}}
+| {{{uganda:n7 | {{n/a|align=left}} }}}
+| {{{uganda:n8 | Borders of [[wikipedia:Sub-counties of Uganda|sub-counties]] }}}
+| {{{uganda:n9 | Borders of Parishes }}}
+| {{{uganda:n10 | Borders of Zones (in Kampala only) }}}
+| {{{uganda:n11 | {{n/a|align=left}} }}}
+|-
+| {{{ukraine:value | '''{{Flagicon|Ukraine}}'''<br> <small>''([[Uk:Вікіпроект Україна/Адміністративно-територіальний устрій|details]])''</small><br>The '''admin_level''' values listed here are deprecated and not recommended for use. [https://forum.openstreetmap.org/viewtopic.php?id=71133 The Ukrainian community is currently discussing a new tagging scheme]. }}}
+| {{{ukraine:n3 | {{n/a|align=left}} }}}
+| {{{ukraine:n4 | Crimea, Oblasts, Kyiv and Sevastopol / АР Крим, області, Київ і Севастополь / АР Крым, области, Киев и Севастополь }}}
+| {{{ukraine:n5 | {{n/a|align=left}} }}}
+| {{{ukraine:n6 | Crimea rayons, rayons in oblasts, cities of regional significance / Райони в Криму, райони в областях, міста обласного значення / Районы в Крыму, районы в областях, города областного значения }}}
+| {{{ukraine:n7 | Administrative rayons in cities and towns, ''united territorial communities'' / Адміністративні райони у містах, ''об'єднані територіальні громади'' / Административные районы в городах, ''объединённые территориальные громады'' }}}
+| {{{ukraine:n8 | Local radas in rayons in Crimea and oblasts / Місцеві ради в районах Криму і областей (міські ради, селищні ради, сільські ради) / Местные советы в районах Крыма и областей (городские советы, поселковые советы, сельские советы) }}}
+| {{{ukraine:n9 | Settlements per se / Власне населені пункти / Собственно населённые пункты }}}
+| {{{ukraine:n10 | {{n/a|align=left}} }}}
+| {{{ukraine:n11 | {{n/a|align=left}} }}}
+|-
+| {{{unitedarab:value | '''{{Flagicon|United Arab Emirates}}'''<br><small>''(proposed)''</small> }}}
+| {{{unitedarab:n3 | {{n/a|align=left}} }}}
+| {{{unitedarab:n4 | Emirates (إمارة) }}}
+| {{{unitedarab:n5 | Capital Abu Dhabi (أبو ظبي) }}}
+| {{{unitedarab:n6 | {{n/a|align=left}} }}}
+| {{{unitedarab:n7 | in use, fixme }}}
+| {{{unitedarab:n8 | Municipalities }}}
+| {{{unitedarab:n9 | {{n/a|align=left}} }}}
+| {{{unitedarab:n10 | Suburbs / Quarters / Villages ? }}}
+| {{{unitedarab:n11 | {{n/a|align=left}} }}}
+|-
+| {{{unitedkingdom:value | '''{{Flagicon|United Kingdom}}''' }}}
+| {{{unitedkingdom:n3 | {{n/a|align=left}} }}}
+| {{{unitedkingdom:n4 | England, Scotland, Wales and Northern Ireland }}}
+| {{{unitedkingdom:n5 | England:  [[wikipedia:Combined_authority|Combined Authorities]] and Greater London<br>The former ''Government Regions'' no longer exist (and were never really "administrative" anyway) }}}
+| {{{unitedkingdom:n6 | England: Two-tier non-metropolitan counties, Metropolitan counties, Unitary authorities, City of London<br>Scotland: [[wikipedia:Council area|council areas]]<br>Wales: [[wikipedia:Principal area|principal areas/awdurdodau unedol]]<br>Northern Ireland: ''currently unmapped - local government district?? also need to consider compatibility with Ireland'' }}}
+| {{{unitedkingdom:n7 | {{n/a|align=left}} }}}
+| {{{unitedkingdom:n8 | England only: Metropolitan districts, non-metropolitan districts, London boroughs }}}
+| {{{unitedkingdom:n9 | {{n/a|align=left}} }}}
+| {{{unitedkingdom:n10 | England: [[wikipedia:Civil parish|civil parishes]]<br>Scotland: [[wikipedia:Community council#Scotland|community councils]]<br>Wales: [[wikipedia:Community (Wales)|communities/cymunedau]] }}}
+| {{{unitedkingdom:n11 | {{n/a|align=left}} }}}
+|-
+| {{{unitedstates:value | '''{{Flagicon|United States}}'''<br><small>''Simplified/generalized; see [[United_States_admin_level]] and<br>[[United States/Boundaries]]''</small> }}}
+| {{{unitedstates:n3 | There are semi-official and unofficial regions, see {{WikiIcon|List_of_regions_of_the_United_States}}. These aren't "administrative regions" but geographical, possibly cultural regions; do '''not''' tag these {{tag|admin_level|3}}. }}}
+| {{{unitedstates:n4 | [[United_States_admin_level|the 50 States, 3 Territories, 2 Commonwealths and the District of Columbia]] }}}
+| {{{unitedstates:n5 | [[United_States_admin_level#Consolidated_city-counties.2C_Independent_cities|New York City]] (an agglomerate of multiple county equivalents),<br>{{WikiIcon|Grand_Divisions_of_Tennessee}} }}}
+| {{{unitedstates:n6 | [[w:County_(United_States)|State counties and "county equivalents,"]]<br>[[w:County_(United_States)#Territories|Territorial municipalities]] }}}
+| {{{unitedstates:n7 | [[w:Civil_township|Civil townships]] (in about one-third of states) }}}
+| {{{unitedstates:n8 | state [[United States/Boundaries#Municipalities|Municipalities]]: cities, towns and villages; infrequently, hamlets }}}
+| {{{unitedstates:n9 | [[w:Wards_of_the_United_States|Wards]] (rare) }}}
+| {{{unitedstates:n10 | [[United States/Boundaries#Municipal subdivisions|Neighborhoods]] (infrequent),<br>[[homeowner association]]s (infrequent) }}}
+| {{{unitedstates:n11 | {{n/a|align=left}} }}}
+|-
+| {{{uruguay:value | '''{{Flagicon|Uruguay}}'''<br><small>''(proposed by [[User:Zeroth|Zeroth]])''</small> }}}
+| {{{uruguay:n3 | {{n/a|align=left}} }}}
+| {{{uruguay:n4 | Department borders }}}
+| {{{uruguay:n5 | {{n/a|align=left}} }}}
+| {{{uruguay:n6 | Local board limits (municipios) }}}
+| {{{uruguay:n7 | {{n/a|align=left}} }}}
+| {{{uruguay:n8 | City / town limits }}}
+| {{{uruguay:n9 | {{n/a|align=left}} }}}
+| {{{uruguay:n10 | Barrios }}}
+| {{{uruguay:n11 | {{n/a|align=left}} }}}
+|-
+| {{{uzbekistan:value | '''{{Flagicon|Uzbekistan}}'''<br><small>''(proposed by [[User:Uzbekistaan]])''</small> }}}
+| {{{uzbekistan:n3 | {{n/a|align=left}} }}}
+| {{{uzbekistan:n4 | Borders of 12 Provinces (viloyat), 1 Autonomous Republic (Karakalpakstan Republic) and 1 Capital city (Tashkent city) }}}
+| {{{uzbekistan:n5 | {{n/a|align=left}} }}}
+| {{{uzbekistan:n6 | District (tuman) and cities of provinces subordination (viloyatga bo'ysunuchi shaharlar) (e.g. Zomin tumani, Shayhontohur tumani, Andijon shahri) }}}
+| {{{uzbekistan:n7 | {{n/a|align=left}} }}}
+| {{{uzbekistan:n8 | Cities of districts subordination (tumanga bo'sunuvchi shaharlar), urban settlements (shaharcha) and rural community of citizens (qishloq fuqarolar yig'ini) (e.g. Osmonsoy QFY, Zomin shaharchasi) }}}
+| {{{uzbekistan:n9 | {{n/a|align=left}} }}}
+| {{{uzbekistan:n10 | Neighborhood (Mahalla), village (qishloq), small districts (kichik tumanlar (mikro rayon)) }}}
+| {{{uzbekistan:n11 | {{n/a|align=left}} }}}
+|-
+| {{{vanuatu:value | '''{{Flagicon|Vanuatu}}'''<br><small>''(proposed by [[User:Øukasz|Øukasz]] ([[User talk:Øukasz|talk]]) 17 November 2018 )''</small> }}}
+| {{{vanuatu:n3 | {{n/a|align=left}} }}}
+| {{{vanuatu:n4 | Province }}}
+| {{{vanuatu:n5 | {{n/a|align=left}} }}}
+| {{{vanuatu:n6 | Area (sometimes referred to as Area Council. Municipalities of Port Vila and Luganville are their own Areas) }}}
+| {{{vanuatu:n7 | {{n/a|align=left}} }}}
+| {{{vanuatu:n8 | Ward (subdivision of Municipalities, and in some cases former Municipalities) }}}
+| {{{vanuatu:n9 | Community (Nakamal council) (Not typically used by the central government, but in use to further subdivide some Areas) }}}
+| {{{vanuatu:n10 | {{n/a|align=left}} }}}
+| {{{vanuatu:n11 | {{n/a|align=left}} }}}
+|-
+| {{{venezuela:value | '''{{flagicon|Venezuela}}''' }}}
+| {{{venezuela:n3 | {{n/a|align=left}} }}}
+| {{{venezuela:n4 | <span style="font-size:90%">'''First-level administrative division:'''</span><br>→ {{Wikipedia|en|States of Venezuela|'''Estado''' (''State'')|text=no|icon=no}}<br>→ {{Wikipedia|en|Capital District (Venezuela)|'''Distrito Capital''' (''Capital District'')|text=no|icon=no}}<br>→ {{Wikipedia|en|Federal Dependencies of Venezuela|'''Dependencia Federal''' (''Federal Dependencies'')|text=no|icon=no}} }}}
+| {{{venezuela:n5 | <span style="font-size:90%">'''Some administrative elements in certain parts of this country:'''</span><br>→ Distrito Metropolitano<br>→ Alcaldía Mayor }}}
+| {{{venezuela:n6 | <span style="font-size:90%">'''Second-level administrative division:'''</span><br>→ {{Wikipedia|en|Municipalities of Venezuela|'''Municipio''' (''Municipality'')|text=no|icon=no}} }}}
+| {{{venezuela:n7 | <span style="font-size:90%">'''Third-level administrative division:'''</span><br>→ {{Wikipedia|en|Parishes of Venezuela|'''Parroquia''' (''Parish'')|text=no|icon=no}} }}}
+| {{{venezuela:n8 | <span style="font-size:90%">'''Cities, towns and other inhabited places:'''</span><br>→ ''[[Tag:place=city|city]]''<br>→ ''[[Tag:place=town|town]]''<br>→ ''[[Tag:place=village|village]]''<br>→ ''[[Tag:place=hamlet|hamlet]]'' }}}
+| {{{venezuela:n9 | <span style="font-size:90%">'''Neighborhoods in general, into which a [[Tag:place=city|city]] or [[Tag:place=town|town]] is subdivided:'''</span><br>→ ''[[Tag:place=suburb|suburb]]''<br>→ ''[[Tag:place=quarter|quarter]]''<br>→ ''[[Tag:place=neighbourhood|neighbourhood]]'' }}}
+| {{{venezuela:n10 | <span style="font-size:90%">'''Neighborhoods in general, within other neighborhoods in general:'''</span><br>→ ''[[Tag:place=suburb|suburb]]''<br>→ ''[[Tag:place=quarter|quarter]]''<br>→ ''[[Tag:place=neighbourhood|neighbourhood]]'' }}}
+| {{{venezuela:n11 | <span style="font-size:90%">Others minor administrative elements, or a third-level subdivision of neighborhoods</span> }}}
+|-
+| {{{vietnam:value | '''{{Flagicon|Vietnam}}''' }}}
+| {{{vietnam:n3 | {{n/a|align=left}} }}}
+| {{{vietnam:n4 | Province ({{lang|vi|tỉnh}}), city ({{lang|vi|thành phố}}) }}}
+| {{{vietnam:n5 | {{n/a|align=left}} }}}
+| {{{vietnam:n6 | Commune ({{lang|vi|phường}}), ward ({{lang|vi|xã}}), special administrative region ({{lang|vi|đặc khu}}) }}}
+| {{{vietnam:n7 | {{n/a|align=left}} }}}
+| {{{vietnam:n8 | {{n/a|align=left}} }}}
+| {{{vietnam:n9 | {{n/a|align=left}} }}}
+| {{{vietnam:n10 | {{n/a|align=left}} }}}
+| {{{vietnam:n11 | {{n/a|align=left}} }}}
+|-
+| {{{yemen:value | '''{{Flagicon|Yemen}}'''<br><small>''(proposed)''</small> }}}
+| {{{yemen:n3 | {{n/a|align=left}} }}}
+| {{{yemen:n4 | Governorates (محافظة) }}}
+| {{{yemen:n5 | Aden (مدينة عدن) }}}
+| {{{yemen:n6 | Districts (مديرية) }}}
+| {{{yemen:n7 | Villages ? }}}
+| {{{yemen:n8 | {{n/a|align=left}} }}}
+| {{{yemen:n9 | {{n/a|align=left}} }}}
+| {{{yemen:n10 | {{n/a|align=left}} }}}
+| {{{yemen:n11 | {{n/a|align=left}} }}}
+|-
+| {{{zambia:value | '''{{Flagicon|Zambia}}'''<br><small>''(proposed)''</small> }}}
+| {{{zambia:n3 | {{n/a|align=left}} }}}
+| {{{zambia:n4 | [[wikipedia:Provinces of Zambia|Provinces]] }}}
+| {{{zambia:n5 | [[wikipedia:Districts of Zambia|Districts]] }}}
+| {{{zambia:n6 | {{n/a|align=left}} }}}
+| {{{zambia:n7 | {{n/a|align=left}} }}}
+| {{{zambia:n8 | {{n/a|align=left}} }}}
+| {{{zambia:n9 | {{n/a|align=left}} }}}
+| {{{zambia:n10 | {{n/a|align=left}} }}}
+| {{{zambia:n11 | {{n/a|align=left}} }}}
+|-
+| {{{zimbabwe:value | '''{{Flagicon|Zimbabwe}}'''<br><small>''(proposed)''</small> }}}
+| {{{zimbabwe:n3 | {{n/a|align=left}} }}}
+| {{{zimbabwe:n4 | Provinces }}}
+| {{{zimbabwe:n5 | {{n/a|align=left}} }}}
+| {{{zimbabwe:n6 | Districts }}}
+| {{{zimbabwe:n7 | {{n/a|align=left}} }}}
+| {{{zimbabwe:n8 | Municipalities ? }}}
+| {{{zimbabwe:n9 | {{n/a|align=left}} }}}
+| {{{zimbabwe:n10 | Suburbs / Wards ? }}}
+| {{{zimbabwe:n11 | {{n/a|align=left}} }}}
+|-
+!scope="col" rowspan="2"| {{{head:country | Country ({{Tag|admin_level|2}})}}} 
+!scope="col"| 3
+!scope="col"| 4
+!scope="col"| 5
+!scope="col"| 6
+!scope="col"| 7
+!scope="col"| 8
+!scope="col"| 9
+!scope="col"| 10
+!scope="col"| 11
+|-
+!scope="col" colspan="9"| {{Key|admin_level}}
+|}
+</small>
+<noinclude>
+
+== References ==
+<references/>
+
+[[Category:Boundaries]]
+[[Category:Templates for synchronisation]]
+</noinclude>
+</div>
