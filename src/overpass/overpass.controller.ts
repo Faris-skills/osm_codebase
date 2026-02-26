@@ -5,6 +5,7 @@ import { AreaDto } from './dtos/area.dto';
 import { PostcodesByCityDto } from './dtos/postcodes.dto';
 import { CustomQueryDto } from './dtos/custom.dto';
 import { OverpassResponse } from './types/response-types.types';
+import { GetCountDto } from './dtos/get-count.dto';
 
 @Controller('overpass')
 export class OverpassController {
@@ -30,6 +31,15 @@ export class OverpassController {
   @Post('postcodes')
   async postcodes(@Body() dto: PostcodesByCityDto): Promise<OverpassResponse> {
     return this.overpassService.postcodesByCity(dto.name, {
+      adminLevel: dto.adminLevel,
+      timeout: dto.timeout,
+    });
+  }
+
+  @Post('get-count') async countNumberOfPoints(
+    @Body() dto: GetCountDto,
+  ): Promise<OverpassResponse> {
+    return this.overpassService.countNumberOfPoints(dto.tags, dto.areaName, {
       adminLevel: dto.adminLevel,
       timeout: dto.timeout,
     });

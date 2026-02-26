@@ -321,6 +321,64 @@ ${separator}
     return this.runQuery(query, hint, cacheKey, 3600);
   }
 
+  async countNumberOfPoints(
+    tags: Record<string, string>,
+    areaName: string,
+    options?: {
+      adminLevel?: number;
+      timeout?: number;
+    },
+  ) {
+    const timeout = options?.timeout ?? 180;
+    const safeName = escaper(areaName);
+
+    // ----------------- AREA QUERY -----------------
+    let areaQuery = '';
+    if (options?.adminLevel) {
+      areaQuery = `
+        area["name"="${safeName}"]["boundary"="administrative"]
+        ["admin_level"="${options.adminLevel}"]->.a;
+      `;
+    } else {
+      areaQuery = `
+        (
+          area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="8"];
+          area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="6"];
+          area["name"="${safeName}"]["boundary"="administrative"]["admin_level"="4"];
+        )->.a;
+      `;
+    }
+
+    // ----------------- ELEMENT QUERY -----------------
+    const tagFilterBlock = Object.entries(tags)
+      .map(([key, value]) => `["${key}"="${escaper(value)}"]`)
+      .join('');
+
+    const elementQueries = `
+      node${tagFilterBlock}(area.a);
+    `;
+
+    // ----------------- FINAL QUERY -----------------
+    const query = `
+      [out:json][timeout:${timeout}];
+      ${areaQuery}
+      ${elementQueries}
+      out count;
+    `;
+
+    const normalizedTags = Object.keys(tags)
+      .sort()
+      .map((k) => `${k}:${tags[k]}`)
+      .join('|');
+
+    const cacheKey = `count:${safeName}:${normalizedTags}:${options?.adminLevel ?? 'auto'}`;
+
+    const hint =
+      'Use POST /overpass/count with body { "tags": { "key": "value" }, "areaName": "<name>", "adminLevel": <number>, "timeout": <number> }';
+
+    return this.runQuery(query, hint, cacheKey);
+  }
+
   async custom(query: string) {
     const hint =
       'Use /overpass/custom with body { "query": "<valid Overpass QL>" }. Example: [out:json]; way["highway"="primary"](48.8,2.25,48.9,2.45); out;';

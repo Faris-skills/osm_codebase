@@ -149,4 +149,112 @@ describe('OverpassService', () => {
       InternalServerErrorException,
     );
   });
+
+  // ============================
+  // findNodesByTagsInArea
+  // ============================
+
+  describe('findNodesByTagsInArea', () => {
+    it('should generate a specific query when only name tag is provided', async () => {
+      mockedAxios.post.mockResolvedValueOnce({ data: { elements: [] } });
+
+      await service.findNodesByTagsInArea({ name: 'Paris' }, 'France');
+
+      const calledQuery = mockedAxios.post.mock.calls[0][1];
+      // Verify it uses the regex "~" and "i" flag for name/brand search logic
+      expect(calledQuery).toContain('node["name"~"Paris", i](area.a)');
+      expect(calledQuery).toContain('area["name"="France"]');
+    });
+
+    it('should use provided adminLevel in the area query', async () => {
+      mockedAxios.post.mockResolvedValueOnce({ data: { elements: [] } });
+
+      await service.findNodesByTagsInArea({ amenity: 'cafe' }, 'Berlin', {
+        adminLevel: 8,
+      });
+
+      const calledQuery = mockedAxios.post.mock.calls[0][1];
+      expect(calledQuery).toContain('["admin_level"="8"]');
+      expect(calledQuery).not.toContain('["admin_level"="6"]'); // Should not contain defaults
+    });
+
+    it('should cache the result with a specific area key', async () => {
+      mockedAxios.post.mockResolvedValueOnce({
+        data: { elements: ['some-data'] },
+      });
+
+      await service.findNodesByTagsInArea({ shop: 'bakery' }, 'London');
+
+      expect(mockCacheManager.set).toHaveBeenCalledWith(
+        expect.stringContaining('area:London:shop:bakery'),
+        { elements: ['some-data'] },
+        3600,
+      );
+    });
+  });
+
+  // ============================
+  // postcodesByCity
+  // ============================
+
+  describe('postcodesByCity', () => {
+    it('should request addr:postcode for a given city', async () => {
+      mockedAxios.post.mockResolvedValueOnce({ data: { elements: [] } });
+
+      await service.postcodesByCity('Lyon');
+
+      const calledQuery = mockedAxios.post.mock.calls[0][1];
+      expect(calledQuery).toContain('nwr(area.a)["addr:postcode"]');
+      expect(calledQuery).toContain('out center tags');
+    });
+  });
+
+  // ============================
+  // countNumberOfPoints
+  // ============================
+
+  describe('countNumberOfPoints', () => {
+    it('should generate a query ending with out count', async () => {
+      mockedAxios.post.mockResolvedValueOnce({ data: { count: 10 } });
+
+      const result = await service.countNumberOfPoints(
+        { amenity: 'pharmacy' },
+        'Dublin',
+      );
+
+      const calledQuery = mockedAxios.post.mock.calls[0][1];
+      expect(calledQuery).toContain('out count;');
+      expect(result).toEqual({ count: 10 });
+    });
+  });
+
+  // ============================
+  // Runtime Error Mapping (Hint logic)
+  // ============================
+
+  describe('RunQuery Error Mapping', () => {
+    it('should provide a memory-specific hint when Overpass fails with out of memory', async () => {
+      mockedAxios.post.mockResolvedValueOnce({
+        data: { remark: 'runtime error: out of memory' },
+      });
+
+      try {
+        await service.custom('query');
+      } catch (e: any) {
+        expect(e.response.hint).toContain('exceeded Overpass memory limits');
+      }
+    });
+
+    it('should provide a timeout-specific hint when Overpass times out', async () => {
+      mockedAxios.post.mockResolvedValueOnce({
+        data: { remark: 'runtime error: query timeout' },
+      });
+
+      try {
+        await service.custom('query');
+      } catch (e: any) {
+        expect(e.response.hint).toContain('Query timed out');
+      }
+    });
+  });
 });

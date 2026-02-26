@@ -90,6 +90,27 @@ describe('OverpassController', () => {
     });
   });
 
+  describe('get-count', () => {
+    it('should call service.countNumberOfPoints with correct params', async () => {
+      const dto = {
+        tags: { amenity: 'pharmacy' },
+        areaName: 'Paris',
+        adminLevel: 8,
+        timeout: 200,
+      };
+      const result = await controller.area(dto as any);
+      expect(service.findNodesByTagsInArea).toHaveBeenCalledWith(
+        dto.tags,
+        dto.areaName,
+        {
+          adminLevel: dto.adminLevel,
+          timeout: dto.timeout,
+        },
+      );
+      expect(result).toEqual(mockResponse);
+    });
+  });
+
   describe('custom', () => {
     it('should call service.custom with correct query', async () => {
       const dto = { query: '[out:json];node(1);out;' };
