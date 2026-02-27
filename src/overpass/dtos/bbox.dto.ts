@@ -5,6 +5,8 @@ import {
   ArrayMaxSize,
   IsNumber,
   IsOptional,
+  Min,
+  Max,
 } from 'class-validator';
 
 export class BboxDto {
@@ -19,5 +21,7 @@ export class BboxDto {
 
   @IsOptional()
   @IsNumber()
+  @Min(10)
+  @Max(600)
   timeout?: number;
 }

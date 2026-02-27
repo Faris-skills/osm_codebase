@@ -229,6 +229,47 @@ describe('OverpassService', () => {
   });
 
   // ============================
+  // findPlaceDetails
+  // ============================
+
+  describe('findPlaceDetails', () => {
+    it('should generate a query for administrative boundaries by name', async () => {
+      mockedAxios.post.mockResolvedValueOnce({
+        data: { elements: [{ id: 123 }] },
+      });
+
+      await service.findPlaceDetails('Paris', 30);
+
+      const calledQuery = mockedAxios.post.mock.calls[0][1];
+
+      // Check for the specific Overpass QL syntax requirements
+      expect(calledQuery).toContain('[timeout:30]');
+      expect(calledQuery).toContain('["boundary"="administrative"]');
+      expect(calledQuery).toContain('["name"="Paris"]');
+      expect(calledQuery).toContain('out ids tags;');
+    });
+
+    it('should use a default timeout of 60 if none is provided', async () => {
+      mockedAxios.post.mockResolvedValueOnce({ data: { elements: [] } });
+
+      await service.findPlaceDetails('London');
+
+      const calledQuery = mockedAxios.post.mock.calls[0][1];
+      expect(calledQuery).toContain('[timeout:60]');
+    });
+
+    it('should escape special characters in the place name', async () => {
+      mockedAxios.post.mockResolvedValueOnce({ data: { elements: [] } });
+
+      // Assuming escaper is mocked or imported; testing the logic flow
+      await service.findPlaceDetails("L'Alpe d'Huez");
+
+      const calledQuery = mockedAxios.post.mock.calls[0][1];
+      expect(calledQuery).toContain('["name"="L\'Alpe d\'Huez"]');
+    });
+  });
+
+  // ============================
   // Runtime Error Mapping (Hint logic)
   // ============================
 

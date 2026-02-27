@@ -1,4 +1,4 @@
-import { Controller, Post, Body } from '@nestjs/common';
+import { Controller, Post, Body, Get, Param, Query } from '@nestjs/common';
 import { OverpassService } from './overpass.service';
 import { BboxDto } from './dtos/bbox.dto';
 import { AreaDto } from './dtos/area.dto';
@@ -6,6 +6,7 @@ import { PostcodesByCityDto } from './dtos/postcodes.dto';
 import { CustomQueryDto } from './dtos/custom.dto';
 import { OverpassResponse } from './types/response-types.types';
 import { GetCountDto } from './dtos/get-count.dto';
+import { PlaceDetailsQueryDto } from './dtos/place-details.dto';
 
 @Controller('overpass')
 export class OverpassController {
@@ -43,6 +44,14 @@ export class OverpassController {
       adminLevel: dto.adminLevel,
       timeout: dto.timeout,
     });
+  }
+
+  @Get('place-details/:place_name')
+  async getPlaceDetails(
+    @Param('place_name') place_name: string,
+    @Query() query: PlaceDetailsQueryDto,
+  ): Promise<OverpassResponse> {
+    return this.overpassService.findPlaceDetails(place_name, query.timeout);
   }
 
   @Post('custom')

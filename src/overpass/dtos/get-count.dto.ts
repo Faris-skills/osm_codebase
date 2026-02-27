@@ -1,4 +1,11 @@
-import { IsString, IsOptional, IsObject, IsNumber } from 'class-validator';
+import {
+  IsString,
+  IsOptional,
+  IsObject,
+  IsNumber,
+  Min,
+  Max,
+} from 'class-validator';
 
 export class GetCountDto {
   @IsObject()
@@ -13,5 +20,7 @@ export class GetCountDto {
 
   @IsOptional()
   @IsNumber()
+  @Min(10)
+  @Max(600)
   timeout?: number;
 }

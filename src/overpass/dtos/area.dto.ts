@@ -1,4 +1,11 @@
-import { IsObject, IsString, IsOptional, IsNumber } from 'class-validator';
+import {
+  IsObject,
+  IsString,
+  IsOptional,
+  IsNumber,
+  Max,
+  Min,
+} from 'class-validator';
 
 export class AreaDto {
   @IsObject()
@@ -13,5 +20,7 @@ export class AreaDto {
 
   @IsOptional()
   @IsNumber()
+  @Min(10)
+  @Max(600)
   timeout?: number;
 }

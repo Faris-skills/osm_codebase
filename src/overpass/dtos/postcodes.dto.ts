@@ -1,4 +1,4 @@
-import { IsString, IsOptional, IsNumber } from 'class-validator';
+import { IsString, IsOptional, IsNumber, Min, Max } from 'class-validator';
 
 export class PostcodesByCityDto {
   @IsString()
@@ -10,5 +10,7 @@ export class PostcodesByCityDto {
 
   @IsOptional()
   @IsNumber()
+  @Min(10)
+  @Max(600)
   timeout?: number;
 }

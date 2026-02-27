@@ -5,7 +5,7 @@ import { OverpassResponse } from './types/response-types.types';
 
 describe('OverpassController', () => {
   let controller: OverpassController;
-  let service: OverpassService;
+  let service: jest.Mocked<OverpassService>;
 
   const mockResponse: OverpassResponse = {
     elements: [],
@@ -18,6 +18,8 @@ describe('OverpassController', () => {
     findNodesByTagsInBBox: jest.fn().mockResolvedValue(mockResponse),
     findNodesByTagsInArea: jest.fn().mockResolvedValue(mockResponse),
     postcodesByCity: jest.fn().mockResolvedValue(mockResponse),
+    findPlaceDetails: jest.fn().mockResolvedValue(mockResponse),
+    countNumberOfPoints: jest.fn().mockResolvedValue(mockResponse),
     custom: jest.fn().mockResolvedValue(mockResponse),
   };
 
@@ -33,7 +35,8 @@ describe('OverpassController', () => {
     }).compile();
 
     controller = module.get<OverpassController>(OverpassController);
-    service = module.get<OverpassService>(OverpassService);
+    // Cast to jest.Mocked to enable .mockResolvedValue and other jest helpers
+    service = module.get(OverpassService) as jest.Mocked<OverpassService>;
   });
 
   it('should be defined', () => {
@@ -44,10 +47,10 @@ describe('OverpassController', () => {
     it('should call service.findNodesByTagsInBBox with correct params', async () => {
       const dto = {
         tags: { amenity: 'cafe' },
-        bbox: [1, 2, 3, 4],
+        bbox: [1, 2, 3, 4] as [number, number, number, number],
         timeout: 100,
       };
-      const result = await controller.bbox(dto as any);
+      const result = await controller.bbox(dto);
       expect(service.findNodesByTagsInBBox).toHaveBeenCalledWith(
         dto.tags,
         dto.bbox,
@@ -65,7 +68,7 @@ describe('OverpassController', () => {
         adminLevel: 8,
         timeout: 200,
       };
-      const result = await controller.area(dto as any);
+      const result = await controller.area(dto);
       expect(service.findNodesByTagsInArea).toHaveBeenCalledWith(
         dto.tags,
         dto.areaName,
@@ -81,7 +84,7 @@ describe('OverpassController', () => {
   describe('postcodes', () => {
     it('should call service.postcodesByCity with correct params', async () => {
       const dto = { name: 'Paris', adminLevel: 8, timeout: 200 };
-      const result = await controller.postcodes(dto as any);
+      const result = await controller.postcodes(dto);
       expect(service.postcodesByCity).toHaveBeenCalledWith(dto.name, {
         adminLevel: dto.adminLevel,
         timeout: dto.timeout,
@@ -98,8 +101,10 @@ describe('OverpassController', () => {
         adminLevel: 8,
         timeout: 200,
       };
-      const result = await controller.area(dto as any);
-      expect(service.findNodesByTagsInArea).toHaveBeenCalledWith(
+
+      const result = await controller.countNumberOfPoints(dto);
+
+      expect(service.countNumberOfPoints).toHaveBeenCalledWith(
         dto.tags,
         dto.areaName,
         {
@@ -111,10 +116,32 @@ describe('OverpassController', () => {
     });
   });
 
+  describe('getPlaceDetails', () => {
+    it('should call service.findPlaceDetails with correct parameters', async () => {
+      const placeName = 'Berlin';
+      const queryDto = { timeout: 45 };
+      const customResponse = { ...mockResponse, elements: [{ id: 1 }] };
+
+      service.findPlaceDetails.mockResolvedValueOnce(customResponse);
+
+      const result = await controller.getPlaceDetails(placeName, queryDto);
+
+      expect(service.findPlaceDetails).toHaveBeenCalledWith('Berlin', 45);
+      expect(result).toEqual(customResponse);
+    });
+
+    it('should handle missing timeout query gracefully', async () => {
+      const placeName = 'Tokyo';
+      await controller.getPlaceDetails(placeName, {});
+
+      expect(service.findPlaceDetails).toHaveBeenCalledWith('Tokyo', undefined);
+    });
+  });
+
   describe('custom', () => {
     it('should call service.custom with correct query', async () => {
       const dto = { query: '[out:json];node(1);out;' };
-      const result = await controller.custom(dto as any);
+      const result = await controller.custom(dto);
       expect(service.custom).toHaveBeenCalledWith(dto.query);
       expect(result).toEqual(mockResponse);
     });

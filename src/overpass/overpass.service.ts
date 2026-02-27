@@ -379,6 +379,27 @@ ${separator}
     return this.runQuery(query, hint, cacheKey);
   }
 
+  async findPlaceDetails(place_name: string, timeout_value?: number) {
+    const timeout = timeout_value ?? 60;
+    const safeName = escaper(place_name);
+
+    const query = `
+      [out:json][timeout:${timeout}];
+
+      area
+        ["boundary"="administrative"]
+        ["name"="${safeName}"];
+
+      out ids tags;
+    `;
+
+    const cacheKey = `place_details:${safeName}`;
+    const hint =
+      'Use GET /overpass/place-details/{place_name}?timeout=<number>';
+
+    return this.runQuery(query, hint, cacheKey);
+  }
+
   async custom(query: string) {
     const hint =
       'Use /overpass/custom with body { "query": "<valid Overpass QL>" }. Example: [out:json]; way["highway"="primary"](48.8,2.25,48.9,2.45); out;';
