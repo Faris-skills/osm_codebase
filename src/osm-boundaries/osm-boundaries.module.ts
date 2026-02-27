@@ -12,5 +12,6 @@ import { CacheModule } from '@nestjs/cache-manager';
   ],
   providers: [OsmBoundariesService],
   controllers: [OsmBoundariesController],
+  exports: [OsmBoundariesService]
 })
 export class OsmBoundariesModule {}

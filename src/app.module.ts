@@ -7,6 +7,8 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Placex } from './nominatim/entities/placex.entity';
 import { AdminLevelMapService } from './nominatim/admin-level-map.service/admin-level-map.service';
+import { ApiModule } from './api/api.module';
+import { OsmBoundariesModule } from './osm-boundaries/osm-boundaries.module';
 
 @Module({
   imports: [
@@ -26,6 +28,8 @@ import { AdminLevelMapService } from './nominatim/admin-level-map.service/admin-
     }),
     NominatimModule,
     OverpassModule,
+    ApiModule,
+    OsmBoundariesModule,
   ],
   controllers: [AppController],
   providers: [AppService, AdminLevelMapService],

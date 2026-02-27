@@ -12,5 +12,6 @@ import { CacheModule } from '@nestjs/cache-manager';
   ],
   controllers: [OverpassController],
   providers: [OverpassService],
+  exports: [OverpassService]
 })
 export class OverpassModule {}
