@@ -387,8 +387,8 @@ ${separator}
       [out:json][timeout:${timeout}];
 
       (
-        area["boundary"="administrative"]["name"=${safeName}];
-        area["admin_level"]["name"=${safeName}];
+        area["boundary"="administrative"]["name"="${safeName}"];
+        area["admin_level"]["name"="${safeName}"];
       )->.a;
 
       .a out ids tags;
