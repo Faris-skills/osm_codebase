@@ -386,11 +386,12 @@ ${separator}
     const query = `
       [out:json][timeout:${timeout}];
 
-      area
-        ["boundary"="administrative"]
-        ["name"="${safeName}"];
+      (
+        area["boundary"="administrative"]["name"=${safeName}];
+        area["admin_level"]["name"=${safeName}];
+      )->.a;
 
-      out ids tags;
+      .a out ids tags;
     `;
 
     const cacheKey = `place_details:${safeName}`;
