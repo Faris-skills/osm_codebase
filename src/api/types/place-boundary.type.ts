@@ -1,17 +1,23 @@
-export type PlaceSource = 'overpass' | 'osm-boundaries';
-
 export interface PlaceResult {
   osm_type: 'node' | 'way' | 'relation';
-  osm_id: string | number;
+  osm_id: number;
+
   osm_uid: string; // R123 / W123 / N123
 
   name?: string;
   name_en?: string;
+
   admin_level?: string;
   boundary?: string;
 
-  parent_ids?: string[];
+  country?: string;
+  country_code?: string;
+  state?: string;
+  county?: string;
+  city?: string;
 
-  raw_tags?: Record<string, any>; // only for overpass
-  source: 'overpass' | 'osm-boundaries';
+  parent_ids?: string[];
+  raw_tags?: Record<string, any>;
+
+  source: 'overpass' | 'photon' | 'osm-boundaries';
 }

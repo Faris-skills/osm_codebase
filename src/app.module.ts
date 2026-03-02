@@ -9,6 +9,7 @@ import { Placex } from './nominatim/entities/placex.entity';
 import { AdminLevelMapService } from './nominatim/admin-level-map.service/admin-level-map.service';
 import { ApiModule } from './api/api.module';
 import { OsmBoundariesModule } from './osm-boundaries/osm-boundaries.module';
+import { LoggerService } from './shared/logger/logger.service';
 
 @Module({
   imports: [
@@ -32,6 +33,7 @@ import { OsmBoundariesModule } from './osm-boundaries/osm-boundaries.module';
     OsmBoundariesModule,
   ],
   controllers: [AppController],
-  providers: [AppService, AdminLevelMapService],
+  providers: [AppService, AdminLevelMapService, LoggerService],
+  exports: [LoggerService],
 })
 export class AppModule {}

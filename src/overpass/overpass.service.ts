@@ -16,6 +16,7 @@ import {
 } from 'src/shared/overpass-formatter';
 import * as fs from 'fs';
 import * as path from 'path';
+import { OverpassResponse } from './types/response-types.types';
 
 @Injectable()
 export class OverpassService {
@@ -399,6 +400,50 @@ ${separator}
       'Use GET /overpass/place-details/{place_name}?timeout=<number>';
 
     return this.runQuery(query, hint, cacheKey);
+  }
+
+  async fetchRelationsByIds(osmIds: number[], timeout = 25) {
+    if (!osmIds.length) return { elements: [] };
+
+    const query = `
+      [out:json][timeout:${timeout}];
+      (
+        ${osmIds.map((id) => `relation(${id});`).join('\n')}
+      );
+      out tags;
+    `;
+
+    const hint =
+      'Pass OSM ids as an array of numbers. Expecting osmIds: number[], timeout: number';
+    return this.runQuery(query, hint);
+  }
+
+  async fetchByMixedIds(
+    ids: { id: number; type: 'node' | 'way' | 'relation' }[],
+    timeout = 25,
+  ) {
+    if (!ids.length) return { elements: [] };
+
+    const nodeIds = ids.filter((i) => i.type === 'node').map((i) => i.id);
+    const wayIds = ids.filter((i) => i.type === 'way').map((i) => i.id);
+    const relationIds = ids
+      .filter((i) => i.type === 'relation')
+      .map((i) => i.id);
+
+    const query = `
+      [out:json][timeout:${timeout}];
+      (
+        ${nodeIds.length ? `node(id:${nodeIds.join(',')});` : ''}
+        ${wayIds.length ? `way(id:${wayIds.join(',')});` : ''}
+        ${relationIds.length ? `relation(id:${relationIds.join(',')});` : ''}
+      );
+      out tags;
+    `;
+
+    const hint =
+      'Pass OSM ids as an array of objects with id and type. Expecting ids: { id: number; type: "node" | "way" | "relation" }[], timeout: number';
+
+    return this.runQuery(query, hint);
   }
 
   async custom(query: string) {

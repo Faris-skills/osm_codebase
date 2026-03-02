@@ -5,10 +5,15 @@ import { ApiService } from './api.service';
 
 @Controller('api')
 export class ApiController {
-  constructor(private readonly api_service: ApiService) {}
+  constructor(private readonly apiService: ApiService) {}
 
-  @Get('search')
-  async search(@Query() query: SearchPlaceDto): Promise<PlaceResult[]> {
-    return this.api_service.get_place_list(query.name, query.timeout);
+  @Get('search/place')
+  async searchAdmin(@Query() query: SearchPlaceDto): Promise<PlaceResult[]> {
+    return this.apiService.get_place_list(query.name, query.timeout);
+  }
+
+  @Get('search/poi')
+  async searchPoi(@Query() query: SearchPlaceDto): Promise<PlaceResult[]> {
+    return this.apiService.get_poi_list(query.name, query.timeout);
   }
 }
