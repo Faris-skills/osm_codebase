@@ -353,6 +353,16 @@
     "9": "villages (kylät), Kaupunginosien/kunnanosien suuralueet (Helsinki; Espoo, Vantaa ...)",
     "10": "City/municipal districts(kaupunginosat/kunnanosat): [//www.openstreetmap.org/browse/relation/188175 Kulosaari]"
   },
+  "fr": {
+    "3": "Territorial areas",
+    "4": "Régions",
+    "5": "Circonscription départementale",
+    "6": "Départements",
+    "7": "Arrondissements",
+    "8": "Communes",
+    "9": "Arrondissements municipaux",
+    "10": "Quartiers"
+  },
   "ga": {
     "4": "Provinces",
     "6": "Departments"

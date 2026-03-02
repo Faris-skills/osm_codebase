@@ -1,0 +1,1175 @@
+{
+  "af": {
+    "2": "افغانستان",
+    "4": "Wilayat",
+    "6": "wuleswali"
+  },
+  "al": {
+    "2": "Shqipëria",
+    "4": "Qarqet",
+    "6": "rrethe",
+    "8": "Unknown"
+  },
+  "dz": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "the People's Democratic Republic of Algeria",
+    "8": "Communes"
+  },
+  "as": {
+    "2": "American Samoa",
+    "8": "County"
+  },
+  "ad": {
+    "2": "Andorra",
+    "4": "Parish"
+  },
+  "ao": {
+    "2": "República de Angola",
+    "4": "Province",
+    "6": "Municipality",
+    "8": "Communes"
+  },
+  "ai": {
+    "2": "Anguilla"
+  },
+  "aq": {
+    "2": "Unknown"
+  },
+  "ag": {
+    "2": "Antigua and Barbuda",
+    "4": "Parish and Dependency"
+  },
+  "ar": {
+    "2": "the Argentine Republic",
+    "4": "Province",
+    "6": "departments"
+  },
+  "am": {
+    "2": "the Republic of Armenia",
+    "4": "Province and City",
+    "6": "Municipal Communities"
+  },
+  "aw": {
+    "2": "Unknown"
+  },
+  "au": {
+    "2": "Australia",
+    "4": "States and Territories",
+    "6": "Local Government Areas"
+  },
+  "at": {
+    "2": "Unknown",
+    "4": "Bundesländer",
+    "6": "Unknown",
+    "8": "Unknown",
+    "9": "Unknown"
+  },
+  "az": {
+    "2": "Azerbaijan",
+    "4": "Contiguous Regions",
+    "6": "Unknown"
+  },
+  "bs": {
+    "2": "Commonwealth of The Bahamas",
+    "4": "Districts",
+    "6": "Second Schedule Districts & Third Schedule Districts"
+  },
+  "bh": {
+    "2": "Unknown",
+    "4": "Unknown"
+  },
+  "bd": {
+    "2": "Bangladesh",
+    "4": "Division",
+    "6": "district",
+    "8": "subdistricts",
+    "9": "Union Councils / Municipal Corporations / City Corporations"
+  },
+  "bb": {
+    "2": "Barbados",
+    "4": "Parish"
+  },
+  "by": {
+    "2": "Country",
+    "4": "Oblast",
+    "6": "Raion"
+  },
+  "be": {
+    "2": "Country",
+    "4": "Region",
+    "6": "Unknown",
+    "8": "Arrondissements",
+    "9": "Unknown"
+  },
+  "bz": {
+    "2": "Unknown",
+    "4": "Districts",
+    "6": "Constituencies"
+  },
+  "bj": {
+    "2": "The Republic of Benin",
+    "4": "Departments",
+    "6": "Commune",
+    "8": "Arrondissements"
+  },
+  "bm": {
+    "2": "Bermuda"
+  },
+  "bt": {
+    "2": "Bhutan",
+    "4": "Dzongdeys",
+    "6": "Gewog"
+  },
+  "bo": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown",
+    "8": "Unknown"
+  },
+  "ba": {
+    "2": "gbOpen",
+    "4": "gbOpen",
+    "6": "gbOpen",
+    "8": "gbOpen"
+  },
+  "bw": {
+    "2": "Republic of Botswana",
+    "4": "districts",
+    "6": "Unknown"
+  },
+  "br": {
+    "2": "Brasil",
+    "4": "State",
+    "6": "municipality"
+  },
+  "bn": {
+    "2": "gbOpen",
+    "4": "Districts",
+    "6": "Mukim"
+  },
+  "bg": {
+    "2": "the Republic of Bulgaria",
+    "4": "Province",
+    "6": "Municipality"
+  },
+  "bf": {
+    "2": "Burkina Faso",
+    "4": "Region",
+    "6": "Province",
+    "8": "Unknown"
+  },
+  "bi": {
+    "2": "The Republic of Burundi",
+    "4": "Province",
+    "6": "Unknown",
+    "8": "Collines"
+  },
+  "kh": {
+    "2": "Kampuchea",
+    "4": "Unknown",
+    "6": "Unknown",
+    "8": "Unknown"
+  },
+  "cm": {
+    "2": "the Republic of Cameroon",
+    "4": "Region",
+    "6": "department",
+    "8": "Unknown"
+  },
+  "ca": {
+    "2": "Unknown",
+    "4": "Province",
+    "6": "Divisions",
+    "8": "Unknown"
+  },
+  "cv": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "freguesia"
+  },
+  "ky": {
+    "2": "Cayman Islands"
+  },
+  "cf": {
+    "2": "the Central African Republic",
+    "4": "Prefecture and Commune",
+    "6": "Sub-Prefectures",
+    "8": "Municipalities",
+    "10": "quartiers"
+  },
+  "td": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Departments"
+  },
+  "cl": {
+    "2": "the Republic of Chile",
+    "4": "Regions",
+    "6": "Unknown",
+    "8": "Communes"
+  },
+  "cn": {
+    "2": "People's Republic of China",
+    "4": "People’s Republic of China",
+    "6": "County Level",
+    "8": "County"
+  },
+  "co": {
+    "2": "Republic of Colombia",
+    "4": "Departments",
+    "6": "Unknown"
+  },
+  "km": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Prefecture",
+    "8": "Commune"
+  },
+  "cg": {
+    "2": "Unknown",
+    "4": "Départements",
+    "6": "Unknown"
+  },
+  "cd": {
+    "2": "Democratic Republic of the Congo",
+    "4": "Provinces",
+    "6": "territory"
+  },
+  "ck": {
+    "2": "Cook Islands"
+  },
+  "cr": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Cantons",
+    "8": "Unknown"
+  },
+  "ci": {
+    "2": "Unknown",
+    "4": "districts de Côte d’Ivoire",
+    "6": "régions de Côte d'Ivoire",
+    "8": "Departments"
+  },
+  "hr": {
+    "2": "Unknown",
+    "4": "Croatia",
+    "6": "Municipalities and Towns"
+  },
+  "cu": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown"
+  },
+  "cy": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown"
+  },
+  "cz": {
+    "2": "Administrative Boundary",
+    "4": "regions",
+    "6": "District",
+    "8": "Unknown",
+    "9": "Unknown"
+  },
+  "dk": {
+    "2": "Danmark",
+    "4": "Unknown",
+    "6": "kommune"
+  },
+  "dj": {
+    "2": "Republic of Djibouti",
+    "4": "Regions",
+    "6": "Districts"
+  },
+  "dm": {
+    "2": "the Commonwealth of Dominica",
+    "4": "Parish"
+  },
+  "do": {
+    "2": "Municipalities",
+    "4": "Province",
+    "6": "Municipalities"
+  },
+  "ec": {
+    "2": "Ecuador",
+    "4": "Province",
+    "6": "Cantons"
+  },
+  "eg": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "marakiz and aqsam"
+  },
+  "sv": {
+    "2": "El Salvador",
+    "4": "Departments",
+    "6": "Municipalities"
+  },
+  "gq": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown"
+  },
+  "er": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "districts"
+  },
+  "ee": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown",
+    "8": "Villages"
+  },
+  "et": {
+    "2": "Unknown",
+    "4": "kilil and astedader",
+    "6": "Unknown",
+    "8": "Unknown"
+  },
+  "fk": {
+    "2": "The Falkland Islands"
+  },
+  "fo": {
+    "2": "Faroe Islands"
+  },
+  "fj": {
+    "2": "Republic of Fiji",
+    "4": "Divisions",
+    "6": "Provinces",
+    "8": "Tikina",
+    "9": "Enumeration Areas"
+  },
+  "fi": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown",
+    "8": "Unknown"
+  },
+  "fr": {
+    "2": "Country",
+    "4": "Region",
+    "6": "Department",
+    "8": "Arrondissement",
+    "9": "Unknown",
+    "10": "Arrondissement municipal"
+  },
+  "gf": {
+    "2": "French Guiana",
+    "8": "Arrondissement"
+  },
+  "pf": {
+    "2": "French Polynesia"
+  },
+  "ga": {
+    "2": "Gabon",
+    "4": "Provinces",
+    "6": "Department"
+  },
+  "gm": {
+    "2": "Republic of the Gambia",
+    "4": "Local Government Areas",
+    "6": "District",
+    "8": "Ward"
+  },
+  "ge": {
+    "2": "Georgia",
+    "4": "Autonomous Republic",
+    "6": "Municipality"
+  },
+  "de": {
+    "2": "the Federal Republic of Germany",
+    "4": "Länder",
+    "6": "Government District",
+    "8": "Independent City or District"
+  },
+  "gh": {
+    "2": "Country",
+    "4": "Region",
+    "6": "Districts"
+  },
+  "gi": {
+    "2": "Gibraltar"
+  },
+  "gr": {
+    "2": "Unknown",
+    "4": "Decentralized administration",
+    "6": "Unknown",
+    "8": "municipality"
+  },
+  "gl": {
+    "2": "Unknown",
+    "4": "Municipalities"
+  },
+  "gd": {
+    "2": "Unknown",
+    "4": "Parish"
+  },
+  "gp": {
+    "2": "Guadeloupe",
+    "9": "Commune"
+  },
+  "gu": {
+    "2": "The Territory of Guam",
+    "6": "Village"
+  },
+  "gt": {
+    "2": "Republic of Guatemala",
+    "4": "Unknown",
+    "6": "Municipio"
+  },
+  "gn": {
+    "2": "République de Guinée",
+    "4": "Administrative regions and governate",
+    "6": "prefecture",
+    "8": "sub-prefecture"
+  },
+  "gw": {
+    "2": "Unknown",
+    "4": "Regiões",
+    "6": "Unknown"
+  },
+  "gy": {
+    "2": "Guyana",
+    "4": "Regions",
+    "6": "Neighbourhood Councils"
+  },
+  "ht": {
+    "2": "Unknown",
+    "4": "Departments",
+    "6": "Unknown",
+    "8": "Communes"
+  },
+  "va": {
+    "2": "Vatican City"
+  },
+  "hn": {
+    "2": "Republic of Honduras",
+    "4": "Departments",
+    "6": "Municipalities"
+  },
+  "hu": {
+    "2": "Hungary",
+    "4": "County",
+    "6": "Unknown",
+    "8": "Unknown"
+  },
+  "is": {
+    "2": "Iceland",
+    "4": "Unknown",
+    "6": "Municipalities"
+  },
+  "in": {
+    "4": "State / Union Territory",
+    "6": "District",
+    "8": "Sub-District",
+    "9": "CD Block",
+    "10": "village"
+  },
+  "id": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "regency"
+  },
+  "ir": {
+    "2": "the Islamic Republic of Iran",
+    "4": "ostānhā / provinces",
+    "6": "Shahrestan",
+    "8": "Bakhsh",
+    "9": "Dehestan"
+  },
+  "iq": {
+    "2": "Republic of Iraq",
+    "4": "Governorates (muḥāfaẓāt)",
+    "6": "Districts"
+  },
+  "ie": {
+    "2": "Ireland",
+    "4": "Province",
+    "6": "Local Electoral Areas"
+  },
+  "il": {
+    "2": "Unknown",
+    "4": "Districts",
+    "6": "Subdistrict"
+  },
+  "it": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown",
+    "8": "Unknown",
+    "9": "Unknown"
+  },
+  "jm": {
+    "2": "Jamaica",
+    "4": "parish",
+    "6": "community",
+    "8": "Unknown"
+  },
+  "jp": {
+    "2": "Japan",
+    "4": "Prefectures",
+    "6": "Subprefectures"
+  },
+  "jo": {
+    "2": "the Hashemite Kingdom of Jordan",
+    "4": "Governorate",
+    "6": "Nahias"
+  },
+  "kz": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "District"
+  },
+  "ke": {
+    "2": "Republic of Kenya",
+    "4": "Counties",
+    "6": "Sub-Counties",
+    "8": "Ward"
+  },
+  "ki": {
+    "2": "Republic of Kiribati",
+    "4": "Unknown",
+    "6": "Unknown"
+  },
+  "kp": {
+    "2": "Democratic People's Republic of Korea",
+    "4": "Provinces",
+    "6": "county"
+  },
+  "kr": {
+    "2": "Republic of Korea",
+    "4": "Province",
+    "6": "Si",
+    "8": "submunicipalities"
+  },
+  "kw": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Areas"
+  },
+  "kg": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Raions"
+  },
+  "la": {
+    "2": "Lao People's Democratic Republic",
+    "4": "Unknown",
+    "6": "Districts"
+  },
+  "lv": {
+    "2": "the Republic of Latvia",
+    "4": "Administratīvās teritorijas",
+    "6": "pilsētās un pagastos"
+  },
+  "lb": {
+    "2": "Republic of Lebanon",
+    "4": "Governorates / Muhafazah",
+    "6": "Districts (Aqdya)"
+  },
+  "ls": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "constituencies"
+  },
+  "lr": {
+    "2": "Liberia",
+    "4": "Counties",
+    "6": "Districts"
+  },
+  "ly": {
+    "2": "State of Libya",
+    "4": "Districts"
+  },
+  "li": {
+    "2": "Unknown",
+    "4": "Unknown"
+  },
+  "lt": {
+    "2": "Unknown",
+    "4": "Counties",
+    "6": "Unknown",
+    "8": "Unknown"
+  },
+  "lu": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown",
+    "8": "Unknown"
+  },
+  "mg": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "districts",
+    "8": "commune",
+    "9": "fokontany"
+  },
+  "mw": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "district",
+    "8": "Traditional Authorities"
+  },
+  "my": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Districts",
+    "8": "Mukim"
+  },
+  "mv": {
+    "2": "the Republic of Maldives",
+    "4": "Unknown",
+    "6": "Administrative Atolls"
+  },
+  "ml": {
+    "2": "Republic of Mali",
+    "4": "Region or Capital District",
+    "6": "Cercle",
+    "8": "Commune"
+  },
+  "mt": {
+    "2": "Malta",
+    "4": "Local Council"
+  },
+  "mh": {
+    "2": "Unknown",
+    "4": "Unknown"
+  },
+  "mq": {
+    "2": "Martinique",
+    "8": "Arrondissement",
+    "9": "Commune"
+  },
+  "mr": {
+    "2": "Mauritania",
+    "4": "Wilya",
+    "6": "Mauritania"
+  },
+  "mu": {
+    "2": "Republic of Mauritius",
+    "4": "Districts and Outer Islands of Mauritius"
+  },
+  "yt": {
+    "2": "Mayotte",
+    "9": "Commune"
+  },
+  "mx": {
+    "2": "Mexico",
+    "4": "gbOpen",
+    "6": "municipios"
+  },
+  "fm": {
+    "2": "Federated States of Micronesia",
+    "4": "State",
+    "6": "Municipality"
+  },
+  "md": {
+    "2": "Republica Moldova",
+    "4": "Districts"
+  },
+  "mc": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown"
+  },
+  "mn": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "soum"
+  },
+  "ms": {
+    "2": "Montserrat"
+  },
+  "ma": {
+    "2": "Unknown",
+    "4": "Region",
+    "6": "Unknown"
+  },
+  "mz": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "districts",
+    "8": "Administrative Postos Administrativos"
+  },
+  "mm": {
+    "2": "Republic of the Union of Myanmar",
+    "4": "State",
+    "6": "District",
+    "8": "Township"
+  },
+  "na": {
+    "2": "Republic of Namibia",
+    "4": "Administrative Division",
+    "6": "Unknown"
+  },
+  "nr": {
+    "2": "Unknown",
+    "4": "District"
+  },
+  "np": {
+    "2": "Federal Democratic Republic of Nepal",
+    "4": "Provinces",
+    "6": "Districts",
+    "8": "Nagarpalika and Gāunpālikā"
+  },
+  "nl": {
+    "2": "Kingdom of the Netherlands",
+    "4": "Province",
+    "6": "Municipality"
+  },
+  "nc": {
+    "2": "New Caledonia"
+  },
+  "nz": {
+    "2": "Country",
+    "4": "Unknown",
+    "6": "Territorial Authorities",
+    "8": "Unknown"
+  },
+  "ni": {
+    "2": "The Republic of Nicaragua",
+    "4": "Departamentos",
+    "6": "Unknown"
+  },
+  "ne": {
+    "2": "Niger",
+    "4": "Regions",
+    "6": "Department",
+    "8": "Communes"
+  },
+  "ng": {
+    "2": "the Federal Republic of Nigeria",
+    "4": "State",
+    "6": "Local Government Areas"
+  },
+  "nu": {
+    "2": "Niue",
+    "4": "village"
+  },
+  "mp": {
+    "2": "The Commonwealth of the Northern Mariana Islands",
+    "6": "Municipality"
+  },
+  "mk": {
+    "2": "north macedonia",
+    "4": "Statistical Region",
+    "6": "Opštini"
+  },
+  "no": {
+    "2": "Country",
+    "4": "Fylke",
+    "6": "Unknown"
+  },
+  "om": {
+    "2": "Sultanate of Oman",
+    "4": "Unknown",
+    "6": "Wilayaf"
+  },
+  "pk": {
+    "2": "Unknown",
+    "4": "Province",
+    "6": "Districts",
+    "8": "Tehsil"
+  },
+  "pw": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Hamlets"
+  },
+  "ps": {
+    "2": "State of Palestine",
+    "4": "territory",
+    "6": "governorate"
+  },
+  "pa": {
+    "2": "The Republic of Panama",
+    "4": "Unknown",
+    "6": "Unknown",
+    "8": "Unknown"
+  },
+  "pg": {
+    "2": "Unknown",
+    "4": "Provinces",
+    "6": "District",
+    "8": "Local Government Areas"
+  },
+  "py": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "gbOpen"
+  },
+  "pe": {
+    "2": "gbOpen",
+    "4": "gbOpen",
+    "6": "Provinces"
+  },
+  "ph": {
+    "2": "The Philippines",
+    "4": "Regions",
+    "6": "Provinces",
+    "8": "Municipalities"
+  },
+  "pn": {
+    "2": "Pitcairn Islands"
+  },
+  "pl": {
+    "2": "gbOpen",
+    "4": "Unknown",
+    "6": "Unknown",
+    "8": "Gminas"
+  },
+  "pt": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "gbOpen",
+    "8": "Freguesias"
+  },
+  "pr": {
+    "6": "Municipality",
+    "8": "Barrio"
+  },
+  "qa": {
+    "2": "Qatar",
+    "4": "Unknown",
+    "6": "Unknown"
+  },
+  "re": {
+    "2": "Réunion",
+    "8": "Arrondissement",
+    "9": "Commune"
+  },
+  "ro": {
+    "2": "Romania",
+    "4": "Counties",
+    "6": "municipalities"
+  },
+  "ru": {
+    "2": "Rossiyskaya Federatsiya",
+    "4": "Unknown",
+    "6": "Raion"
+  },
+  "rw": {
+    "2": "The Republic of Rwanda",
+    "4": "Province",
+    "6": "Unknown",
+    "8": "Unknown",
+    "9": "Unknown",
+    "10": "Villages"
+  },
+  "sh": {
+    "2": "Saint Helena"
+  },
+  "kn": {
+    "2": "Saint Kitts and Nevis",
+    "4": "parish"
+  },
+  "lc": {
+    "2": "Saint Lucia",
+    "4": "District",
+    "6": "Communities"
+  },
+  "vc": {
+    "2": "Saint Vincent and the Grenadines",
+    "4": "Parishes"
+  },
+  "ws": {
+    "2": "Independent State of Samoa",
+    "4": "Unknown",
+    "6": "Districts"
+  },
+  "sm": {
+    "2": "Unknown",
+    "4": "Unknown"
+  },
+  "st": {
+    "2": "Democratic Republic of São Tomé and Príncipe",
+    "4": "Unknown",
+    "6": "Districts"
+  },
+  "sa": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Governorate"
+  },
+  "sn": {
+    "2": "Republic of Senegal",
+    "4": "region",
+    "6": "department",
+    "8": "arrondissement"
+  },
+  "sc": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Regions",
+    "8": "Districts"
+  },
+  "sl": {
+    "2": "Republic of Sierra Leone",
+    "4": "Province",
+    "6": "Districts",
+    "8": "Chiefdoms",
+    "9": "Counties"
+  },
+  "sg": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Divisions"
+  },
+  "sk": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Okres",
+    "8": "Unknown",
+    "9": "Unknown"
+  },
+  "si": {
+    "2": "Slovene",
+    "4": "Macroregions",
+    "6": "Unknown"
+  },
+  "sb": {
+    "2": "Solomon Islands",
+    "4": "Province",
+    "6": "Constituency",
+    "8": "Wards",
+    "9": "Wards"
+  },
+  "so": {
+    "2": "Somalia",
+    "4": "Unknown",
+    "6": "Districts"
+  },
+  "za": {
+    "2": "Republic of South Africa",
+    "4": "Province",
+    "6": "District municipality",
+    "8": "Local municipality",
+    "9": "Ward"
+  },
+  "es": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Province",
+    "8": "MUNICIPIOS"
+  },
+  "lk": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown",
+    "8": "Divisional Secretariat",
+    "9": "Grama Niladhari Divisions"
+  },
+  "sd": {
+    "2": "Jumhūriyyat as-Sūdān",
+    "4": "Wilayat/State",
+    "6": "District"
+  },
+  "sr": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Ressorten"
+  },
+  "sz": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown"
+  },
+  "se": {
+    "2": "Sverige",
+    "4": "County",
+    "6": "Municipality",
+    "8": "Unknown"
+  },
+  "ch": {
+    "2": "The Swiss Confederation",
+    "4": "Canton",
+    "6": "District",
+    "8": "Municipality"
+  },
+  "sy": {
+    "2": "Unknown",
+    "4": "Governorate",
+    "6": "District",
+    "8": "sub-district"
+  },
+  "tw": {
+    "2": "Republic of China",
+    "4": "Chinese Taipei",
+    "6": "Townships"
+  },
+  "tj": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown"
+  },
+  "tz": {
+    "2": "Tanzania",
+    "4": "Regions",
+    "6": "Districts",
+    "8": "Unknown"
+  },
+  "th": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "districts"
+  },
+  "tl": {
+    "2": "Unknown",
+    "4": "Municipalities",
+    "6": "Administrative Posts"
+  },
+  "tg": {
+    "2": "Unknown",
+    "4": "Regions",
+    "6": "Prefectures"
+  },
+  "tk": {
+    "2": "Tokelau"
+  },
+  "to": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "district"
+  },
+  "tt": {
+    "2": "Unknown",
+    "4": "Unknown"
+  },
+  "tn": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Unknown",
+    "8": "Unknown"
+  },
+  "tr": {
+    "2": "Republic of Turkey",
+    "4": "province",
+    "6": "Districts"
+  },
+  "tm": {
+    "2": "Turkmenistan",
+    "4": "Regions (Welayat)",
+    "6": "Unknown"
+  },
+  "tc": {
+    "2": "The Turks and Caicos Islands"
+  },
+  "tv": {
+    "2": "Tuvalu",
+    "4": "Unknown",
+    "6": "village",
+    "8": "Unknown"
+  },
+  "ug": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Counties",
+    "8": "District",
+    "9": "Sub-counties"
+  },
+  "ua": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Raions",
+    "8": "Village Councils"
+  },
+  "ae": {
+    "2": "al-ʾImārāt al-ʿArabīyah al-Muttaḥidah",
+    "4": "Unknown"
+  },
+  "gb": {
+    "2": "Country",
+    "4": "Country",
+    "6": "Counties and Unitary Authorities",
+    "8": "Counties and Unitary Authorities"
+  },
+  "us": {
+    "2": "United States of America",
+    "4": "States",
+    "6": "Counties"
+  },
+  "uy": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Municipalities"
+  },
+  "uz": {
+    "2": "Unknown",
+    "4": "Province",
+    "6": "Tuman"
+  },
+  "vu": {
+    "2": "Unknown",
+    "4": "Unknown",
+    "6": "Municipalities",
+    "8": "Unknown"
+  },
+  "ve": {
+    "2": "Bolivarian Republic of Venezuela",
+    "4": "Estados",
+    "6": "Municipios"
+  },
+  "vn": {
+    "2": "Việt Nam",
+    "4": "Municipalities and Provinces",
+    "6": "District"
+  },
+  "vg": {
+    "2": "British Virgin Islands"
+  },
+  "vi": {
+    "2": "The Virgin Islands of the United States",
+    "8": "Subdistrict"
+  },
+  "wf": {
+    "2": "Wallis and Futuna"
+  },
+  "ye": {
+    "2": "Republic of Yemen",
+    "4": "Unknown",
+    "6": "Districts"
+  },
+  "zm": {
+    "2": "Country",
+    "4": "Province",
+    "6": "Districts"
+  },
+  "zw": {
+    "2": "Country",
+    "4": "Province",
+    "6": "District",
+    "8": "Ward"
+  },
+  "bq": {
+    "2": "Bonaire"
+  },
+  "cw": {
+    "2": "Curaçao"
+  },
+  "gg": {
+    "2": "Guernsey"
+  },
+  "im": {
+    "2": "The Isle of Man"
+  },
+  "me": {
+    "2": "Unknown",
+    "4": "Unknown"
+  },
+  "bl": {
+    "2": "ADM0"
+  },
+  "rs": {
+    "2": "Republika Srbija",
+    "4": "district",
+    "6": "Unknown"
+  },
+  "ss": {
+    "2": "South Sudan",
+    "4": "states",
+    "6": "counties"
+  }
+}
