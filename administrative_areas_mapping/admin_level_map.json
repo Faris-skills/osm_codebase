@@ -45,7 +45,7 @@
   "au": {
     "4": "State/Territory",
     "6": "Local Government Areas (LGAs), and Unincorporated Areas",
-    "7": "''(ACT only)'' District",
+    "7": "(ACT only) District",
     "9": "Locality"
   },
   "at": {
@@ -57,8 +57,8 @@
   },
   "az": {
     "4": "Economic Regions (Economic Regions) non-administrative regions, only for statistical usagesAutonomous republic (Nakhchivan Autonomous Republic)",
-    "5": "regions ({{lang|az|rayons",
-    "8": "municipalities ({{lang|az|bələdiyyələr"
+    "5": "regions () and cities with authority of republic level ()",
+    "8": "municipalities ()"
   },
   "bs": {
     "6": "Central government district - New Providence only",
@@ -106,7 +106,6 @@
     "10": "Hamlets, Neighbourhoods"
   },
   "bj": {
-    "4": "{{Wikipedia|text=no|fr|Département du Bénin|Département",
     "6": "Commune",
     "7": "Arrondissement",
     "8": "Village/Quartier de ville"
@@ -116,6 +115,16 @@
     "5": "Dungkhag",
     "6": "Gewog",
     "7": "Thromde"
+  },
+  "bo": {
+    "4": "Departamentos / state border",
+    "5": "Regiones / regions",
+    "6": "Provincias / provinces",
+    "7": "Regiones metropolitanas / metropolitan regions",
+    "8": "Municipios, Territorio indígena originario campesinos, Pueblos / municipalities, Indigenous-original-farmer territories, towns",
+    "9": "Partes del municipio con autoridad, macrodistritos, comunas, juntas vecinales / parts of the municipality with authority, macro-districts, municipalities, neighborhood councils",
+    "10": "Partes del municipio sin autoridad / parts of the municipality without authority",
+    "11": "Organizaciones territoriales de base (OTB), Barrios, [http://blog.upsa.edu.bo/?p=1817 Unidad Vecinal (UV)] / territorial base organizations, neighbourhoods, neighbourhood units"
   },
   "ba": {
     "4": "entitet / eнтитет / entitydistrikt / дистрикт / district[http://pastebin.com/raw.php?i=CDpR9Tvg napomena / напомена / note]",
@@ -131,14 +140,19 @@
     "8": "Towns and Villages"
   },
   "br": {
-    "3": "Regiões (Sul, Sudeste, Centro-Oeste, Norte, Nordeste)''(regions)''",
-    "4": "Unidades Federativas (Estados e Distrito Federal)''(states and Federal District)''",
-    "5": "Regiões Geográficas Intermediárias (Intermediate Geographic Regions)Mesorregiões''(meso-regions)''",
-    "6": "Regiões metropolitanas''(metropolitan areas)''",
-    "7": "Regiões Geográficas Imediatas (Immediate Geographic Regions)Microrregiões''(micro-regions)''",
-    "8": "Municípios e regiões administrativas do Distrito Federal''(municipalities and administrative regions of the Federal District)''",
-    "9": "Distritos e Sub-Prefeituras''(districts)''",
-    "10": "Bairros e SubDistritos''(suburbs and neighborhoods)''"
+    "3": "Regiões (Sul, Sudeste, Centro-Oeste, Norte, Nordeste)(regions)",
+    "4": "Unidades Federativas (Estados e Distrito Federal)(states and Federal District)",
+    "5": "Regiões Geográficas Intermediárias (Intermediate Geographic Regions)Mesorregiões(meso-regions)",
+    "6": "Regiões metropolitanas(metropolitan areas)",
+    "7": "Regiões Geográficas Imediatas (Immediate Geographic Regions)Microrregiões(micro-regions)",
+    "8": "Municípios e regiões administrativas do Distrito Federal(municipalities and administrative regions of the Federal District)",
+    "9": "Distritos e Sub-Prefeituras(districts)",
+    "10": "Bairros e SubDistritos(suburbs and neighborhoods)"
+  },
+  "bn": {
+    "4": "Districts (daerah)",
+    "6": "Mukims (subdistricts)",
+    "8": "Villages (kampung or kampong), as designated by the Survey Department"
   },
   "bg": {
     "4": "Regions  (области)",
@@ -164,8 +178,8 @@
     "10": "Sous-Collines"
   },
   "kh": {
-    "4": "Provinces (ខេត្ត ''khaet'')",
-    "6": "Districts (ស្រុក ''srok''), Sections (ខណ្ឌ ''khan''), Municipalities (ក្រុង ''krong'')",
+    "4": "Provinces (ខេត្ត khaet)",
+    "6": "Districts (ស្រុក srok), Sections (ខណ្ឌ khan), Municipalities (ក្រុង krong)",
     "8": "Communes (ឃុំ khum), Quarters (សង្កាត់ sangkat)"
   },
   "cm": {
@@ -173,7 +187,7 @@
     "4": "Regions, like Extrême-Nord (similar to NUTS2)",
     "6": "Départements, like Mayo-Danay (similar to NUTS3)",
     "7": "Arrondissements, like Njombe Penja",
-    "8": "Communes, like Melong. Use {{Key|name",
+    "8": "Communes, like Melong. Use  to indicate the name of the commune",
     "10": "Non-offical quartiers?"
   },
   "ca": {
@@ -184,6 +198,11 @@
     "8": "Lower-tier municipalities in rural areas; Districts/communities within cities",
     "9": "Localities/wards; some cities call this level 'neighbourhoods'",
     "10": "Neighbourhoods; or subdivisions of neighbourhoods for cities that use level 9 for neighbourhoods"
+  },
+  "cv": {
+    "6": "Municipalities",
+    "8": "in use, fixme",
+    "9": "Civil parishes"
   },
   "cf": {
     "4": "Préfectures, like Ouham",
@@ -202,9 +221,20 @@
     "10": "Quartiers (subdivisions internes au village)"
   },
   "cl": {
-    "4": "''Regiones''",
-    "6": "''Provincias''",
-    "8": "''Comunas''"
+    "4": "Regiones",
+    "6": "Provincias",
+    "8": "Comunas"
+  },
+  "cn": {
+    "3": "Reserved for Greater administrative region预留为大行政区",
+    "4": "Municipality / Province / Autonomous Region省级行政区",
+    "5": "Prefectures地级行政区",
+    "6": "County县级行政区",
+    "7": "State-level new areas and other special areas in large scale国家级新区、国家级高新区、非行政区界等大尺度特殊情况",
+    "8": "Township (Town / Subdistrict)乡镇级行政区（镇、街道）",
+    "9": "Other special areas in small scale林业局、农垦管局等小尺度特殊情况",
+    "10": "(Administrative) Village / Community (Quarter)行政村、社区",
+    "11": "(Natural) Village / Group (Neibourhood)自然村、生产队、村民小组、居民小组"
   },
   "co": {
     "3": "Administrative Region of planning / Región Administrativa de PlanificaciónArtículo 306 de la Constitución de Colombia de 1991",
@@ -212,13 +242,19 @@
     "5": "Province / Provincia",
     "6": "Municipality / Municipio",
     "7": "Urban / Urbano: city / ciudadRural / Rural: township / corregimiento / área no municipalizada / isla",
-    "8": "Urban / Urbano: locality or commune / localidad o comunaRural / Rural: village / vereda",
-    "9": "Urban / Urbano: neighbourhood (For Bogota, this is UPZs) / barrio (Para Bogotá, son las UPZs)Rural / Rural: N/A",
-    "10": "N/A (For Bogota, these are the neighbourhoods / Para Bogotá, son los barrios)"
+    "8": "Urban / Urbano: locality or commune / localidad o comunaRural / Rural: village / vereda"
   },
   "km": {
     "4": "Les 3 îles (préfectures)",
     "8": "communes"
+  },
+  "cg": {
+    "4": "Départements",
+    "5": "in use, arrondissements ?",
+    "6": "Districts",
+    "8": "in use, fixme",
+    "9": "in use, fixme",
+    "10": "in use, fixme"
   },
   "cd": {
     "4": "Province (26)",
@@ -236,7 +272,7 @@
     "10": "Barrio"
   },
   "ci": {
-    "4": "District (example: Lagunes) ou District autonome (example: Abidjan)place=state ('''not''' place=district)",
+    "4": "District (example: Lagunes) ou District autonome (example: Abidjan)place=state (not place=district)",
     "5": "Region (example: Agnéby-Tiassa)place=region",
     "6": "Département (example: Département Sikensi)place=province",
     "7": "Sous-préfecture (example: Sous-prefecture Bingerville)place=county",
@@ -245,11 +281,11 @@
     "10": "Quartierplace=neighbourhood"
   },
   "hr": {
-    "4": "counties (hr: ''županije'')",
-    "7": "cities/towns or municipalities (hr: ''gradovi ili općine'')",
-    "8": "settlements (hr: ''naselja'')",
-    "9": "city districts or local committees (hr: ''gradske četvrti/kotari ili mjesni odbori'')",
-    "10": "local committees of Zagreb (hr: ''mjesni odbori Zagreba'')"
+    "4": "counties (hr: županije)",
+    "7": "cities/towns or municipalities (hr: gradovi ili općine)",
+    "8": "settlements (hr: naselja)",
+    "9": "city districts or local committees (hr: gradske četvrti/kotari ili mjesni odbori)",
+    "10": "local committees of Zagreb (hr: mjesni odbori Zagreba)"
   },
   "cu": {
     "4": "Provincia",
@@ -258,8 +294,8 @@
     "10": "Barrios"
   },
   "cy": {
-    "3": "''De facto'' partitions:→ Republic of Cyprus (RoC)→ Turkish Republic of Northern Cyprus (TRNC) (de facto a country border hence has passport control, barriers, soldiers etc.)→ UN buffer zone (should also be marked {{Tag|military|danger_area",
-    "4": "The 6 ''de jure'' Districts",
+    "3": "De facto partitions:→ Republic of Cyprus (RoC)→ Turkish Republic of Northern Cyprus (TRNC) (de facto a country border hence has passport control, barriers, soldiers etc.)→ UN buffer zone (should also be marked  where applicable)",
+    "4": "The 6 de jure Districts",
     "5": "The 5 districs of RoC and 6 districts of TRNC (LAU 1)",
     "6": "Municipalities & Community Clusters (LAU 2)",
     "7": "Municipal Quarters",
@@ -302,8 +338,7 @@
     "6": "Cantón",
     "7": "Límite Urbano (ciudades)",
     "8": "Parroquia",
-    "9": "Barrio (Urbano), Comunidad (Rural)",
-    "10": "N/A (¿sectores censales?)"
+    "9": "Barrio (Urbano), Comunidad (Rural)"
   },
   "eg": {
     "4": "Governorate (Muhafazah محافظة)",
@@ -328,11 +363,16 @@
     "4": "Régions (ti:ዞባ, ar:إقليم)"
   },
   "ee": {
-    "6": "Countys (''maakonnad'')",
-    "7": "Municipalities (''vallad, omavalitsuslikud linnad'')",
+    "6": "Countys (maakonnad)",
+    "7": "Municipalities (vallad, omavalitsuslikud linnad)",
     "8": "Tallinn and Kohtla-Järve (as settlement units)",
-    "9": "Settlement units (''asustusüksused: külad, alevikud, alevid, vallasisesed linnad''), city districts (''linnaosad'', in Tallinn and Kohtla-Järve)",
-    "10": "Subdistricts (''asumid'', in Tallinn)"
+    "9": "Settlement units (asustusüksused: külad, alevikud, alevid, vallasisesed linnad), city districts (linnaosad, in Tallinn and Kohtla-Järve)",
+    "10": "Subdistricts (asumid, in Tallinn)"
+  },
+  "sz": {
+    "4": "Tifundza (regions)",
+    "6": "Tinkhundla (constituencies)",
+    "8": "Imiphakatsi (chiefdoms)"
   },
   "et": {
     "4": "Administrative States (9)",
@@ -349,9 +389,25 @@
     "3": "Main areas (Pääalueet, NUTS 1): Manner-Suomi",
     "4": "Regions (Maakunnat, NUTS 3): [//www.openstreetmap.org/browse/relation/37355 Uusimaa]",
     "7": "Sub-regions (Seutukunnat, LAU 1): [//www.openstreetmap.org/browse/relation/38101 Helsingin seutukunta]",
-    "8": "municipalities (Kunnat / Kaupungit, LAU 2, for {{Key|ref",
+    "8": "municipalities (Kunnat / Kaupungit, LAU 2, for , see [http://www.vrk.fi/ Väestörekisterikeskus], kuntaluettelo): [//www.openstreetmap.org/browse/relation/34914 Helsinki]",
     "9": "villages (kylät), Kaupunginosien/kunnanosien suuralueet (Helsinki; Espoo, Vantaa ...)",
     "10": "City/municipal districts(kaupunginosat/kunnanosat): [//www.openstreetmap.org/browse/relation/188175 Kulosaari]"
+  },
+  "fr": {
+    "3": "Territorial areas(non purely administrative: one for Metropolitan France including Corsica, and one for each overseas departement)Overseas collectivities",
+    "4": "Régions(note: 7 régions have replaced the 16 former régions still used by NUTS2 and ISO3166-2)",
+    "5": "Circonscription départementale (replacing a splitted former department, for the préfecture of Rhône, still used by NUTS3 and ISO3166-2)",
+    "6": "Départements(similar to NUTS3 and ISO3166-2), including the new department of Rhône (a sous-préfecture)The Métropole de Lyon (also a sous-préfecture)",
+    "7": "Arrondissements(subdivision of departements around a sous-préfecture)(note: previously used for EPCI, which are now outside the admin_level scheme)",
+    "8": "CommunesUse  to indicate the name of the commune, and  to indicate the unique identifier given by INSEE (COG).",
+    "9": "Arrondissements municipaux (in Paris, Lyon, Marseille only), or communes associées and communes déléguées (in partially merged communes).",
+    "10": "Quartiers(used for the local democracy). May also be subdivided at level 11 into micro-quartiers in some densely populated cities."
+  },
+  "pf": {
+    "6": "Administrative subdivisions (ISLV, IDV, Marquises, Tuamotu-Gambiers, Australes)",
+    "8": "Communes (unitaires ou groupées)",
+    "9": "Communes associées",
+    "10": "Districts, quartiers, ou ile (for info, non administrative)"
   },
   "ga": {
     "4": "Provinces",
@@ -369,6 +425,16 @@
     "8": "Cities limits",
     "10": "Borders of cities' administrative districts"
   },
+  "de": {
+    "4": "federal states borderBundeslandNUTS 1",
+    "5": "state-district borderRegierungsbezirkNUTS 2",
+    "6": "county",
+    "7": "amt [http://en.wikipedia.org/wiki/Amt_(political_division)]Samtgemeinde, VerwaltungsgemeinschaftLAU 1 (aka NUTS 4)",
+    "8": "Towns, Municipalities / City-districtsStadt, GemeindeLAU 2 (aka NUTS 5)",
+    "9": "Parts of a municipality with parish councils /self_governmentStadtbezirk / Gemeindeteil mit Selbstverwaltung",
+    "10": "Parts of a municipality without ...Stadtteil / Gemeindeteil ohne Selbstverwaltung / Gemarkung",
+    "11": "subdivision of GemarkungFlur"
+  },
   "gh": {
     "4": "Region",
     "6": "District",
@@ -376,18 +442,21 @@
     "10": "Neighborhood/Borrow"
   },
   "gr": {
-    "3": "Όρια {{Wikipedia|el|icon=no|text=no|Άγιο Όρος|Αυτόνομης Μοναστικής Πολιτείας Αγίου Όρους",
-    "4": "Όρια {{Wikipedia|el|icon=no|text=no|Αποκεντρωμένες διοικήσεις της Ελλάδας|αποκεντρωμένων διοικήσεων",
-    "5": "Όρια {{Wikipedia|el|icon=no|text=no|Περιφέρειες της Ελλάδας|Περιφερειών",
-    "6": "Όρια {{Wikipedia|el|icon=no|text=no|Περιφερειακές ενότητες της Ελλάδας|Περιφερειακών ενοτήτων",
-    "7": "Όρια {{Wikipedia|el|icon=no|text=no|Δήμοι της Ελλάδας|Δήμων",
-    "8": "Όρια {{Wikipedia|el|icon=no|text=no|Δημοτική ενότητα|Δημοτικών ενοτήτων",
-    "9": "Όρια {{Wikipedia|el|icon=no|text=no|Κοινότητα (τοπική αυτοδιοίκηση)|Δημοτικών κοινοτήτων"
+    "3": "Όρια",
+    "4": "Όρια",
+    "5": "Όρια  (NUTS 2)",
+    "6": "Όρια  (NUTS 3)",
+    "7": "Όρια",
+    "8": "Όρια",
+    "9": "Όρια  (LAU)"
+  },
+  "gd": {
+    "6": "Parriches (6) / Dependency (1)"
   },
   "gt": {
-    "4": "State border ''(Departamentos)''",
-    "6": "Municipal border ''(Municipios)''",
-    "8": "City and town border ''(Zonas)''"
+    "4": "State border (Departamentos)",
+    "6": "Municipal border (Municipios)",
+    "8": "City and town border (Zonas)"
   },
   "gg": {
     "4": "Islands with separate jurisdictions: Guernsey (incl. Herm and Jethou), Alderney, Sark (incl. Brecqhou)",
@@ -414,32 +483,32 @@
     "10": "Quarters/Neighbourhoods ?"
   },
   "ht": {
-    "4": "State border ''(Départements)'' (Layer 1)",
-    "5": "Districts ''(Arrondissements)''",
-    "6": "Search-And-Rescue sectors ('''temporary''')",
-    "8": "City and town border ''(communes)'' (Layer 2)",
-    "10": "Suburbs ''(sections)'' (Layer 3)"
+    "4": "State border (Départements) (Layer 1)",
+    "5": "Districts (Arrondissements)",
+    "6": "Search-And-Rescue sectors (temporary)",
+    "8": "City and town border (communes) (Layer 2)",
+    "10": "Suburbs (sections) (Layer 3)"
   },
   "hn": {
-    "4": "''Departamentos'' (State Border)",
-    "6": "''Municipios'' (Municipal Border)",
-    "8": "''Aldeas'' (Admin level border which encompass several towns / cities)",
-    "9": "''Ciudades'' (Cities)",
-    "10": "''Barrios y Colonias'' (Neighborhoods)"
+    "4": "Departamentos (State Border)",
+    "6": "Municipios (Municipal Border)",
+    "8": "Aldeas (Admin level border which encompass several towns / cities)",
+    "9": "Ciudades (Cities)",
+    "10": "Barrios y Colonias (Neighborhoods)"
   },
   "hu": {
-    "4": "Országrészek ''(Groups of Regions, NUTS 1)''",
-    "5": "Régiók ''(Regions, NUTS 2)''",
-    "6": "Megyék / főváros ''(Counties / capital city, NUTS 3)''",
-    "7": "Járások ''(LAU 1)''",
-    "8": "Települések ''(LAU 2)''",
-    "9": "Kerületek ''(Districts)''"
+    "4": "Országrészek (Groups of Regions, NUTS 1)",
+    "5": "Régiók (Regions, NUTS 2)",
+    "6": "Megyék / főváros (Counties / capital city, NUTS 3)",
+    "7": "Járások (LAU 1)",
+    "8": "Települések (LAU 2)",
+    "9": "Kerületek (Districts)"
   },
   "is": {
-    "5": "Landshlutar - ''Regions''",
-    "6": "Sveitarfélög - ''Municipalities''",
-    "9": "Hverfi - ''Districts''",
-    "10": "Hverfahlutar - ''Neighbourhoods''"
+    "5": "Landshlutar - Regions",
+    "6": "Sveitarfélög - Municipalities",
+    "9": "Hverfi - Districts",
+    "10": "Hverfahlutar - Neighbourhoods"
   },
   "in": {
     "4": "State",
@@ -534,14 +603,14 @@
     "8": "Rural district (ауылдық округі)"
   },
   "ke": {
-    "3": "'''Provinces''' ''(old system and retained in new system for local region reference)''",
-    "4": "'''Counties''' ''(new system)''",
-    "5": "'''Districts''' ''(old system)''",
-    "6": "'''Subcounties''' - also called '''constituencies'''. ''(new system)''",
-    "7": "'''Local authorities''' & '''Divisions''' '''cities''', '''municipalities''', '''towns''' and '''counties''' ''(not to be confused with national counties admin_level=4)''",
-    "8": "'''Wards''' ''(new system)''. Mostly identical to '''Locations'''",
-    "9": "'''Locations''' ''(old system)''. Mostly identical to '''Wards'''",
-    "10": "'''Villages''' ''(new system)'' & '''Sublocations''' ''(old system)''"
+    "3": "Provinces (old system and retained in new system for local region reference)",
+    "4": "Counties (new system)",
+    "5": "Districts (old system)",
+    "6": "Subcounties - also called constituencies. (new system)",
+    "7": "Local authorities & Divisions cities, municipalities, towns and counties (not to be confused with national counties admin_level=4)",
+    "8": "Wards (new system). Mostly identical to Locations",
+    "9": "Locations (old system). Mostly identical to Wards",
+    "10": "Villages (new system) & Sublocations (old system)"
   },
   "ki": {
     "8": "Island Councils (24)Example: Abemama, South Tabiteuea etc"
@@ -563,6 +632,11 @@
     "8": "Cities / Towns (Balykchy...)",
     "9": "Villages ?"
   },
+  "la": {
+    "4": "Provinces (Lao: ແຂວງ khoueng) or one prefecture (kampheng nakhon)",
+    "6": "Districts (Lao: ເມືອງ mɯ́ang)",
+    "7": "Villages (Lao: ບ້ານ ban)"
+  },
   "lv": {
     "5": "Municipalities (Novadi), Cities (Valstspilsētas)",
     "7": "Towns (Pilsētas)",
@@ -572,13 +646,14 @@
   },
   "lb": {
     "4": "Governorate (Mouhafazah محافظة)",
-    "5": "Qadaa (also known as ''Caza'' قضاء ج. أقضية)",
+    "5": "Qadaa (also known as Caza قضاء ج. أقضية)",
     "6": "Federation of municipalities (إتحاد بلديات)",
     "7": "Municipality (بلدية)",
     "8": "منطقة عقاريّة"
   },
   "ls": {
     "4": "Districts",
+    "6": "Constitutencies\n|",
     "8": "Community councils"
   },
   "lr": {
@@ -617,14 +692,14 @@
     "3": "Regions",
     "4": "Districts",
     "6": "Traditional authorities (rural areas), Urban administrative wards (urban centers)",
-    "8": "'''''SC''''' - sub-chiefs governed under the authority of the local traditional authority. The sub-chiefdoms are used in order to create reasonably sized administrative units within large TAs.'''''Wards''''' - the urban equivalent of a rural traditional authority or sub-chief area.'''''Area''''' - Numbered administrative wards in Lilongwe city. ([http://www.ifpri.org/sites/default/files/pubs/pubs/cp/malawiatlas/malawiatlas_01.pdf Malawi Atlas])",
+    "8": "SC - sub-chiefs governed under the authority of the local traditional authority. The sub-chiefdoms are used in order to create reasonably sized administrative units within large TAs.Wards - the urban equivalent of a rural traditional authority or sub-chief area.Area - Numbered administrative wards in Lilongwe city. ([http://www.ifpri.org/sites/default/files/pubs/pubs/cp/malawiatlas/malawiatlas_01.pdf Malawi Atlas])",
     "9": "GVH",
     "10": "Village"
   },
   "my": {
     "3": "territories (wilayah) (proposed)",
     "4": "negeri (states)",
-    "5": "bahagian (divisions) ''Sabah & Sarawak only''",
+    "5": "bahagian (divisions) Sabah & Sarawak only",
     "6": "daerah (districts)",
     "7": "daerah kecil (subdistricts)",
     "8": "mukim (townships)",
@@ -669,6 +744,20 @@
     "9": "District limits / Delegaciones",
     "10": "City sectors / Colonias"
   },
+  "fm": {
+    "4": "States",
+    "8": "Municipalities"
+  },
+  "md": {
+    "3": "Disputed territory - unrecognized state ([https://www.openstreetmap.org/relation/65335 Pridnestrovian Moldavian Republic] not to be confused with [https://www.openstreetmap.org/relation/2607033 The Administrative-Territorial Units of the Left Bank of the Dniester])",
+    "4": "- Autonomous regions [https://www.openstreetmap.org/relation/1699032 UTA Găgauzia] and [https://www.openstreetmap.org/relation/2607033 ATU from the left bank of the Dniester (UAT din stînga Nistrului)]\n- Districts (Raioane) [ex: [https://www.openstreetmap.org/relation/1693560 Florești], [https://www.openstreetmap.org/relation/59002 Briceni], etc.]\n- Second level Municipalities (Municipiile de nivelul II) [https://www.openstreetmap.org/relation/1691801 Chișinău], [https://www.openstreetmap.org/relation/58983 Bălți] and [https://www.openstreetmap.org/relation/9581354 Bender]",
+    "5": "- Găgăuzia Districts (Raioane) [https://www.openstreetmap.org/relation/1706978 Comrat], [https://www.openstreetmap.org/relation/1706979 Ceadîr-Lunga] and [https://www.openstreetmap.org/relation/7103068 Vulcănești] Districts\n- Transnistria Districts (Raioane) [https://www.openstreetmap.org/relation/1702217 Rîbnița], [https://www.openstreetmap.org/relation/1702215 Dubăsari], [https://www.openstreetmap.org/relation/1702214 Grigoriopol] and [https://www.openstreetmap.org/relation/1702218 Slobozia] Districts\n- Transnistria Cities [https://www.openstreetmap.org/relation/1702219 Tiraspol City Council] and [https://www.openstreetmap.org/relation/944727 Bender City Council]",
+    "6": "First level Municipalities (Municipiile de nivelul I) [ex.: [https://www.openstreetmap.org/relation/5636983 Orhei], [https://www.openstreetmap.org/relation/7446674 Ungheni], etc.]",
+    "7": "Chișinău Municipality's sectors (Sectoarele Municipiului Chișinău) [ex.: [https://www.openstreetmap.org/relation/1813316 Rîșcani], [https://www.openstreetmap.org/relation/1813297 Buiucani], etc.]",
+    "8": "- Towns (Orașe) [ex.: [https://www.openstreetmap.org/relation/5647776 Briceni], [https://www.openstreetmap.org/relation/5736380 Glodeni], [https://www.openstreetmap.org/relation/9288287 Dubăsari], etc.]\n- Communes (Comune) [ex.: [https://www.openstreetmap.org/relation/530648 Larga], [https://www.openstreetmap.org/relation/1706626 Crocmaz], etc.]\n- Villages that do not form a commune (Satele care nu formează o comună) [ex.: [https://www.openstreetmap.org/relation/1811555 Talmaza], [https://www.openstreetmap.org/relation/1216705 Copanca], [https://www.openstreetmap.org/relation/9191731 Bocani], etc.]",
+    "9": "The intravilane limit of villages, towns and cities (Limita intravilana a satelor, orașelor și municipiilor) [ex.: [https://www.openstreetmap.org/way/49895483 Căinari], [https://www.openstreetmap.org/way/81662204 Cricova]]",
+    "10": "Quarters (Cartiere)"
+  },
   "mc": {
     "8": "Commune",
     "10": "Quartiers administratifs"
@@ -683,12 +772,12 @@
     "8": "settlements(naselja / насеља)"
   },
   "mz": {
-    "3": "Regions // Regiões (Norte, Centro, Sul)''Currently not in use''",
+    "3": "Regions // Regiões (Norte, Centro, Sul)Currently not in use",
     "4": "Provinces OR Capital Maputo // Províncias OU Cidade de Maputo",
     "5": "Districts OR Province Capital Cities // Distritos OU Cidades Capitais Provinciais",
     "6": "Administrative Post // Posto Administrativo",
     "8": "Neighbourhoods // Bairros",
-    "9": "Blocks // Quarteirões''Currently not in use''"
+    "9": "Blocks // QuarteirõesCurrently not in use"
   },
   "mm": {
     "3": "De facto independent areas (e.g. Wa state)",
@@ -710,14 +799,20 @@
     "6": "Districts"
   },
   "np": {
-    "3": "'''Development Regions'''Not in current use(in use before 2015)",
-    "4": "'''Provinces'''",
-    "5": "'''Zones'''Not in current use(in use before 2015)",
-    "6": "'''Districts'''",
-    "7": "'''Municipalities'''Rural municipalities, Municipalities, Sub metropolitans and Metropolitans (Nepali: गाउँपालिका,नगरपालिका, उप-महानगरपालिका, महानगरपालिका)",
-    "8": "Cities/Villages (This admin level in OSM is what the Nepal Gov. calls a \"Village Development Committee\" (VDC) (Nepali: गाउँ विकास समिति; ''gāun bikās samiti''))",
-    "9": "'''Wards'''",
+    "3": "Development RegionsNot in current use(in use before 2015)",
+    "4": "Provinces",
+    "5": "ZonesNot in current use(in use before 2015)",
+    "6": "Districts",
+    "7": "MunicipalitiesRural municipalities, Municipalities, Sub metropolitans and Metropolitans (Nepali: गाउँपालिका,नगरपालिका, उप-महानगरपालिका, महानगरपालिका)",
+    "8": "Cities/Villages (This admin level in OSM is what the Nepal Gov. calls a \"Village Development Committee\" (VDC) (Nepali: गाउँ विकास समिति; gāun bikās samiti))",
+    "9": "Wards",
     "10": "Tole"
+  },
+  "nl": {
+    "3": "Countries (landen). These are Netherlands, Aruba, Curaçao and Sint Maarten",
+    "4": "Provinces (provincies, NUTS 2, only in European Netherlands), e.g. Zeeland, Noord-Holland",
+    "8": "Municipalities (gemeenten, LAU 2, only in European Netherlands), e.g. Amsterdam, Schiermonnikoog",
+    "10": "Settlements (woonplaatsen, only in European Netherlands): non-autonomous municipal subdivisions, registered in BAG. Retain even if congruent with municipality () and thus not a subdivision in the strict sense"
   },
   "nz": {
     "4": "Regions (Canterbury, Bay of Plenty, Auckland, Gisborne etc.) governed by a regional council or unitary authority, and the Chatham Islands Territory",
@@ -765,16 +860,16 @@
   "om": {
     "4": "Governorate محافظة",
     "6": "Provincesولاية",
-    "8": "Villages/Towns{{lang|ar|قرية أو مدينة",
-    "10": "Blocks/Subdivisons of Villages and Towns{{lang|ar|مجمع او تقسيمات قرى/مدن"
+    "8": "Villages/Towns",
+    "10": "Blocks/Subdivisons of Villages and Towns"
   },
   "pk": {
-    "4": "Province{{lang|ur|صوبہ",
-    "5": "Division{{lang|ur|ڈویژن",
-    "6": "District{{lang|ur|ضلع",
-    "7": "Subdistrict{{lang|ur|تحصیل",
-    "8": "Metropolitan Corporation{{lang|ur|بلدیہ عظمیٰ",
-    "9": "Union Council{{lang|ur|یونین کونسل"
+    "4": "Province",
+    "5": "Division",
+    "6": "District",
+    "7": "Subdistrict",
+    "8": "Metropolitan Corporation",
+    "9": "Union Council"
   },
   "pw": {
     "4": "States"
@@ -807,6 +902,26 @@
     "8": "Counties, DistrictsDistritos",
     "10": "suburb and localityCentros Poblados, Caserío, Anexo, Comunidad Nativa, etc"
   },
+  "ph": {
+    "3": "Regions (Rehiyon)",
+    "4": "Provinces (Lalawigan)",
+    "5": "Provincial legislative districts",
+    "6": "Cities/municipalities (Lungsod/bayan)",
+    "7": "City/municipal legislative districts",
+    "8": "Administrative districts of Manila, Iloilo City and Davao City, former barangays that remain in use for addressing purposes (e.g. in Quezon City, Caloocan)",
+    "9": "Barangay zones",
+    "10": "Barangay",
+    "11": "Sitio/purok"
+  },
+  "pl": {
+    "4": "województwa (voivodships, provinces, regions) Details in Polish",
+    "6": "powiaty (counties) - some cities have county status - in OSM their",
+    "7": "gminy (municipalities) - some cities have municipality status - in OSM their",
+    "8": "cities, towns and villages.(miasta, miasteczka i wsie).Details in Polish",
+    "9": "City districts (dzielnice)",
+    "10": "Przysiółki - usually isolated parts of villages.Details in Polish",
+    "11": "boundaries for neighborhoods (osiedla)"
+  },
   "pt": {
     "4": "Autonomous Regions (Regiões autónomas)",
     "6": "Districts (Distritos)",
@@ -820,7 +935,7 @@
   "ro": {
     "4": "Macroregions (NUTS1) or other divisions of equivalent size if they will ever be used in administration",
     "5": "Regions (NUTS2) same as above",
-    "6": "Counties (Judeţe) and the Municipality of Bucharest (NUTS-3)\n''currently those are set to 4, this is intended and will be changed if and when higher levels will be implemented in administration''",
+    "6": "Counties (Judeţe) and the Municipality of Bucharest (NUTS-3)\ncurrently those are set to 4, this is intended and will be changed if and when higher levels will be implemented in administration",
     "7": "Metropolitan zones (or other type of inter-municipal association)",
     "8": "Municipalities (Comune, Orașe, Municipii) (NUTS-LAU); Bucharest's sectors",
     "9": "Villages, administrative parts of cities / municipalities",
@@ -831,9 +946,10 @@
     "4": "Federal subjects",
     "5": "Groups of municipal districts / urban okrugs, administrative okrugs / districts of federal cities",
     "6": "Municipal districts and okrugs of federal subjects (except federal cities), urban okrugs, including ZATO and urban okrugs with intracity division",
+    "7": "rowspan=2",
     "8": "Urban and rural municipalities, municipal intra-city territories of federal cities, districts of urban okrugs with intracity division",
     "9": "Districts and other administrative-territorial units of urban and municipal okrugs",
-    "10": "''(Under discussion: all hamlets / suburbs or only suburbs with local government offices)''"
+    "10": "(Under discussion: all hamlets / suburbs or only suburbs with local government offices)"
   },
   "rw": {
     "4": "Provinces / Kigali City",
@@ -841,6 +957,10 @@
     "7": "Chefferies ?",
     "8": "In use: Municipalities ?",
     "9": "In use: Villages ? Hamlets ?"
+  },
+  "eh": {
+    "7": "Caidats (القيادة)",
+    "8": "Municipalities (الجماعات الحضرية)"
   },
   "kn": {
     "4": "St Kitts / Nevis",
@@ -904,18 +1024,18 @@
     "7": "Subzones"
   },
   "sk": {
-    "3": "NUTS 2 Region (Groups of Regions): (''SK: oblasti: Bratislavský kraj, západné Slovensko, stredné Slovensko, východné Slovensko'')",
+    "3": "NUTS 2 Region (Groups of Regions): (SK: oblasti: Bratislavský kraj, západné Slovensko, stredné Slovensko, východné Slovensko)",
     "4": "NUTS 3 Kraj (region",
-    "6": "borders of Bratislava and Košice (''SK: hranice miest Bratislava a Košice'')",
+    "6": "borders of Bratislava and Košice (SK: hranice miest Bratislava a Košice)",
     "8": "LAU 1 Okres (district",
     "9": "LAU 2 Obec (Town/Village), autonomous towns in Bratislava and Košice",
-    "10": "Katastrálne územie (Cadastral place) (''SK: katastrálne územie obce'')"
+    "10": "Katastrálne územie (Cadastral place) (SK: katastrálne územie obce)"
   },
   "si": {
     "4": "reserved for regional",
     "7": "Administrative units",
     "8": "Municipal",
-    "10": "Suburbs, hamlets (''SL: meje naselij'')"
+    "10": "Suburbs, hamlets (SL: meje naselij)"
   },
   "sb": {
     "4": "Provinces (9) / Capital",
@@ -932,10 +1052,15 @@
   "za": {
     "4": "provincial",
     "6": "district",
-    "7": "N/A''Proposed change to ''' municipal",
     "8": "municipal",
-    "9": "N/A''Proposed change to'' '''ward",
     "10": "ward"
+  },
+  "kr": {
+    "4": "Regional(State) Border (Metropolitan Self-Governing Entity(MSGE) or 광역자치단체, as per 대한민국의 행정 구역 - 특별시(서울), 광역시, 도, 특별자치도(제주), 특별자치시(세종))",
+    "6": "County Border (Basic Self-Governing Entity(BSGE) or 기초자치단체 - MSGE's Gu/Gun & Do's Si 특별시의 자치구, 광역시의 자치구/군, 도의 자치시/군)",
+    "7": "City; Within a BSGE (기초자치단체(자치시)의): -gu 구 ; Within a Special Self-governing province (특별자치도의) :-si 시",
+    "8": "Town; Within a -si (시의): -dong 동, -ga 가; Within a -do (도의): -eup 읍 : -myeon 면",
+    "10": "Village (-ri, 리), -tong 통"
   },
   "ss": {
     "3": "Historical region (3)",
@@ -950,7 +1075,8 @@
   "es": {
     "3": "(Unused) Groups of Spanish autonomous communities (NUTS 1)",
     "4": "Autonomous communities (NUTS 2)",
-    "6": "Provinces, see {{Tag|boundary|political",
+    "5": "rowspan=2",
+    "6": "Provinces, see  for insular councils (NUTS 3)",
     "7": "Judicial districts, comarcas (counties) and cuadrillas",
     "8": "Municipalities, equivalent to townships, communes",
     "9": "Districts (parishes)",
@@ -982,7 +1108,7 @@
     "4": "Län (County / NUTS3)(21) Example: Västra Götalands län, Örebro län etc",
     "6": "Sameby (Sámi village, administers hunting/fishing in fell areas since 2020)  Example: Grans sameby, Ubmeje tjeälddie",
     "7": "Kommun (Muncipiality / LAU2) (290) Example: Göteborg, Alingsås etc",
-    "8": "Distrikt (district / parish, previously ''socken'')  Example: Anundsjö distrikt",
+    "8": "Distrikt (district / parish, previously socken)  Example: Anundsjö distrikt",
     "9": "Stadsdelsområde / Stadsdelsnämdsområde (Stockholm / Göteborg)  Example: Frölunda, Skarpnäck etc In Umeå, this is called \"Stadsdel\" (Backenområdet, Marieområdet)http://www.umea.se/umeakommun/byggaboochmiljo/arkiv/nyhetsarkiv/artiklarbyggaboochmiljo/vadheterdinstadsdelegentligen.5.5a3cfc9f1556ae464a73f76.html",
     "10": "Stadsdel / Primärområde  Example: Masthugget, Södermalm etc  In Umeå, this is called \"Stadsdelsområde\" (Backen, Umedalen, Mariehem, Marieberg)http://www.umea.se/umeakommun/byggaboochmiljo/arkiv/nyhetsarkiv/artiklarbyggaboochmiljo/vadheterdinstadsdelegentligen.5.5a3cfc9f1556ae464a73f76.html"
   },
@@ -994,6 +1120,13 @@
     "8": "Municipalities (de: Gemeinden/Städte, fr: communes/villes)Example: Basel, Montreux",
     "9": "Suburbs (de: Stadtkreise/Stadtteile, fr: secteurs)e.g. Kreis 7 (Zurich)",
     "10": "Quarters (de: Quartiere, fr: quartiers)e.g. Les Pâquis (Geneva)"
+  },
+  "sy": {
+    "4": "Governoratesمحافظةmuhafazah",
+    "5": "Districtsمنطقةmintaqah",
+    "6": "Subdistrictsناحية‎‎nahiya",
+    "8": "Cities, towns and villages of SubdistrictDamascus Municipalitiesبلديةbaladiyah",
+    "10": "Damascus neighborhoodsالحيhayy"
   },
   "tw": {
     "4": "Municipality 直轄市; Provintial municipality 省轄市; County 縣",
@@ -1026,11 +1159,16 @@
     "10": "Village / หมู่บ้าน",
     "11": "Community / ชุมชน"
   },
+  "tl": {
+    "4": "Municipalities (pt:município, tet:munisípiu)",
+    "5": "Subdistricts (pt:postos administrativos, tet:postu administrativu)",
+    "6": "Villages (Sucos) (pt:aldeias (sucos), tet:sukus)"
+  },
   "tg": {
-    "4": "RégionCommune de Lomé ''(statut particulier)''",
-    "5": "Préfecture''(note : la préfecture du Golfe, dans la région Maritime, couvre également Lomé)''",
-    "6": "Sous-préfecture''(note : Lomé est également une sous-préfecture)''",
-    "7": "Commune ''(sauf Lomé)''",
+    "4": "RégionCommune de Lomé (statut particulier)",
+    "5": "Préfecture(note : la préfecture du Golfe, dans la région Maritime, couvre également Lomé)",
+    "6": "Sous-préfecture(note : Lomé est également une sous-préfecture)",
+    "7": "Commune (sauf Lomé)",
     "8": "Arrondissement municipal",
     "9": "Quartier",
     "10": "Village"
@@ -1057,6 +1195,14 @@
     "8": "Borders of neighbourhoods and unincorporated villages",
     "10": "Village subdivisions"
   },
+  "tm": {
+    "4": "Provinces / Welayatlar / Области (e.g., Ahal)",
+    "5": "Provincial districts / Welayatyň etraplary / Районы областей (e.g., Ak Bugday etraby)",
+    "6": "Cities, Towns, Rural Councils / Şäherler, Şäherçeler, Geňeşler / Города, посёлки, сельсоветы (e.g., Balkanabat, Oguzhan, Bugdaýly geňeşligi)",
+    "7": "Municipal Boroughs with mayors / Şäheryň häkimli uly etraplary / Крупные городские районы с мэром (e.g., Awaza)\n| {{{turkmenistan:n8 | Villages / Obalar / Сёла (e.g., Babaarap)",
+    "9": "Municipal Districts / Şäheryň kiçi etraplary (etrapçalary) / Микрорайоны (e.g., Parahat 7)",
+    "10": "Hamlets, Neighborhoods, Subdistricts / Oba ilatly punktlary, Ýaşaýyş toplumlary, Etrabyň etraplary / Хуторы, Субмикрорайоны (e.g., Üçgöz, Çoganly Ýaşaýyş Toplumy, Parahat 7/2)"
+  },
   "tv": {
     "8": "Administrative atolls/islands (9 Districts)"
   },
@@ -1071,7 +1217,7 @@
   "ua": {
     "4": "Crimea, Oblasts, Kyiv and Sevastopol / АР Крим, області, Київ і Севастополь / АР Крым, области, Киев и Севастополь",
     "6": "Crimea rayons, rayons in oblasts, cities of regional significance / Райони в Криму, райони в областях, міста обласного значення / Районы в Крыму, районы в областях, города областного значения",
-    "7": "Administrative rayons in cities and towns, ''united territorial communities'' / Адміністративні райони у містах, ''об'єднані територіальні громади'' / Административные районы в городах, ''объединённые территориальные громады''",
+    "7": "Administrative rayons in cities and towns, united territorial communities / Адміністративні райони у містах, об'єднані територіальні громади / Административные районы в городах, объединённые территориальные громады",
     "8": "Local radas in rayons in Crimea and oblasts / Місцеві ради в районах Криму і областей (міські ради, селищні ради, сільські ради) / Местные советы в районах Крыма и областей (городские советы, поселковые советы, сельские советы)",
     "9": "Settlements per se / Власне населені пункти / Собственно населённые пункты"
   },
@@ -1084,15 +1230,15 @@
   },
   "gb": {
     "4": "England, Scotland, Wales and Northern Ireland",
-    "5": "England:  Combined Authorities and Greater LondonThe former ''Government Regions'' no longer exist (and were never really \"administrative\" anyway)",
-    "6": "England: Two-tier non-metropolitan counties, Metropolitan counties, Unitary authorities, City of LondonScotland: council areasWales: principal areas/awdurdodau unedolNorthern Ireland: ''currently unmapped - local government district?? also need to consider compatibility with Ireland''",
+    "5": "England:  Combined Authorities and Greater LondonThe former Government Regions no longer exist (and were never really \"administrative\" anyway)",
+    "6": "England: Two-tier non-metropolitan counties, Metropolitan counties, Unitary authorities, City of LondonScotland: council areasWales: principal areas/awdurdodau unedolNorthern Ireland: currently unmapped - local government district?? also need to consider compatibility with Ireland",
     "8": "England only: Metropolitan districts, non-metropolitan districts, London boroughs",
     "10": "England: civil parishesScotland: community councilsWales: communities/cymunedau"
   },
   "us": {
-    "3": "There are semi-official and unofficial regions, see {{WikiIcon|List_of_regions_of_the_United_States",
+    "3": "There are semi-official and unofficial regions, see . These aren't \"administrative regions\" but geographical, possibly cultural regions; do not tag these .",
     "4": "the 50 States, 3 Territories, 2 Commonwealths and the District of Columbia",
-    "5": "New York City (an agglomerate of multiple county equivalents),{{WikiIcon|Grand_Divisions_of_Tennessee",
+    "5": "New York City (an agglomerate of multiple county equivalents),",
     "6": "State counties and \"county equivalents,\"Territorial municipalities",
     "7": "Civil townships (in about one-third of states)",
     "8": "state Municipalities: cities, towns and villages; infrequently, hamlets",
@@ -1117,9 +1263,19 @@
     "8": "Ward (subdivision of Municipalities, and in some cases former Municipalities)",
     "9": "Community (Nakamal council) (Not typically used by the central government, but in use to further subdivide some Areas)"
   },
+  "ve": {
+    "4": "First-level administrative division:→ → →",
+    "5": "Some administrative elements in certain parts of this country:→ Distrito Metropolitano→ Alcaldía Mayor",
+    "6": "Second-level administrative division:→",
+    "7": "Third-level administrative division:→",
+    "8": "Cities, towns and other inhabited places:→ city→ town→ village→ hamlet",
+    "9": "Neighborhoods in general, into which a city or town is subdivided:→ suburb→ quarter→ neighbourhood",
+    "10": "Neighborhoods in general, within other neighborhoods in general:→ suburb→ quarter→ neighbourhood",
+    "11": "Others minor administrative elements, or a third-level subdivision of neighborhoods"
+  },
   "vn": {
-    "4": "Province ({{lang|vi|tỉnh",
-    "6": "Commune ({{lang|vi|phường"
+    "4": "Province (), city ()",
+    "6": "Commune (), ward (), special administrative region ()"
   },
   "ye": {
     "4": "Governorates (محافظة)",
